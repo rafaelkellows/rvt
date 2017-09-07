@@ -1,0 +1,140 @@
+/*******************************
+          RESPONSIVE
+*******************************/
+
+@media screen and (min-width: 569px) and (max-width: 1024px) {
+	.arrow{
+		&:after{
+			content:''; position: absolute; left: calc(~'50% - 1.03615em'); bottom: -1.03615em; width: 2.0723em; height: 2.0723em; background: #dedddc; border-radius: 2.0723em; z-index: 9;
+		}
+		&._down{
+			&:before{
+				font-size: 1.9em;
+			}
+		}
+	}
+	main{
+	  &.comingsoon{
+		 	/*SECTIONS*/
+	  	section{
+				>p{ 
+					padding: 2.6585em 1.5em;
+				}
+	  		&.cont_01, &.cont_04{
+	  			>div{
+	  				min-height: 310px; 
+	  			}
+	  		}
+	  		&.cont_02{
+	  			p{
+		  			&:nth-child(1){ 
+		  				padding: 2.6585em 3.25em; 
+		  			}
+		  			&:nth-child(3){ 
+		  				padding: 2.6585em 4.1em; 
+		  			}
+	  			}
+	  			>div{
+	  				padding: 6.75em;
+	  			}
+	  		}
+	  		&.cont_03{
+	  			p{
+		  			&:nth-child(1){ 
+		  				padding: 2.6585em 3.7em;
+		  			}
+		  			&:nth-child(3){ 
+		  				padding: 2.6585em 4.2em 0; 
+		  			}
+	  			}
+	  			>div{
+	  				min-height: 568px;
+	  			}
+	  		}
+	  	}
+	  }
+	  &.internal{
+	  	padding-top: 8.6em;
+	  }
+	}
+}
+@media screen and (max-width: 568px) {
+	.arrow{
+		&:after{
+			content:''; position: absolute; left: calc(~'50% - 0.75em'); bottom: -1.03615em; width: 1.5em; height: 1.5em; background: #dedddc; border-radius: 1.5em; z-index: 9;
+		}
+		&._down{
+			&:before{
+				font-size: 1.4em; bottom: -0.54em;
+			}
+		}
+	}
+
+	main{
+	  &.comingsoon{
+	  	padding-top: 15em;
+	  	header{
+	  		h1{ 
+	  		width: 9.9em ;
+	  		}
+	  	}
+		 	/*SECTIONS*/
+	  	section{
+				>p{ 
+					padding: 1.5em 1em; line-height: 1.3em;
+				}
+	  		&.cont_01, &.cont_04{
+	  			>div{
+	  				min-height: 205px; background-attachment: initial;
+	  			}
+	  		}
+	  		&.cont_02{
+	  			p{
+		  			&:nth-child(1){ 
+		  				padding: 1.5em 1em; 
+		  			}
+		  			&:nth-child(3){ 
+		  				padding: 1.5em 1em; 
+		  			}
+	  			}
+	  			>div{
+	  				padding: 2.5em 1.5em;
+	  			}
+	  		}
+	  		&.cont_03{
+	  			p{
+		  			&:nth-child(1){ 
+		  				padding: 1.5em 1em;
+		  			}
+		  			&:nth-child(3){ 
+		  				padding: 1.5em 1em; 
+		  			}
+	  			}
+	  			>div{
+	  				min-height: 284px; background-attachment: initial;
+	  			}
+	  			a{
+	  				line-height: 1.2em; margin: 1.5em;
+	  			}
+	  		}
+	  		&.cont_04{
+	  			p{
+						padding: 1.5em 1em; font-size: 1.11em;
+					}	  			
+	  		}
+	  	}
+	  	footer{
+				padding: 1em .5em;
+	  	}
+	  }
+	  &.internal{
+	  	padding-top: 6.1em;
+	  	header{
+	  		padding: 1.35em;
+	  		h1{
+	  			width: 4.5em;
+	  		}
+	  	}
+	  }
+	}
+}

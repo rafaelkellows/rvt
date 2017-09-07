@@ -1,0 +1,125 @@
+﻿@charset "utf-8";
+/* GERAL */
+body, html, div, span, a, ul, li, dl, dt, dd, section, header, p, form, fieldset, button, input{border: none; margin: 0; padding: 0; list-style: none; position: relative; text-decoration: none; outline: none; }
+header, section, footer, aside, nav, main, article, figure, a, img, span, :after, :before { display: block; }
+h1,h2,h3,h4,h5,h6{font-weight: normal !important; margin: 0}
+html object{ display: none; }
+body{ 
+  font-size:100%; background:#fff; /*background: url('../images/bg-mirror.jpg') no-repeat center 60px #fff;*/
+  *{ font-family: 'AauxPro OT'; }
+  strong{ font-weight: bold; }
+}
+
+/*******************************
+            GLOBAL
+*******************************/
+
+//General Colors
+@brown-1: #a89a7d;
+@gray-1: #918c8a;
+@gray-2: #8e8684;
+@gray-3: #dcdbd9;
+
+.transit{ -webkit-transition: all 0.3s; -o-transition: all 0.3s; transition: all 0.3s; }
+.d-midle{ display: inline-block; vertical-align: middle; }
+.f-left{ float: left; }
+.f-right{ float: right; }
+.arrow{
+	&:after{
+		content:''; position: absolute; left: calc(~'50% - 1.28615em'); bottom: -1.28615em; width: 2.5723em; height: 2.5723em; background: #dedddc; border-radius: 2.5723em; z-index: 9; .transit;
+		-webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3); box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+	}
+	&._down{
+		&:before{
+			content: ''; background: url('../images/arrow_down.svg') center center no-repeat; background-size: contain; font-size: 2.4em; position: absolute; 	left: calc(~'50% - 0.33em'); bottom: -0.38em; width: 0.64em; height: 0.64em; color: #726865; z-index: 10; font-weight: bold; line-height: 0.64em; .transit;
+		}
+	}
+}
+
+/*******************************
+            MAIN
+*******************************/
+html, body{ height: 100%; }
+main{ 
+  max-width: 100%; margin: 0 auto;
+  &.comingsoon{
+	  /*HEADER*/
+	  padding-top: 17.5em; .transit;
+	  header{
+	  	text-align: center; padding: 3.7em; position: fixed; top: 0; left: 0; z-index: 11; width: 100%; background: #fff; box-sizing: border-box; .transit;
+	  	h1{ 
+	  		width: 13.3em; margin: 0 auto; .transit;
+	  		img{ width: 100%; }
+	  	}
+	  }
+	 	/*SECTIONS*/
+  	section{
+  		font-size: 1.44em; text-transform: uppercase; text-align: center; color: #fff;
+			>p{ 
+				padding: 3.017em 1.5em; line-height: 1.7em; .transit;
+			}
+  		&.cont_01, &.cont_04{
+  			background-color: @gray-1;
+  			>div{
+  				background: url('../images/ilustras/ilustra-cont-01.jpg') center center no-repeat; background-attachment: fixed; background-size: cover; min-height: 410px;
+  			}
+  		}
+  		&.cont_02{
+  			background-color: #ffffff;
+  			p{
+  				color:@gray-2; 
+	  			&:nth-child(1){ 
+	  				padding: 3.317em 6.5em; 
+	  			}
+	  			&:nth-child(3){ 
+	  				padding: 3.317em 8.2em; 
+	  			}
+  			}
+  			>div{
+  				background: url('../images/ilustras/ilustra-cont-02.jpg') center center no-repeat; background-size: cover; font-size: 1em; color: @gray-3; padding: 13.5em; box-sizing: border-box; line-height: 1.52em; .transit;
+  			}
+  		}
+  		&.cont_03{
+  			padding-bottom: 1.7em;
+  			p{
+	  			&:nth-child(1){ 
+	  				padding: 3.317em 7.4em; background-color: @brown-1;
+	  			}
+	  			&:nth-child(3){ 
+	  				background-color: #ffffff; color:@gray-2; padding: 1.817em 8.4em 0; 
+	  			}
+  			}
+  			a{ 
+					background-color: #ffffff; color:@gray-2; margin: 1.817em 5.4em; font-size: 0.7em; font-weight: bold; .transit;
+					&:hover{
+						color:#d2bf95;
+					}
+  			}
+  			>div{
+  				background: url('../images/ilustras/ilustra-cont-03.jpg') center center no-repeat; background-attachment: fixed; background-size: cover; min-height: 568px;
+  			}
+  		}
+  		&.cont_04{
+  			p{
+	  			padding: 2.32em 1.5em; font-size: 1.11em;
+	  		}
+	  	}
+  	}
+  	footer{
+  		font-size: 1em; text-transform: uppercase; text-align: center; color: @gray-2; line-height: 1.6em; padding: 2em; background-color: #ffffff;
+  		a{ color: @gray-2; display: inline; }
+  		i{ font-size: 1.4em; margin-left: 0.2em; color:#726865; }
+  	}
+  }
+  &.internal{
+  	padding-top: 14.4em;
+  	header{ 
+  		padding: 1.35em; 
+  		h1{
+  			width: 7.2em;
+  		}
+  	}
+  }
+}
+
+@import url(import.less);
