@@ -35,7 +35,7 @@ body{
 		}
 	}
 }
-
+.parallax-container .parallax{ z-index: 1 !important; }
 /*******************************
             MAIN
 *******************************/
@@ -48,7 +48,7 @@ main{
 	  header{
 	  	text-align: center; padding: 3.7em; position: fixed; top: 0; left: 0; z-index: 11; width: 100%; background: #fff; box-sizing: border-box; .transit;
 	  	h1{ 
-	  		width: 13.3em; margin: 0 auto; .transit;
+	  		width: 13.3em; margin: 0 auto; .transit; font-size: 1.0667em;
 	  		img{ width: 100%; }
 	  	}
 	  }
@@ -61,7 +61,7 @@ main{
   		&.cont_01, &.cont_04{
   			background-color: @gray-1;
   			>div{
-  				background: url('../images/ilustras/ilustra-cont-01.jpg') center center no-repeat; background-attachment: fixed; background-size: cover; min-height: 410px;
+  				/*background: url('../images/ilustras/ilustra-cont-01.jpg') center center no-repeat; background-attachment: fixed; background-size: cover;*/ min-height: 350px;
   			}
   		}
   		&.cont_02{
@@ -85,7 +85,7 @@ main{
 	  			&:nth-child(1){ 
 	  				padding: 3.317em 7.4em; background-color: @brown-1;
 	  			}
-	  			&:nth-child(3){ 
+	  			&:nth-child(4){ 
 	  				background-color: #ffffff; color:@gray-2; padding: 1.817em 8.4em 0; 
 	  			}
   			}
@@ -96,7 +96,7 @@ main{
 					}
   			}
   			>div{
-  				background: url('../images/ilustras/ilustra-cont-03.jpg') center center no-repeat; background-attachment: fixed; background-size: cover; min-height: 568px;
+  				/*background: url('../images/ilustras/ilustra-cont-03.jpg') center center no-repeat; background-attachment: fixed; background-size: cover;*/ min-height: 468px;
   			}
   		}
   		&.cont_04{

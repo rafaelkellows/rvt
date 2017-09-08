@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="">
     <meta name="author" content="Rafael Kellows - rafaelkellows@hotmail.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
     <link href="css/personal/stylesheet.css" rel="stylesheet" media="screen">
 
@@ -31,7 +31,11 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+    <!--script type="text/javascript" src="js/jquery-1.11.3.min.js"></script-->
+
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
   </head>
   <body>
     
@@ -41,9 +45,11 @@
         <h1><a href="javascript:void(0);" title="Revitech Pisos Vinílicos"><img src="images/logoFullAlta.png" border="0" alt="Revitech Pisos Vinílicos" /></a></h1>  
       </header>
 
-      <section class="cont_01">
+      <section class="cont_01  arrow _down">
         <p class="arrow _down">Está nascendo uma nova Revitech. E queremos apresentá-la a você.</p>
-        <div class="arrow _down"></div>
+        <div class="parallax-container">
+          <div class="parallax"><img src="images/ilustras/ilustra-cont-01.jpg" /></div>
+        </div>
       </section>
 
       <section class="cont_02">
@@ -52,11 +58,14 @@
         <p class="arrow _down">EstaR Em constantE REvolução é não sE acomodaR. sER REvitEch é quERER sEmpRE mais. poR Esta Razão, o nosso pRincipal objEtivo é não só conquistaR, mas fidElizaR os nossos cliEntEs.</p>
       </section>
       
-      <section class="cont_03 arrow _down"">
+      <section class="cont_03 arrow _down">
         <p class="arrow _down">nós, da REvitEch, não tEmos mEdo dE sEguiR adiantE. dE tRaçaR um caminho Em quE a qualidadE vEm sEmpRE Em pRimEiRo lugaR, E quE vocês, nossos cliEntEs, E, acima dE tudo, os sEus pRojEtos são nossas pRioRidadEs. E quEREmos quE todas as obRas sE toRnEm pRimas.</p>
-        <div></div>
+        <div class="parallax-container">
+          <div class="parallax"><img src="images/ilustras/ilustra-cont-03.jpg" /></div>
+        </div>
+        <span class="arrow _down"></span>
         <p>quEREmos sEmpRE mais inovação E mais ExcElência. E Esta constantE busca é digna dE REvERência, uma vEz quE quEm sE acomoda, dEixa dE sER único. você, quE já conhEcE a qualidadE dE nossos pRodutos, ficaRá Encantado com as novidadEs quE chEgaRão muito Em bREvE E as novas tEcnologias quE Estamos tRazEndo ao mERcado.</p>
-        <a href="javascript:void(0);">CliquE aqui E faça o download do noSSo Catálogo 2017 Com todaS aS noSSaS linhaS.</a>
+        <a href="download/REVITECH_CATALOGO2017_DIGITAL.pdf" target="_blank">CliquE aqui E faça o download do noSSo Catálogo 2017 Com todaS aS noSSaS linhaS.</a>
       </section>
 
       <section class="cont_04">
@@ -70,6 +79,8 @@
         <p><i class="fa fa-instagram" aria-hidden="true"></i><i class="fa fa-facebook-square" aria-hidden="true"></i> @revitechpisos</p>
       </footer>
     </main>
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
     <!-- build:js js/scripts.js -->
     <script type="text/javascript" src="js/scripts.js"></script>
     <!-- endbuild -->

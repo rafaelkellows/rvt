@@ -3,6 +3,9 @@ $(function(){
 		var revitech = {
 	        init: function() {
 	            this.toTop();
+				$(document).ready(function(){
+			      $('.parallax').parallax();
+			    });
 	        },
 	        loadJson : function () {
 	        	//if(!$.cookie("lang")) return;
