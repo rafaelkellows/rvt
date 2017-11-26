@@ -2,9 +2,17 @@ $(function(){
 	(function() {
 		var revitech = {
 	        init: function() {
-	            this.toTop();
+            	//this.carrossel();
+	            //	this.toTop();
+	            this.loading();
+	            
 				$(document).ready(function(){
-			      $('.parallax').parallax();
+			      if( $('.parallax').length ){
+			      	$('.parallax').parallax();
+			      }
+			      
+			      revitech.toTop();
+
 			    });
 	        },
 	        loadJson : function () {
@@ -26,8 +34,16 @@ $(function(){
 	        },
 	        loading : function(){
 	        	$(window).load(function(){
-					$('.loading').removeClass('active');
+					//$('.loading').removeClass('active');
+					revitech.msgInfo();
 	        	});
+	        },
+	        msgInfo : function(){
+	        	jQuery('#popUp').fadeIn(function(){
+	        		jQuery('#popUp').find('a').click(function(){
+		        		jQuery('#popUp').fadeOut();
+		        	});
+	        	})
 	        },
 	        toTop : function(elem){
 		        var offset = 1;
@@ -39,13 +55,36 @@ $(function(){
 						} else {
 							$('body main').removeClass('internal');
 						}
-					}
+					};
+					jQuery('#CS').html( jQuery(this).scrollTop() );
+					//console.log( jQuery(this).scrollTop() );
 				});
-		        jQuery(elem).click(function(event) {
-					event.preventDefault();
-					jQuery('html, body').animate({scrollTop: 0}, duration);
-					return false;
-		        })
+				jQuery('html, body').animate({scrollTop: 0}, duration);
+	        },
+	        carrossel: function() {
+				var owl = $("section.carrossel > div"); 
+				if(!owl.length) return;
+				owl.owlCarousel({
+					autoplay:true,
+					smartSpeed: 600,
+				    loop:true,
+				    margin:0,
+				    nav:false,
+				    responsive:{
+				        0:{
+				            items:1
+				        },
+				        600:{
+				            items:1
+				        },
+				        1000:{
+				            items:1
+				        }
+				    },
+					paginationSpeed : 1000,
+					singleItem:true,
+					autoPlay:8000
+				}); 
 	        }
     	}
 		revitech.init();
