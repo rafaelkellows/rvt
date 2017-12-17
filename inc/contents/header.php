@@ -5,6 +5,12 @@
             <a href="http://www.revitechpisos.com.br/emkt/newsletter/promocao/tabelaPromocaoNov2017.pdf?vrs=1323" target="_blank"><img src="images/popup/promocao-REVolucioneContinua.png" title="" /></a>
           </figure>
         </section>
+        <div class="cssload-thecube">
+          <div class="cssload-cube cssload-c1"></div>
+          <div class="cssload-cube cssload-c2"></div>
+          <div class="cssload-cube cssload-c4"></div>
+          <div class="cssload-cube cssload-c3"></div>
+        </div>
       </div>
 
       <header>

@@ -65,257 +65,118 @@
 
       <section class="productList carrGallery">
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-001-ixia.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/041-ivory-white.jpg"></a>
           <figcaption>
-            <em>001</em>
-            <strong>Ixia</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-106-freesia-pearl.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/043-grey-beige.jpg"></a>
           <figcaption>
-            <em>106</em>
-            <strong>Freesia Pearl</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-002-silver-grey.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/061-antique-beige.jpg"></a>
           <figcaption>
-            <em>002</em>
-            <strong>Silver Grey</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-210-almond.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/052-glacier-white.jpg"></a>
           <figcaption>
-            <em>210</em>
-            <strong>Almond</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-212-carthamus-champagne.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/040-broken-white.jpg"></a>
           <figcaption>
-            <em>212</em>
-            <strong>Carthamus Champagne</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-107-desert-gold.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/053-cloudy-grey.jpg"></a>
           <figcaption>
-            <em>107</em>
-            <strong>Desert Gold</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-419-pearl.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/050-broken-silver.jpg"></a>
           <figcaption>
-            <em>419</em>
-            <strong>Pearl</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-420-cinnamon.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/051-broken-grey.jpg"></a>
           <figcaption>
-            <em>420</em>
-            <strong>Cinnamon</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-211-oatmeal.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/054-stone-grey.jpg"></a>
           <figcaption>
-            <em>211</em>
-            <strong>Oatmeal</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-213-golden-glow.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/021-light-blue.jpg"></a>
           <figcaption>
-            <em>213</em>
-            <strong>Golden Glow</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-214-light-beige.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/022-whale-blue.jpg"></a>
           <figcaption>
-            <em>214</em>
-            <strong>Light Beige</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-216-lemon.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/023-water-blue.jpg"></a>
           <figcaption>
-            <em>216</em>
-            <strong>Lemon</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-316-cream.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/071-peach-yellow.jpg"></a>
           <figcaption>
-            <em>316</em>
-            <strong>Cream</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-317-orange.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/070-salmon-orange.jpg"></a>
           <figcaption>
-            <em>317</em>
-            <strong>Orange</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-331-banana.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/033-summer-green.jpg"></a>
           <figcaption>
-            <em>331</em>
-            <strong>Banana</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-318-orange-zest.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/032-joshua-green.jpg"></a>
           <figcaption>
-            <em>318</em>
-            <strong>Orange Zest</strong>
+            <em>041</em>
+            <strong>ivory white</strong>
           </figcaption>
         </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-421-coral.jpg"></a>
-          <figcaption>
-            <em>421</em>
-            <strong>Coral</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-422-monarch-red.jpg"></a>
-          <figcaption>
-            <em>422</em>
-            <strong>Monarch Red</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-435-rouge.jpg"></a>
-          <figcaption>
-            <em>435</em>
-            <strong>Rouge</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-215-sandalwood.jpg"></a>
-          <figcaption>
-            <em>215</em>
-            <strong>Sandalwood</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-108-pumice-stone.jpg"></a>
-          <figcaption>
-            <em>108</em>
-            <strong>Pumice Stone</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-109-purple-ore.jpg"></a>
-          <figcaption>
-            <em>109</em>
-            <strong>Purple Ore</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-003-smoke.jpg"></a>
-          <figcaption>
-            <em>003</em>
-            <strong>Smoke</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-004-rock.jpg"></a>
-          <figcaption>
-            <em>004</em>
-            <strong>Rock</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-005-cloud.jpg"></a>
-          <figcaption>
-            <em>005</em>
-            <strong>Cloud</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-523-light-green.jpg"></a>
-          <figcaption>
-            <em>523</em>
-            <strong>Light Green</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-525-mist-green.jpg"></a>
-          <figcaption>
-            <em>525</em>
-            <strong>Mist Green</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-524-moss.jpg"></a>
-          <figcaption>
-            <em>524</em>
-            <strong>Moss</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-532-peak-green.jpg"></a>
-          <figcaption>
-            <em>532</em>
-            <strong>Peak Green</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-526-forest.jpg"></a>
-          <figcaption>
-            <em>526</em>
-            <strong>Forest</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-627-dahila-sky.jpg"></a>
-          <figcaption>
-            <em>627</em>
-            <strong>Dahila Sky</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-628-water-blue.jpg"></a>
-          <figcaption>
-            <em>628</em>
-            <strong>Water Blue</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-629-blue-skies.jpg"></a>
-          <figcaption>
-            <em>629</em>
-            <strong>Blue Skies</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-630-ultra-blue.jpg"></a>
-          <figcaption>
-            <em>630</em>
-            <strong>Ultra Blue</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-533-turquoise.jpg"></a>
-          <figcaption>
-            <em>533</em>
-            <strong>Turquoise</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-734-wisteria.jpg"></a>
-          <figcaption>
-            <em>734</em>
-            <strong>Wisteria</strong>
-          </figcaption>
-        </figure>
+
       </section>
 
       <dl class="characteristics">
@@ -330,7 +191,7 @@
       </dl>
 
       <aside class="tblDescription">
-        <header>PISO VINÍLICO HOMOGÊNEO EM MANTA NÃO DIRECIONAL</header>
+        <header>PISO VINÍLICO HOMOGÊNEO EM MANTA<br>COM BASE CONDUTIVA</header>
         <ul>
           <li>
               <strong><span>Classificação de uso</span></strong>
@@ -345,42 +206,32 @@
           <li>
               <strong><span>Dimensões</span></strong>
               <p><span>EN 426</span></p>
-              <p><span>2 x 20m</span></p>
+              <p><span>1,83 x 25m</span></p>
           </li>
           <li>
               <strong><span>Peso Médio</span></strong>
               <p><span>EN 430</span></p>
-              <p><span>2,8 kg/m²</span></p>
+              <p><span>3.200 g/m²</span></p>
           </li>
           <li>
-              <strong><span>Proteção Superficial</span></strong>
-              <p><span>Trueshield Coating</span></p>
-              <p><span>Sim</span></p>
+              <strong><span>Resistência a Descoloração</span></strong>
+              <p><span>ISO 105-B02</span></p>
+              <p><span>≥6</span></p>
           </li>
           <li>
               <strong><span>Resistência à abrasão</span></strong>
-              <p><span>EN 660-2</span></p>
-              <p><span>Class T</span></p>
+              <p><span>EN 649</span></p>
+              <p><span>Class P</span></p>
           </li>
           <li>
               <strong><span>Indentação residual</span></strong>
               <p><span>EN 433</span></p>
-              <p><span>≤0,03mm</span></p>
-          </li>
-          <li>
-              <strong><span>Estabilidade dimensional</span></strong>
-              <p><span>EN 434</span></p>
-              <p><span>≤0,4%</span></p>
+              <p><span>≤0,05mm</span></p>
           </li>
           <li>
               <strong><span>Energia radiante</span></strong>
               <p><span>EN 13501-1</span></p>
               <p><span>Bn-s1</span></p>
-          </li>
-          <li>
-              <strong><span>Emissão de VOC</span></strong>
-              <p><span>ISO 16000-6</span></p>
-              <p><span>≤ 5 yg/m³ depois 28 dias</span></p>
           </li>
           <li>
               <strong><span>Resistência a queda</span></strong>
@@ -389,13 +240,28 @@
           </li>
           <li>
               <strong><span>Carga estática</span></strong>
-              <p><span>EN 1815</span></p>
-              <p><span><2kV</span></p>
+              <p><span>EN 1081</span></p>
+              <p><span>≤1 x 10₆ Ohm</span></p>
           </li>
           <li>
               <strong><span>Não favorecimento de bactérias</span></strong>
               <p><span>ISO 846<br>ASTM G21-09</span></p>
               <p><span>Class 5</span></p>
+          </li>
+          <li>
+              <strong><span>Resistência química</span></strong>
+              <p><span>EN 423</span></p>
+              <p><span>Ótima</span></p>
+          </li>
+          <li>
+              <strong><span>Resistência Vertical</span></strong>
+              <p><span>EN 61340-4-1</span></p>
+              <p><span>≤3,5 x 10₇ Ohm</span></p>
+          </li>
+          <li>
+              <strong><span>Carga Eletrostática</span></strong>
+              <p><span>EN 61340-4-5</span></p>
+              <p><span>< 100 V</span></p>
           </li>
           <li>
               <strong><span>Garantia</span></strong>
@@ -405,7 +271,12 @@
         </ul>
       </aside>
 
-      <a class="round" href="javascript:void(0);"><span>Manual de Manutenção</span></a>
+      <a class="round" href="download/mantas-pastell-l2.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Ficha<br>Técnica</span>
+      </a>
 
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>

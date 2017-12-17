@@ -65,255 +65,269 @@
 
       <section class="productList carrGallery">
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-001-ixia.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-410-pale-grey.jpg"  url-src="images/products/mantas/medintone-pur/G/885-410-pale-grey.jpg" title="410 - Pale Grey" /></a>
           <figcaption>
-            <em>001</em>
-            <strong>Ixia</strong>
+            <em>410</em>
+            <strong>Pale Grey</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-106-freesia-pearl.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-301-grey-light.jpg"  url-src="images/products/mantas/medintone-pur/G/885-301-grey-light.jpg" title="301 - Grey Light" /></a>
           <figcaption>
-            <em>106</em>
-            <strong>Freesia Pearl</strong>
+            <em>301</em>
+            <strong>Grey Light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-002-silver-grey.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-304-natural-grey-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-304-natural-grey-light.jpg" title="304 - Natural Grey Light" /></a>
           <figcaption>
-            <em>002</em>
-            <strong>Silver Grey</strong>
+            <em>304</em>
+            <strong>Natural Grey Light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-210-almond.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-307-rock-dust-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-307-rock-dust-light.jpg" title="307 - Rock Dust light" /></a>
           <figcaption>
-            <em>210</em>
-            <strong>Almond</strong>
+            <em>307</em>
+            <strong>rock dust light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-212-carthamus-champagne.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-302-grey-deep.jpg"  url-src="images/products/mantas/medintone-pur/G/885-302-grey-deep.jpg" title="302 - Grey Deep" /></a>
           <figcaption>
-            <em>212</em>
-            <strong>Carthamus Champagne</strong>
+            <em>302</em>
+            <strong>grey deep</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-107-desert-gold.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-305-natural-grey.jpg"  url-src="images/products/mantas/medintone-pur/G/885-305-natural-grey.jpg" title="305 - Natural Grey" /></a>
           <figcaption>
-            <em>107</em>
-            <strong>Desert Gold</strong>
+            <em>305</em>
+            <strong>natural grey</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-419-pearl.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-303-almost-black.jpg"  url-src="images/products/mantas/medintone-pur/G/885-303-almost-black.jpg" title="303 - Almost Black" /></a>
           <figcaption>
-            <em>419</em>
-            <strong>Pearl</strong>
+            <em>303</em>
+            <strong>alMost black</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-420-cinnamon.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-306-natural-grey-dark.jpg" url-src="images/products/mantas/medintone-pur/G/885-306-natural-grey-dark.jpg" title="306 - Natural Grey Dark" /></a>
           <figcaption>
-            <em>420</em>
-            <strong>Cinnamon</strong>
+            <em>306</em>
+            <strong>natural grey dark</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-211-oatmeal.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-310-rock-brown.jpg"  url-src="images/products/mantas/medintone-pur/G/885-310-rock-brown.jpg" title="310 - Rock Brown" /></a>
           <figcaption>
-            <em>211</em>
-            <strong>Oatmeal</strong>
+            <em>310</em>
+            <strong>rock brown</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-213-golden-glow.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-325-purple-brown-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-325-purple-brown-light.jpg" title="325 - Purple Brown Light" /></a>
           <figcaption>
-            <em>213</em>
-            <strong>Golden Glow</strong>
+            <em>325</em>
+            <strong>purple brown light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-214-light-beige.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-326-purple-brown-mid.jpg" url-src="images/products/mantas/medintone-pur/G/885-326-purple-brown-mid.jpg" title="326 - Purple Brown Mid" /></a>
           <figcaption>
-            <em>214</em>
-            <strong>Light Beige</strong>
+            <em>326</em>
+            <strong>purple brown Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-216-lemon.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-327-purple-brown.jpg"  url-src="images/products/mantas/medintone-pur/G/885-327-purple-brown.jpg" title="327 - Purple Brown" /></a>
           <figcaption>
-            <em>216</em>
-            <strong>Lemon</strong>
+            <em>327</em>
+            <strong>purple brown</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-316-cream.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-411-pale-beige.jpg"  url-src="images/products/mantas/medintone-pur/G/885-411-pale-beige.jpg" title="411 - Pale Beige" /></a>
+          <figcaption>
+            <em>411</em>
+            <strong>pale beige</strong>
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-315-light-chocolate.jpg"  url-src="images/products/mantas/medintone-pur/G/885-315-light-chocolate.jpg" title="315 - Light Chocolate" /></a>
+          <figcaption>
+            <em>315</em>
+            <strong>light chocolate</strong>
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-316-powder-chocolate.jpg"  url-src="images/products/mantas/medintone-pur/G/885-316-powder-chocolate.jpg" title="316 - Powder Chocolate" /></a>
           <figcaption>
             <em>316</em>
-            <strong>Cream</strong>
+            <strong>powder chocolate</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-317-orange.jpg"></a>
-          <figcaption>
-            <em>317</em>
-            <strong>Orange</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-331-banana.jpg"></a>
-          <figcaption>
-            <em>331</em>
-            <strong>Banana</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-318-orange-zest.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-318-chocolate-brown.jpg"  url-src="images/products/mantas/medintone-pur/G/885-318-chocolate-brown.jpg" title="318 - Chocolate Brown" /></a>
           <figcaption>
             <em>318</em>
-            <strong>Orange Zest</strong>
+            <strong>chocolate brown</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-421-coral.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-322-amber-light.jpg"  url-src="images/products/mantas/medintone-pur/G/885-322-amber-light.jpg" title="322 - Amber Light" /></a>
           <figcaption>
-            <em>421</em>
-            <strong>Coral</strong>
+            <em>322</em>
+            <strong>aMber light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-422-monarch-red.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-323-amber-Mid.jpg"  url-src="images/products/mantas/medintone-pur/G/885-323-amber-Mid.jpg" title="323 - Amber Mid" /></a>
           <figcaption>
-            <em>422</em>
-            <strong>Monarch Red</strong>
+            <em>323</em>
+            <strong>aMber Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-435-rouge.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-404-milk-chocolate.jpg"  url-src="images/products/mantas/medintone-pur/G/885-404-milk-chocolate.jpg" title="404 - Milk Chocolate" /></a>
           <figcaption>
-            <em>435</em>
-            <strong>Rouge</strong>
+            <em>404</em>
+            <strong>Milk chocolate</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-215-sandalwood.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-403-brown-umbra.jpg"  url-src="images/products/mantas/medintone-pur/G/885-403-brown-umbra.jpg" title="403 - Brown Umbra" /></a>
           <figcaption>
-            <em>215</em>
-            <strong>Sandalwood</strong>
+            <em>403</em>
+            <strong>brown uMbra</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-108-pumice-stone.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-401-pumpkin-orange.jpg"  url-src="images/products/mantas/medintone-pur/G/885-401-pumpkin-orange.jpg" title="401 - Pumpkin Orange" /></a>
           <figcaption>
-            <em>108</em>
-            <strong>Pumice Stone</strong>
+            <em>401</em>
+            <strong>puMpkin orange</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-109-purple-ore.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-400-khaki-orange.jpg"  url-src="images/products/mantas/medintone-pur/G/885-400-khaki-orange.jpg" title="400 - Khaki Orange" /></a>
           <figcaption>
-            <em>109</em>
-            <strong>Purple Ore</strong>
+            <em>400</em>
+            <strong>khaki orange</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-003-smoke.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-335-gold-dust-mid.jpg" url-src="images/products/mantas/medintone-pur/G/885-335-gold-dust-mid.jpg" title="335 - Gold Dust Mid" /></a>
           <figcaption>
-            <em>003</em>
-            <strong>Smoke</strong>
+            <em>335</em>
+            <strong>gold dust Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-004-rock.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-334-gold-dust-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-334-gold-dust-light.jpg" title="334 - Gold Dust Light" /></a>
           <figcaption>
-            <em>004</em>
-            <strong>Rock</strong>
+            <em>334</em>
+            <strong>gold dust light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-005-cloud.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-358-soft-green-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-358-soft-green-light.jpg" title="358 - Doft Green Light" /></a>
           <figcaption>
-            <em>005</em>
-            <strong>Cloud</strong>
+            <em>358</em>
+            <strong>soft green light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-523-light-green.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-359-soft-green-mid.jpg" url-src="images/products/mantas/medintone-pur/G/885-359-soft-green-mid.jpg" title="359 - Soft Green Mid" /></a>
           <figcaption>
-            <em>523</em>
-            <strong>Light Green</strong>
+            <em>359</em>
+            <strong>soft green Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-525-mist-green.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-352-water-blue-light.jpg" url-src="images/products/mantas/medintone-pur/G/885-352-water-blue-light.jpg" title="352 - Water Blue Light" /></a>
           <figcaption>
-            <em>525</em>
-            <strong>Mist Green</strong>
+            <em>352</em>
+            <strong>water blue light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-524-moss.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-353-water-blue-mid.jpg" url-src="images/products/mantas/medintone-pur/G/885-353-water-blue-mid.jpg" title="353 - Water Blue Mid" /></a>
           <figcaption>
-            <em>524</em>
-            <strong>Moss</strong>
+            <em>353</em>
+            <strong>water blue Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-532-peak-green.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-405-sky-blue.jpg"  url-src="images/products/mantas/medintone-pur/G/885-405-sky-blue.jpg" title="405 - Sky Blue" /></a>
           <figcaption>
-            <em>532</em>
-            <strong>Peak Green</strong>
+            <em>405</em>
+            <strong>sky blue</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-526-forest.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-349-indigo-light.jpg"  url-src="images/products/mantas/medintone-pur/G/885-349-indigo-light.jpg" title="349 - Indigo Light" /></a>
           <figcaption>
-            <em>526</em>
-            <strong>Forest</strong>
+            <em>349</em>
+            <strong>indigo light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-627-dahila-sky.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-350-indigo-mid.jpg"  url-src="images/products/mantas/medintone-pur/G/885-350-indigo-mid.jpg" title="350 - Indigo Mid" /></a>
           <figcaption>
-            <em>627</em>
-            <strong>Dahila Sky</strong>
+            <em>350</em>
+            <strong>indigo Mid</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-628-water-blue.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-351-indigo.jpg"  url-src="images/products/mantas/medintone-pur/G/885-351-indigo.jpg" title="351 - Indigo" /></a>
           <figcaption>
-            <em>628</em>
-            <strong>Water Blue</strong>
+            <em>351</em>
+            <strong>indigo</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-629-blue-skies.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-406-ocean-blue.jpg"  url-src="images/products/mantas/medintone-pur/G/885-406-ocean-blue.jpg" title="406 - Ocean Blue" /></a>
           <figcaption>
-            <em>629</em>
-            <strong>Blue Skies</strong>
+            <em>406</em>
+            <strong>ocean blue</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-630-ultra-blue.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-408-lime-green.jpg"  url-src="images/products/mantas/medintone-pur/G/885-408-lime-green.jpg" title="408 - Lime Green" /></a>
           <figcaption>
-            <em>630</em>
-            <strong>Ultra Blue</strong>
+            <em>408</em>
+            <strong>liMe green</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-533-turquoise.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-409-turquoise-green.jpg"  url-src="images/products/mantas/medintone-pur/G/885-409-turquoise-green.jpg" title="409 - Turquoise Green" /></a>
           <figcaption>
-            <em>533</em>
-            <strong>Turquoise</strong>
+            <em>409</em>
+            <strong>turquoise green</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/k811-734-wisteria.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-434-mazarine-blue.jpg"  url-src="images/products/mantas/medintone-pur/G/885-434-mazarine-blue.jpg" title="434 - Mazarine Blue" /></a>
           <figcaption>
-            <em>734</em>
-            <strong>Wisteria</strong>
+            <em>434</em>
+            <strong>Mazarine blue</strong>
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-413-pink.jpg"  url-src="images/products/mantas/medintone-pur/G/885-413-pink.jpg" title="413 - Pink" /></a>
+          <figcaption>
+            <em>413</em>
+            <strong>pink</strong>
+          </figcaption>
+        </figure>
+        <figure>
+          <a href="javascript:void(0);"><img src="images/products/mantas/medintone-pur/thumbs/885-412-vivid-red.jpg"  url-src="images/products/mantas/medintone-pur/G/885-412-vivid-red.jpg" title="412 - Vivid Red" /></a>
+          <figcaption>
+            <em>412</em>
+            <strong>vivid red</strong>
           </figcaption>
         </figure>
       </section>
@@ -332,7 +346,7 @@
       </dl>
 
       <aside class="tblDescription">
-        <header>PISO VINÍLICO HOMOGÊNEO EM MANTA NÃO DIRECIONAL</header>
+        <header>PISO VINÍLICO HOMOGÊNEO<br>EM MANTA NÃO DIRECIONAL</header>
         <ul>
           <li>
               <strong><span>Classificação de uso</span></strong>
@@ -347,16 +361,16 @@
           <li>
               <strong><span>Dimensões</span></strong>
               <p><span>EN 426</span></p>
-              <p><span>2 x 20m</span></p>
+              <p><span>1.83x25M</span></p>
           </li>
           <li>
               <strong><span>Peso Médio</span></strong>
               <p><span>EN 430</span></p>
-              <p><span>2,8 kg/m²</span></p>
+              <p><span>3.300 g/m²</span></p>
           </li>
           <li>
-              <strong><span>Proteção Superficial</span></strong>
-              <p><span>Trueshield Coating</span></p>
+              <strong><span>Poliuretano reforçado</span></strong>
+              <p><span>Pur</span></p>
               <p><span>Sim</span></p>
           </li>
           <li>
@@ -367,12 +381,12 @@
           <li>
               <strong><span>Indentação residual</span></strong>
               <p><span>EN 433</span></p>
-              <p><span>≤0,03mm</span></p>
+              <p><span>≤0,04mm</span></p>
           </li>
           <li>
               <strong><span>Estabilidade dimensional</span></strong>
               <p><span>EN 434</span></p>
-              <p><span>≤0,4%</span></p>
+              <p><span>≤0,1%</span></p>
           </li>
           <li>
               <strong><span>Energia radiante</span></strong>
@@ -382,7 +396,7 @@
           <li>
               <strong><span>Emissão de VOC</span></strong>
               <p><span>ISO 16000-6</span></p>
-              <p><span>≤ 5 yg/m³ depois 28 dias</span></p>
+              <p><span>≤10kg/m²</span></p>
           </li>
           <li>
               <strong><span>Resistência a queda</span></strong>
@@ -392,7 +406,7 @@
           <li>
               <strong><span>Carga estática</span></strong>
               <p><span>EN 1815</span></p>
-              <p><span><2kV</span></p>
+              <p><span>≤2,0kv</span></p>
           </li>
           <li>
               <strong><span>Não favorecimento de bactérias</span></strong>
@@ -407,7 +421,13 @@
         </ul>
       </aside>
 
-      <a class="round" href="javascript:void(0);"><span>Manual de Manutenção</span></a>
+      <a class="round" href="download/mantas-medintone-pur.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Ficha<br>Técnica</span>
+      </a>
+      <!--a class="round" href="download/mantas-medintone-pur-2017.pdf"><span>Manual de Manutenção</span></a-->
 
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>

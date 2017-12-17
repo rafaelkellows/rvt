@@ -32,6 +32,7 @@ $(function(){
 	        	$(window).load(function(){
 					revitech.gallery();
  					revitech.msgInfo();
+ 					$('#popUp').fadeOut();
 	        	});
 	        },
 	        msgInfo : function(){
@@ -57,26 +58,49 @@ $(function(){
 	        		_wW = $(window).width(), _wH = $(window).height();
 	        		_imgSRC = $(this).find('img');
         			//_imgSRC = _imgSRC.attr('src');
+        			//Se clicar nos botões de próximo e anterior
 					if( $(this).parent().hasClass('ctrl') ) return;
-	        		if( _imgSRC.length ){
-	        			
+
+	        		if( _imgSRC.length ){	
+	        			// url-src: caminho para buscar outra imagem | geralmente em alta
 	        			if( _imgSRC.attr('url-src') ){
 	        				jQuery('#popUp figure').html(_imgSRC.clone().attr('src',_imgSRC.attr('url-src')));
 		        		}else{
 	        				jQuery('#popUp figure').html(_imgSRC.clone());
 		        		}
+		        		// title: Exibir o título da imagem se houver o atributo title
 	        			if( _imgSRC.attr('title') ){
 	        				jQuery('#popUp figure').prepend('<figcaption>'+_imgSRC.attr('title')+'</figcaption>');
 	        			}
 	        			
 	        		}
-	        		
 
-	        		//Open and Close
+	        		//Open and Close #popUp
 		        	jQuery('#popUp').addClass('gallery').fadeIn(function(){
-		        		jQuery('#popUp').find('a').click(function(){
-			        		jQuery('#popUp').fadeOut();
+		        		$(this).find('a').click(function(){
+			        		jQuery('#popUp').fadeOut(function(){
+			        			$('#popUp .cssload-thecube').show();
+			        		});
+
+			        		$('#popUp > section').removeClass('active');
 			        	});
+
+			        	//Verifica se o conteúdo da SECTION foi carregado
+						var _loaded = false, _s;
+						_s = setInterval(function(){ 
+							$("#popUp img").one("load", function() {
+							  // do stuff
+							}).each(function() {
+							  if(this.complete){
+							  	clearInterval(_s);
+							  	$('#popUp .cssload-thecube').fadeOut(
+							  		function(){
+							  			$('#popUp > section').addClass('active');
+							  		}
+							  	);
+							  }
+							});
+						},1000);
 		        	});
 	        	})
 

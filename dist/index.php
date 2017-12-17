@@ -14,7 +14,7 @@
         include_once "inc/contents/header.php";
       ?>
       <div class="phraseTag _darkbrown">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>A Revitech quer revolucionar o segmento de pisos com excelência, eficiência, tecnologia e técnica.</p>
           <div class="msgInfo down to-right">
             <p>role para baixo para ver todo o conteúdo</p>
           </div>
@@ -23,37 +23,37 @@
       <section class="carrossel">
         <div class="carr_container">
           <dl>  
-            <dt><div><h2>TECNOLOGIA</h2><p>Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</p></div></dt>
-            <dd><img src="images/banners/494021068.jpg" /></dd>
+            <dt><div><h2>TECNOLOGIA</h2><p>Qualidade em primeiro lugar</p></div></dt>
+            <dd><img src="images/banners/home-tecnologia.jpg" title="Tecnologia" /></dd>
           </dl>
           <dl>  
-            <dt class="to-right"><div><h2>DESIGN</h2><p>Lorem ipsum dolor sit amet consecuteur amet dirt sozin. Bur alot et ami lorem dim.</p></div></dt>
-            <dd><img src="images/banners/691440772.jpg" /></dd>
+            <dt class="to-right"><div><h2>DESIGN</h2><p>Produtos que atingem todas as expectativas</p></div></dt>
+            <dd><img src="images/banners/home-design.jpg" title="Design" /></dd>
           </dl>
           <dl>  
-            <dt><div><h2>ELEGÂNCIA</h2><p>Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</p></div></dt>
-            <dd><img src="images/banners/446972158.jpg" /></dd>
+            <dt><div><h2>ELEGÂNCIA</h2><p>Requinte e sofisticação para que uma obra<br>seja prima</p></div></dt>
+            <dd><img src="images/banners/home-elegancia.jpg" title="Elegância" /></dd>
           </dl>
           <dl>  
-            <dt class="to-center"><div><h2>TECNOLOGIA</h2><p>Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</p></div></dt>
-            <dd><img src="images/banners/494021068.jpg" /></dd>
+            <dt class="to-center"><div><h2>Excelência</h2><p>Estar em constante evolução e não<br>se acomodar</p></div></dt>
+            <dd><img src="images/banners/home-excelencia.jpg" title="Excelência" /></dd>
           </dl>
           <dl>  
-            <dt><div><h2>DESIGN</h2><p>Lorem ipsum dolor sit amet consecuteur amet dirt sozin. Bur alot et ami lorem dim.</p></div></dt>
-            <dd><img src="images/banners/691440772.jpg" /></dd>
+            <dt><div><h2>Eficiência</h2><p>Oferecer soluções e querer sempre mais</p></div></dt>
+            <dd><img src="images/banners/home-eficiencia.jpg" title="Eficiência" /></dd>
           </dl>
         </div>
       </section>
 
       <div class="phraseTag">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>O básico é pouco para a Revitech. Buscamos o melhor e não descansamos até alcançá-lo.</p>
       </div>
 
       <section class="projects">
         
         <aside>
           <h3>Nossos Projetos</h3>
-          <p>Representa o que há de mais moderno em piso vinílico homogêneo em manta. Com a tecnologia TS* - fórmula de mistura exclusiva, com Pur de última geração, cargas minerais selecionadas, PVC e alta qualidade.</p>
+          <p>A alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.</p>
         </aside>
 
         <div class="carrGaleria">
@@ -62,9 +62,9 @@
           </div>
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/banners/446972158.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/494021068.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/691440772.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/projects/home/project01.jpg" url-src="images/projects/home/G/project01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/projects/home/project02.jpg" url-src="images/projects/home/G/project02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/projects/home/project03.jpg" url-src="images/projects/home/G/project03.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">
@@ -75,7 +75,7 @@
       </section>
 
       <div class="phraseTag _lightgray">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>Mais inovação, mais excelência e digna de referência. Isso é ser Revitech Pisos Vinílicos.</p>
       </div>
 
       <section class="ourProducts">
@@ -86,9 +86,9 @@
               <img class="over" src="images/products/home-mantas-over.jpg" alt="Mantas" />
               <img class="under" src="images/products/home-mantas.jpg" alt="Mantas" />
             </figure>
-            <h4>Mantas</h4>
+            <h4><a href="mantas-medintech-plus.php">Mantas</a></h4>
           </dt>
-          <dd><p>Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</p></dd>
+          <dd><p><a href="mantas-medintech-plus.php">Em rolos de 2 metros de largura, com número mínimo de juntas.</a></p></dd>
         </dl>
         <dl>
           <dt>
@@ -98,7 +98,7 @@
             </figure>
             <h4><a href="javascript:void(0);">Placas</a></h4>
           </dt>
-          <dd><p><a href="javascript:void(0);">Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</a></p></dd>
+          <dd><p><a href="javascript:void(0);">Podem ser coladas ou fixadas.</a></p></dd>
         </dl>
         <dl>
           <dt>
@@ -108,7 +108,7 @@
             </figure>
             <h4><a href="javascript:void(0);">Réguas</a></h4>
           </dt>
-          <dd><p><a href="javascript:void(0);">Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</a></p></dd>
+          <dd><p><a href="javascript:void(0);">Sistema Loose Lay ou Ecolay.</a></p></dd>
         </dl>
         <dl>
           <dt>
@@ -118,12 +118,12 @@
             </figure>
             <h4>Acessórios</h4>
           </dt>
-          <dd><p>Caed perorum actus, feciem sediist imihiliur, parbem, consupplice et iam.</p></dd>
+          <dd><p>Para sua obra ser completa.</p></dd>
         </dl>
       </section>
 
       <div class="phraseTag _darkgray">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>A Revitech Pisos quer ser a empresa mais visionária do segmento de revestimentos.</p>
       </div>
 
       <section class="benefits">

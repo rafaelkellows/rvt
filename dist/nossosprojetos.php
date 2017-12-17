@@ -22,9 +22,9 @@
         </div>
       </section>
 
-      <section class="projects">
+      <section class="projects carrGallery">
 
-        <article class="cont-01 carrGallery">
+        <article class="cont-01">
           <figure>
             <span><img  src="images/benefits/home-benefit-01.jpg" url-src="images/projects/casacorG.jpg" title="Casa Cor" border="0" alt="" /></span>
           </figure>
@@ -32,7 +32,7 @@
           <p>Atendem às normas técnicas brasileiras e européias</p>
         </article>
 
-        <article class="cont-04 vrt carrGallery">
+        <article class="cont-04 vrt">
           <p><span>Podem ser instalados sobre outras superfícies</span></p>
           <figure>
             <span><img src="images/projects/saraiva.jpg" url-src="images/projects/saraivaG.jpg" border="0" title="Saraiva" alt="" /></span>
@@ -40,7 +40,7 @@
           <h3>Saraiva</h3>
         </article>
 
-        <article class="cont-07 vrt carrGallery">
+        <article class="cont-07 vrt">
           <figure>
             <span><img src="images/projects/google.jpg" url-src="images/projects/googleG.jpg" border="0" title="Google" alt="" /></span>
           </figure>
@@ -48,7 +48,7 @@
           <p><span>Possibilidade de <br>&nbsp;&nbsp;paginações diversas</span></p>
         </article>
 
-        <article class="cont-01 vrt carrGallery">
+        <article class="cont-01 vrt">
           <figure>
             <span><img src="images/projects/creche.jpg" url-src="images/projects/crecheG.jpg" title="Creche" border="0" alt="" /></span>
           </figure>
@@ -56,7 +56,7 @@
           <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por toda a sua vida útil.</p>
         </article>
 
-        <article class="cont-02 carrGallery">
+        <article class="cont-02">
           <figure>
             <span><img src="images/projects/havaianas.jpg" title="Havaianas" border="0" alt="" /></span>
           </figure>
@@ -65,21 +65,21 @@
           <p>Conforto <font>Acústico</font></p>
         </article>
 
-        <article class="cont-01 carrGallery">
+        <article class="cont-01">
           <figure>
             <span><img  src="images/benefits/home-benefit-01.jpg" url-src="images/projects/casacorG.jpg" title="Casa Cor" border="0" alt="" /></span>
           </figure>
           <h3>Casa Cor</h3>
         </article>
 
-        <article class="cont-04 vrt carrGallery">
+        <article class="cont-04 vrt">
           <figure>
             <span><img src="images/projects/saraiva.jpg" border="0" title="Saraiva" alt="" /></span>
           </figure>
           <h3>Saraiva</h3>
         </article>
 
-        <article class="cont-03 carrGallery">
+        <article class="cont-03">
           <figure>
             <span><img src="images/projects/creche.jpg" border="0" title="Creche" alt="" /></span>
           </figure>
@@ -87,14 +87,14 @@
           <p class="round"><span>Fáceis de Instalar</span></p>
         </article>
 
-        <article class="cont-07 vrt carrGallery">
+        <article class="cont-07 vrt">
           <figure>
             <span><img src="images/projects/google.jpg" border="0" title="Google" alt="" /></span>
           </figure>
           <h3>Google</h3>
         </article>
 
-        <article class="cont-02 carrGallery">
+        <article class="cont-02">
           <figure>
             <span><img src="images/projects/havaianas.jpg" border="0" title="Havaianas" alt="" /></span>
           </figure>
