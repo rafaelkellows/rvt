@@ -65,115 +65,115 @@
 
       <section class="productList carrGallery">
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/041-ivory-white.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/041-ivory-white.jpg" url-src="images/products/mantas/pastell-l2/G/041-ivory-white.jpg" title="" /></a>
           <figcaption>
             <em>041</em>
-            <strong>ivory white</strong>
+            <strong>Ivory White</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/043-grey-beige.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/043-grey-beige.jpg" url-src="images/products/mantas/pastell-l2/G/043-grey-beige.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>043</em>
+            <strong>Grey Beige</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/061-antique-beige.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/061-antique-beige.jpg" url-src="images/products/mantas/pastell-l2/G/061-antique-beige.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>061</em>
+            <strong>Antique Beige</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/052-glacier-white.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/052-glacier-white.jpg" url-src="images/products/mantas/pastell-l2/G/052-glacier-white.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>052</em>
+            <strong>Glacier White</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/040-broken-white.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/040-broken-white.jpg" url-src="images/products/mantas/pastell-l2/G/040-broken-white.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>040</em>
+            <strong>Broken White</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/053-cloudy-grey.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/053-cloudy-grey.jpg" url-src="images/products/mantas/pastell-l2/G/053-cloudy-grey.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>053</em>
+            <strong>Cloudy Grey</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/050-broken-silver.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/050-broken-silver.jpg" url-src="images/products/mantas/pastell-l2/G/050-broken-silver.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>050</em>
+            <strong>Broken Silver</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/051-broken-grey.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/051-broken-grey.jpg" url-src="images/products/mantas/pastell-l2/G/051-broken-grey.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>051</em>
+            <strong>Broken Grey</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/054-stone-grey.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/054-stone-grey.jpg" url-src="images/products/mantas/pastell-l2/G/054-stone-grey.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>054</em>
+            <strong>Stone Grey</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/021-light-blue.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/021-light-blue.jpg" url-src="images/products/mantas/pastell-l2/G/021-light-blue.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>021</em>
+            <strong>Light Blue</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/022-whale-blue.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/022-whale-blue.jpg" url-src="images/products/mantas/pastell-l2/G/022-whale-blue.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>022</em>
+            <strong>Whale Blue</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/023-water-blue.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/023-water-blue.jpg" url-src="images/products/mantas/pastell-l2/G/023-water-blue.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>023</em>
+            <strong>Water Blue</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/071-peach-yellow.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/071-peach-yellow.jpg" url-src="images/products/mantas/pastell-l2/G/071-peach-yellow.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>071</em>
+            <strong>Peach Yellow</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/070-salmon-orange.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/070-salmon-orange.jpg" url-src="images/products/mantas/pastell-l2/G/070-salmon-orange.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>070</em>
+            <strong>Salmon Orange</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/033-summer-green.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/033-summer-green.jpg" url-src="images/products/mantas/pastell-l2/G/033-summer-green.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>033</em>
+            <strong>Summer Green</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/032-joshua-green.jpg"></a>
+          <a href="javascript:void(0);"><img src="images/products/mantas/pastell-l2/thumbs/032-joshua-green.jpg" url-src="images/products/mantas/pastell-l2/G/032-joshua-green.jpg" title="" /></a>
           <figcaption>
-            <em>041</em>
-            <strong>ivory white</strong>
+            <em>032</em>
+            <strong>Joshua Green</strong>
           </figcaption>
         </figure>
 

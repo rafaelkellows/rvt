@@ -96,9 +96,9 @@
               <img class="over" src="images/products/home-placas-over.jpg" alt="Placas" />
               <img class="under" src="images/products/home-placas.jpg" alt="Placas" />
             </figure>
-            <h4><a href="javascript:void(0);">Placas</a></h4>
+            <h4><a href="placas-imperial-armstrong.php">Placas</a></h4>
           </dt>
-          <dd><p><a href="javascript:void(0);">Podem ser coladas ou fixadas.</a></p></dd>
+          <dd><p><a href="placas-imperial-armstrong.php">Podem ser coladas ou fixadas. São econômicas e de fácil manutenção.</a></p></dd>
         </dl>
         <dl>
           <dt>
@@ -108,7 +108,7 @@
             </figure>
             <h4><a href="javascript:void(0);">Réguas</a></h4>
           </dt>
-          <dd><p><a href="javascript:void(0);">Sistema Loose Lay ou Ecolay.</a></p></dd>
+          <dd><p><a href="javascript:void(0);">Flexíveis, resistentes a choques e utilizam Sistema Loose Lay ou Ecolay.</a></p></dd>
         </dl>
         <dl>
           <dt>
@@ -118,7 +118,7 @@
             </figure>
             <h4>Acessórios</h4>
           </dt>
-          <dd><p>Para sua obra ser completa.</p></dd>
+          <dd><p>Sua obra ainda mais completa, com os melhores produtos do mercado.</p></dd>
         </dl>
       </section>
 

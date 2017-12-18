@@ -72,7 +72,6 @@ $(function(){
 	        			if( _imgSRC.attr('title') ){
 	        				jQuery('#popUp figure').prepend('<figcaption>'+_imgSRC.attr('title')+'</figcaption>');
 	        			}
-	        			
 	        		}
 
 	        		//Open and Close #popUp

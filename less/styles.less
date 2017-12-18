@@ -71,6 +71,7 @@ body{
       figcaption{ text-transform: uppercase; font-size: 2em; color: #584f4c; font-weight: 500; padding: 0.3em; margin-top: -1.6em; }
     }
   }
+  .ctrl:extend(main:not(.comingsoon) div.carrGaleria .ctrl all){ display: none; }
 }
 #CS{ display: none; }
 .arrow{
@@ -473,7 +474,7 @@ main{
     }
     section.projects{
       aside{
-        background: #8f8a89; width: 293px; height: 285px; .d-midle; padding: 1.55em 1.9em; .b-sizing; line-height: 1.375em;
+        background: #8f8a89; width: 293px; height: 285px; .d-midle; padding: 1.6em; .b-sizing; line-height: 1.375em;
         *{ color: #e2dfd6; }
         h3{ font-size: 1.3125em; font-family: 'AauxPro OT'; font-weight: 900; text-transform: uppercase; padding-bottom: .8em; }
         p{ font-family: 'Archer Book'; font-size: 1.375em; }
@@ -535,7 +536,7 @@ main{
         &:before{
           content:''; width: 0; height: 100%; .d-midle;
         }
-        span{ font-size: 24px; line-height: 25.5px; text-transform: uppercase; color: #796f6c; .d-midle; text-align: left; margin: 0 auto; width: 90%; }
+        span{ font-size: 24px; line-height: 25.5px; text-transform: uppercase; color: #796f6c; .d-midle; text-align: left; }
       }
     }
     footer{
@@ -586,7 +587,7 @@ main{
               h4{ padding: 1em 0.675em 0.675em; font-size: 1.75em; text-transform: uppercase; }
             }
             dd{
-              p{ padding: 0 1.5em 1.25em 1.25em; font-size: 1.125em; line-height: 1.1875em; }
+              p{ padding: 0 1.25em 1.25em; font-size: 1.125em; line-height: 1.1875em; }
             }
             &:hover{
               * {color: @l-brown; }
@@ -791,11 +792,17 @@ main{
       }
       .productList{
         padding: 1.7em 3.8em;
+        h2{ text-transform: uppercase; color: #796f6c; font-size: 1.325em; padding: 0 0.4em 0.4em; font-weight: 500; }
         figure{ 
           width: 110px; .d-top; margin: 0 0.47em 0.65em;
           img { width: 100%; }
           figcaption{
             em, strong{ font-size: 0.625em; text-transform: uppercase; font-weight: 900; display: block; text-align:right; }
+          }
+        }
+        &.woodenBox{
+          figure{
+            width: 282px; 
           }
         }
       }

@@ -11,6 +11,10 @@
           <div class="cssload-cube cssload-c4"></div>
           <div class="cssload-cube cssload-c3"></div>
         </div>
+        <nav class="ctrl">
+          <a href="javascript:void(0);" title="Previous"><span>Previous</span></a>
+          <a href="javascript:void(0);" title="Next"><span>Next</span></a>
+        </nav>
       </div>
 
       <header>
@@ -34,14 +38,14 @@
           <a <?php if($navg=="nossosprodutos"){ echo ' class="active"'; } ?> href="nossosprodutos.php"><span>Nossos Produtos</span></a>
           <nav <?php if($sub!=""){ echo ' class="active"'; } ?>>
             <a <?php if($sub=="mantas"){ echo ' class="active"'; } ?> href="mantas-medintech-plus.php"><span>Mantas</span></a>
-            <a <?php if($sub=="placas"){ echo ' class="active"'; } ?> href="placas.php"><span>Placas</span></a>
+            <a <?php if($sub=="placas"){ echo ' class="active"'; } ?> href="placas-imperial-armstrong.php"><span>Placas</span></a>
             <a <?php if($sub=="reguas"){ echo ' class="active"'; } ?> href="reguas.php"><span>Réguas</span></a>
-            <a <?php if($sub=="acessorios"){ echo ' class="active"'; } ?> href="acessorios.php"><span>Acessórios</span></a>
+            <!--a <?php if($sub=="acessorios"){ echo ' class="active"'; } ?> href="acessorios.php"><span>Acessórios</span></a-->
           </nav>
-          <a <?php if($navg=="simulador3d"){ echo ' class="active"'; } ?> href="simulador3d.php"><span>Simulador 3D</span></a>
+          <!--a <?php if($navg=="simulador3d"){ echo ' class="active"'; } ?> href="simulador3d.php"><span>Simulador 3D</span></a-->
           <a <?php if($navg=="nossosprojetos"){ echo ' class="active"'; } ?> href="nossosprojetos.php"><span>Nossos Projetos</span></a>
           <a <?php if($navg=="ondeencontrar"){ echo ' class="active"'; } ?> href="ondeencontrar.php"><span>Onde Encontrar</span></a> 
-          <a <?php if($navg=="fichastecnicas"){ echo ' class="active"'; } ?> href="javascript:void(0);"><span>Fichas Técnicas</span></a> 
+          <!--a <?php if($navg=="fichastecnicas"){ echo ' class="active"'; } ?> href="javascript:void(0);"><span>Fichas Técnicas</span></a--> 
           <div class="msgInfo down">
             <p>use este menu para acessar todo o site</p>
           </div>
