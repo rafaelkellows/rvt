@@ -5,6 +5,8 @@ $(function(){
             	this.carrossel();
             	this.nicescroll();
 	            this.loading();
+            	this.menu();
+            	this.rszWindow();
 				$(document).ready(function(){
 			      if( $('.parallax').length ){
 			      	$('.parallax').parallax();
@@ -31,7 +33,7 @@ $(function(){
 	        loading : function(){
 	        	$(window).load(function(){
 					revitech.gallery();
- 					revitech.msgInfo();
+ 					//revitech.msgInfo();
  					$('#popUp').fadeOut();
 	        	});
 	        },
@@ -51,6 +53,36 @@ $(function(){
 	        			} 
 	        		);
 	        	});
+	        },
+	        menu: function() {
+        		var _opnd, _c;
+	        	$('main:not(.comingsoon) > header nav.menu').hover(
+	        		function(){	        			
+	        			if( $(window).width() > 1023 ){
+		        			clearInterval(_c);
+	        				$(this).addClass('active');
+        				}else{
+        					$(this).find('>*').unbind('click');
+        				}
+	        		},
+	        		function(){
+	        			if( $(window).width() > 1023 ){
+		        			_c = setInterval(function(){
+				        		$('main:not(.comingsoon).home > header nav.menu').removeClass('active');
+		        			}, 1000);
+	        			}
+	        		}
+	        	).click(function(e){
+	        		clearInterval(_c);
+	        		if( !$(this).hasClass('active') ){
+						$(this).addClass('active');
+					}else{
+						$(this).removeClass('active');
+					}
+	        	});
+				if ($(window).width() > 1023){
+		        	$('main:not(.comingsoon):not(.home) > header nav.menu').addClass('active');
+				}
 	        },
 	        gallery : function(){
 	        	// Abrir a galeria
@@ -194,7 +226,16 @@ $(function(){
 				      scrollspeed: 100
 				    });
 				}
-	        }
+	        },
+	        rszWindow : function () {
+				$(window).resize(function() {
+					if ($(window).width() < 1023){
+			        	$('main:not(.comingsoon):not(.home) > header nav.menu').removeClass('active');
+					}else{
+			        	$('main:not(.comingsoon):not(.home) > header nav.menu').addClass('active');
+					}
+				});
+	        },
     	}
 		revitech.init();
 	})();

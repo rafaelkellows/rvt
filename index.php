@@ -31,11 +31,11 @@
             <dd><img src="images/banners/home-design.jpg" title="Design" /></dd>
           </dl>
           <dl>  
-            <dt><div><h2>ELEGÂNCIA</h2><p>Requinte e sofisticação para que uma obra<br>seja prima</p></div></dt>
+            <dt><div><h2>ELEGÂNCIA</h2><p>Requinte e sofisticação para que uma obra<br> seja prima</p></div></dt>
             <dd><img src="images/banners/home-elegancia.jpg" title="Elegância" /></dd>
           </dl>
           <dl>  
-            <dt class="to-center"><div><h2>Excelência</h2><p>Estar em constante evolução e não<br>se acomodar</p></div></dt>
+            <dt class="to-center"><div><h2>Excelência</h2><p>Estar em constante evolução e não<br> se acomodar</p></div></dt>
             <dd><img src="images/banners/home-excelencia.jpg" title="Excelência" /></dd>
           </dl>
           <dl>  
@@ -201,13 +201,13 @@
       </section>
       <ul class="navg">
         <li>
-          <a href="javascript:void(0);" title="Fichas Técnicas"><span>Fichas Técnicas</span></a>
+          <a href="ondeencontrar.php" title="Onde Encontrar"><span>Onde Encontrar</span></a>
           <div class="msgInfo up inverse">
             <p>use este botão para navegar</p>
           </div>
         </li>
         <li>
-          <a href="javascript:void(0);" title="A Revitech"><span>A Revitech</span></a>
+          <a href="arevitech.php" title="A Revitech"><span>A Revitech</span></a>
           <div class="msgInfo up to-right inverse">
             <p>use este botão para navegar</p>
           </div>

@@ -16,18 +16,18 @@
           </div>
           <a href="arevitech.php" title="A Revitech">A Revitech</a>
           <a href="nossosprodutos.php" title="Nossos Produtos">Nossos Produtos</a>
-          <a href="simulador3d.php" title="Simulador 3D">Simulador 3D</a>
-          <a href="nossosprojetos.php" title="Nossos Projetos">Nossos Projetos</a>
-          <a href="ondeencontrar.php" title="Onde Encontrar">Onde Encontrar</a>
+          <!--a href="simulador3d.php" title="Simulador 3D">Simulador 3D</a-->
         </nav>
         <nav>
           <div class="msgInfo down inverse">
             <p>use este menu para acessar todo o site</p>
           </div>
-          <a href="javascript:void(0);" title="Fichas Técnicas">Fichas Técnicas</a>
+          <a href="nossosprojetos.php" title="Nossos Projetos">Nossos Projetos</a>
+          <a href="ondeencontrar.php" title="Onde Encontrar">Onde Encontrar</a>
+          <!--a href="javascript:void(0);" title="Fichas Técnicas">Fichas Técnicas</a>
           <a href="javascript:void(0);" title="Login">Login</a>
           <a href="javascript:void(0);" title="Carrinho">Carrinho</a>
           <a href="javascript:void(0);" title="Ajuda">Ajuda</a>
-          <a href="javascript:void(0);" title="Acculpa Dolupta">Acculpa Dolupta</a>
+          <a href="javascript:void(0);" title="Acculpa Dolupta">Acculpa Dolupta</a-->
         </nav>
       </footer>

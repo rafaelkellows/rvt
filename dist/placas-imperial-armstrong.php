@@ -27,7 +27,7 @@
         <ul>
           <li><a class="active" href="placas-imperial-armstrong.php">Imperial Armstrong</a></li>
           <li><a href="placas-reguas-ecoidea.php">Ecoidea</a></li>
-          <li><a href="placas-heavy.php">Heavy</a></li>
+          <li><a href="placas-reguas-heavy.php">Heavy</a></li>
         </ul>
       </nav>
       <article>
@@ -43,7 +43,7 @@
       <section class="projects">
         <aside>
           <h3>Nossos Projetos</h3>
-          <p>Representa o que há de mais moderno em piso vinílico homogêneo em manta. Com a tecnologia TS* - fórmula de mistura exclusiva, com Pur de última geração, cargas minerais selecionadas, PVC e alta qualidade.</p>
+          <p>A alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.</p>
         </aside>
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">

@@ -508,6 +508,9 @@ main:not(.comingsoon) > header:before {
   background: #e2dfd6;
   position: absolute;
   left: -50%;
+  -webkit-transition: background 0.5s;
+  -o-transition: background 0.5s;
+  transition: background 0.5s;
 }
 main:not(.comingsoon) > header > * {
   position: absolute;
@@ -537,11 +540,16 @@ main:not(.comingsoon) > header .sac {
 }
 main:not(.comingsoon) > header .sac a {
   color: #584f4c;
+  display: inline-block;
+  font-weight: bold;
 }
 main:not(.comingsoon) > header ul {
   left: auto;
   right: 50px;
   top: 1.2em;
+  -webkit-transition: right 0.5s;
+  -o-transition: right 0.5s;
+  transition: right 0.5s;
 }
 main:not(.comingsoon) > header ul .msgInfo {
   top: 57px;
@@ -561,7 +569,11 @@ main:not(.comingsoon) > header ul li span {
 }
 main:not(.comingsoon) > header nav.menu {
   top: 102px;
+  left: 0;
   cursor: crosshair;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 main:not(.comingsoon) > header nav.menu .msgInfo {
   top: -44px;
@@ -604,13 +616,13 @@ main:not(.comingsoon) > header nav.menu > a:before {
   height: 100%;
   margin-right: 14px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 main:not(.comingsoon) > header nav.menu > a span {
   background: #e2dfd6;
   padding: 0 .4em;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 main:not(.comingsoon) > header nav.menu nav {
   display: block;
@@ -630,32 +642,29 @@ main:not(.comingsoon) > header nav.menu nav a span {
   background: #f3f1f0;
   padding: 0 .4em;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 main:not(.comingsoon) > header nav.menu nav:hover {
   opacity: 1;
   margin-left: 14px;
 }
-main:not(.comingsoon) > header nav.menu:hover a,
+main:not(.comingsoon) > header nav.menu.active {
+  /*&:hover*/
+}
 main:not(.comingsoon) > header nav.menu.active a {
   margin-bottom: 28px;
   height: 1.134em;
   opacity: 1;
 }
-main:not(.comingsoon) > header nav.menu:hover a span,
 main:not(.comingsoon) > header nav.menu.active a span {
   font-size: .9375em;
   opacity: 1;
 }
-main:not(.comingsoon) > header nav.menu:hover a:hover,
 main:not(.comingsoon) > header nav.menu.active a:hover,
-main:not(.comingsoon) > header nav.menu:hover a.active,
 main:not(.comingsoon) > header nav.menu.active a.active {
   padding-right: 14px;
 }
-main:not(.comingsoon) > header nav.menu:hover a:hover + nav,
 main:not(.comingsoon) > header nav.menu.active a:hover + nav,
-main:not(.comingsoon) > header nav.menu:hover a.active + nav,
 main:not(.comingsoon) > header nav.menu.active a.active + nav {
   opacity: 1;
 }
@@ -742,7 +751,8 @@ main:not(.comingsoon):not(.home) .carrossel dl dt {
   width: 210px;
   height: 210px;
   border-radius: 210px;
-  top: 326px;
+  top: initial;
+  bottom: 49px;
   left: 88px;
   padding: 0.9em;
   -webkit-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
@@ -753,7 +763,6 @@ main:not(.comingsoon):not(.home) .carrossel dl dt > div h2 {
   font-size: 1.8125em;
 }
 main:not(.comingsoon) .phraseTag {
-  height: 73px;
   text-align: center;
 }
 main:not(.comingsoon) .phraseTag:before {
@@ -770,6 +779,12 @@ main:not(.comingsoon) .phraseTag:after {
   height: 100%;
   display: inline-block;
   vertical-align: middle;
+}
+main:not(.comingsoon) .phraseTag > p {
+  padding: 0.8499em;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 main:not(.comingsoon) .phraseTag * {
   color: #584f4c;
@@ -862,12 +877,13 @@ main:not(.comingsoon) div.carrGaleria figure {
   vertical-align: middle;
   text-align: center;
   color: #413a37;
-  margin-right: -3px;
+  margin-right: -4px;
   z-index: 9;
 }
 main:not(.comingsoon) div.carrGaleria figure figcaption {
   padding: 1.6em 1.75em;
   line-height: 1.3em;
+  background: #f3f1f0;
 }
 main:not(.comingsoon) div.carrGaleria figure figcaption p {
   font-size: 1.25em;
@@ -881,6 +897,7 @@ main:not(.comingsoon) div.carrGaleria .cntr {
   height: 100%;
   overflow: hidden;
   z-index: 9;
+  text-align: center;
 }
 main:not(.comingsoon) div.carrGaleria .ctrl,
 #popUp .ctrl {
@@ -950,6 +967,10 @@ main:not(.comingsoon) div.carrGaleria .ctrl a:hover:first-child:before,
 #popUp .ctrl a:hover:first-child:before {
   border-right: 15px solid #a59f95;
   border-left: 0;
+}
+main:not(.comingsoon) div.carrGaleria .ctrl.none,
+#popUp .ctrl.none {
+  display: none;
 }
 main:not(.comingsoon) .circleTitle {
   width: 309px !important;
@@ -1178,6 +1199,7 @@ main:not(.comingsoon) a.round span {
   display: inline-block;
   vertical-align: middle;
   text-align: left;
+  padding-left: .5em;
 }
 main:not(.comingsoon) footer {
   position: relative;
@@ -1187,6 +1209,12 @@ main:not(.comingsoon) footer {
 main:not(.comingsoon) footer h1 {
   width: 216px;
   margin: 0 auto 3em;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+main:not(.comingsoon) footer h1 img {
+  width: 100%;
 }
 main:not(.comingsoon) footer * {
   color: #8f8a89;
@@ -1637,23 +1665,13 @@ main:not(.comingsoon).arevitech section.time {
 main:not(.comingsoon).arevitech section.time h3 {
   text-align: center;
 }
-main:not(.comingsoon).arevitech section.time div.carrGaleria:before {
-  content: '';
-  background: #d9e0e6;
-  height: 207px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-}
-main:not(.comingsoon).arevitech section.time div.carrGaleria:after {
-  content: '';
-  background: #f3f1f0;
-  height: 92px;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+main:not(.comingsoon).arevitech section.time div.carrGaleria {
+  /*&:before{
+              content: ''; background: #d9e0e6; height: 207px; width: 100%; position: absolute; left: 0; top: 0;
+            }
+            &:after{
+              content: ''; background: #f3f1f0; height: 92px; width: 100%; position: absolute; left: 0; bottom: 0;
+            }*/
 }
 main:not(.comingsoon).arevitech section.time div.carrGaleria .ctrl a {
   right: -21px;
@@ -1665,11 +1683,17 @@ main:not(.comingsoon).arevitech section.time div.carrGaleria .ctrl a:first-child
 main:not(.comingsoon).arevitech section.pilares .circleTitle {
   top: 67px;
   left: 68px;
+  -webkit-transition: left 0.5s;
+  -o-transition: left 0.5s;
+  transition: left 0.5s;
 }
 main:not(.comingsoon).arevitech section.pilares aside {
   padding: 2.3em 3.85em 3.6em;
   margin-left: 22.3em;
   line-height: 2.5em;
+  -webkit-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  transition: margin 0.5s;
 }
 main:not(.comingsoon).arevitech section.pilares aside p {
   font-size: 1.625em;
@@ -1703,10 +1727,23 @@ main:not(.comingsoon).arevitech section.objetivo aside {
   left: 68px;
   width: 295px;
   box-sizing: border-box;
-  background: #8f8a89;
   color: #e2dfd6;
   font-size: 1.25em;
   padding: 1.6em 1.8em;
+}
+main:not(.comingsoon).arevitech section.objetivo aside:after {
+  content: '';
+  background: #8f8a89;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+main:not(.comingsoon).arevitech section.objetivo aside > * {
+  z-index: 1;
+  position: relative;
 }
 main:not(.comingsoon).arevitech section.objetivo aside h3 {
   text-transform: uppercase;
@@ -1722,6 +1759,9 @@ main:not(.comingsoon).nossosprodutos nav.navg {
   margin-top: -0.4em;
   z-index: 9;
   position: relative;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 main:not(.comingsoon).nossosprodutos nav.navg h2 {
   font-size: 4.6875em;
@@ -1730,11 +1770,12 @@ main:not(.comingsoon).nossosprodutos nav.navg h2 {
   font-weight: 300;
 }
 main:not(.comingsoon).nossosprodutos nav.navg ul {
-  margin: 0.7em 0;
+  margin: 0.7em 0 0;
 }
 main:not(.comingsoon).nossosprodutos nav.navg ul li {
   display: inline-block;
   vertical-align: middle;
+  margin: 0 0 0.7em;
 }
 main:not(.comingsoon).nossosprodutos nav.navg ul li a {
   font-size: 1.3125em;
@@ -1755,18 +1796,39 @@ main:not(.comingsoon).nossosprodutos nav.navg ul li a:after {
   vertical-align: middle;
   margin: 0 .7em;
 }
+main:not(.comingsoon).nossosprodutos nav.navg ul li a:before {
+  content: '';
+  border-bottom: 2px solid #8f8a89;
+  width: 0%;
+  position: absolute;
+  bottom: -5px;
+  -webkit-transition: width 0.5s;
+  -o-transition: width 0.5s;
+  transition: width 0.5s;
+}
 main:not(.comingsoon).nossosprodutos nav.navg ul li a:hover,
 main:not(.comingsoon).nossosprodutos nav.navg ul li a.active {
   color: #5e5552;
 }
+main:not(.comingsoon).nossosprodutos nav.navg ul li a:hover:before,
+main:not(.comingsoon).nossosprodutos nav.navg ul li a.active:before {
+  width: calc(100% - 37px);
+}
 main:not(.comingsoon).nossosprodutos nav.navg ul li:last-child a:after {
   display: none;
 }
+main:not(.comingsoon).nossosprodutos nav.navg ul li:last-child a:hover:before,
+main:not(.comingsoon).nossosprodutos nav.navg ul li:last-child a.active:before {
+  width: 100%;
+}
 main:not(.comingsoon).nossosprodutos aside.round {
-  margin: -14.3em 0 0 32.3em;
+  margin: -21.5% 0 0 58.5%;
 }
 main:not(.comingsoon).nossosprodutos .productList {
   padding: 1.7em 3.8em;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 main:not(.comingsoon).nossosprodutos .productList h2 {
   text-transform: uppercase;
@@ -1799,8 +1861,11 @@ main:not(.comingsoon).nossosprodutos .characteristics {
   display: inline-block;
   vertical-align: top;
   color: #796f6c;
-  padding: 0.4em 8.55em 0.4em 4.25em;
-  width: 372px;
+  padding: 0.4em 13.5% 0.4em 6.5%;
+  width: 36.3%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 main:not(.comingsoon).nossosprodutos .characteristics dt {
   font-size: 1.125em;
@@ -1827,9 +1892,10 @@ main:not(.comingsoon).nossosprodutos .tblDescription {
   display: inline-block;
   vertical-align: top;
   margin-top: 0.5em;
-  width: 373px;
+  width: 36.3%;
   border-right: 1px solid #8f8a89;
   border-left: 1px solid #8f8a89;
+  overflow: hidden;
 }
 main:not(.comingsoon).nossosprodutos .tblDescription header {
   font-size: 0.8125em;
@@ -1838,6 +1904,12 @@ main:not(.comingsoon).nossosprodutos .tblDescription header {
   text-transform: uppercase;
   padding: 0.9em;
   text-align: center;
+}
+main:not(.comingsoon).nossosprodutos .tblDescription > p {
+  font-size: 0.8125em;
+  font-weight: 500;
+  border-bottom: 1px solid #8f8a89;
+  padding: .5em;
 }
 main:not(.comingsoon).nossosprodutos .tblDescription ul li {
   display: block;
@@ -1888,6 +1960,7 @@ main:not(.comingsoon).nossosprodutos a.round .msgInfo {
 main:not(.comingsoon).nossosprodutos a.round span {
   font-size: 1.125em;
   text-align: center;
+  padding-left: 0;
 }
 main:not(.comingsoon).nossosprodutos footer {
   margin-top: 0;
@@ -2179,9 +2252,12 @@ main:not(.comingsoon).nossosprojetos section.projects:after {
 }
 main:not(.comingsoon).internal article {
   padding: 2.7em 4.3em;
+  -webkit-transition: padding 0.5s;
+  -o-transition: padding 0.5s;
+  transition: padding 0.5s;
 }
 main:not(.comingsoon).internal article header {
-  width: 480px;
+  width: 54%;
   display: inline-block;
   vertical-align: top;
 }
@@ -2199,7 +2275,7 @@ main:not(.comingsoon).internal article header em {
   display: block;
 }
 main:not(.comingsoon).internal article > p {
-  width: 480px;
+  width: 54%;
   font-size: 1.21875em;
   font-family: 'Archer Book';
   line-height: 1.1em;
@@ -2212,6 +2288,9 @@ main:not(.comingsoon).internal article .title {
   width: 150px;
   margin: -16.2em 0 0 0.7em;
   font-size: 0.65em;
+  -webkit-transition: margin 0.5s;
+  -o-transition: margin 0.5s;
+  transition: margin 0.5s;
 }
 main:not(.comingsoon).internal footer {
   margin-top: 3em;
@@ -2357,4 +2436,311 @@ main.comingsoon.internal header {
 main.comingsoon.internal header h1 {
   width: 7.2em;
 }
-/*@import url(import.less);*/
+/*******************************
+          RESPONSIVE
+*******************************/
+@media screen and (max-width: 1023px) {
+  body main {
+    max-width: 100%;
+    overflow: hidden;
+  }
+  body main:not(.comingsoon) {
+    /* HOME */
+  }
+  body main:not(.comingsoon) .phraseTag:after {
+    display: none;
+  }
+  body main:not(.comingsoon) div.carrGaleria {
+    max-width: 100%;
+  }
+  body main:not(.comingsoon) section.projects aside {
+    width: auto;
+    height: auto;
+  }
+  body main:not(.comingsoon) section.projects .carrGaleria {
+    width: 100%;
+    margin-left: 0;
+  }
+  body main:not(.comingsoon) section.projects .carrGaleria ul {
+    width: 100%;
+  }
+  body main:not(.comingsoon) > header nav.menu {
+    top: 17px;
+    left: 5px;
+    z-index: 99 !important;
+  }
+  body main:not(.comingsoon) > header nav.menu.active > * {
+    z-index: 9;
+  }
+  body main:not(.comingsoon) > header nav.menu.active:before {
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    opacity: .95;
+    cursor: default;
+  }
+  body main:not(.comingsoon) > header nav.menu.active nav {
+    opacity: 1;
+    position: relative;
+    margin: -18px 0 0 0px;
+    left: 51px;
+  }
+  body main:not(.comingsoon) > header nav.menu:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    cursor: pointer;
+  }
+  body main:not(.comingsoon) > header nav.menu .msgInfo {
+    display: none;
+  }
+  body main:not(.comingsoon) > header ul {
+    right: 19px;
+  }
+  body main:not(.comingsoon) > header .sac {
+    /*left: 0; text-align: center; width: 100%;*/
+  }
+  body main:not(.comingsoon) footer {
+    text-align: center;
+  }
+  body main:not(.comingsoon) footer > section {
+    width: 100%;
+    margin: 0 0 0.9em;
+  }
+  body main:not(.comingsoon) footer nav {
+    margin: 0.6em 1.4em;
+  }
+  body main:not(.comingsoon).home section.benefits {
+    height: auto;
+    text-align: center;
+  }
+  body main:not(.comingsoon).home section.benefits h3 {
+    position: relative;
+    top: initial;
+    left: initial;
+    margin: 2em auto;
+  }
+  body main:not(.comingsoon).home section.benefits article {
+    position: relative;
+    left: initial !important;
+    top: initial !important;
+    width: auto !important;
+    margin: 2em 1em;
+  }
+  body main:not(.comingsoon).home section.benefits article.cont-04 p,
+  body main:not(.comingsoon).nossosprojetos section.projects article.cont-04 p {
+    position: relative;
+    left: initial;
+    bottom: initial;
+    margin: 0 auto 1em;
+  }
+  body main:not(.comingsoon).home section.benefits article.cont-06 h3 {
+    position: relative;
+    left: initial;
+    top: initial;
+    margin: 0 auto 1em;
+  }
+  body main:not(.comingsoon).internal article header em br {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  body main:not(.comingsoon) {
+    /* A REVITECH */
+    /* NOSSOS PRODUTOS */
+  }
+  body main:not(.comingsoon) > header {
+    z-index: 999;
+    height: 68px;
+  }
+  body main:not(.comingsoon) > header:before {
+    background: #fff;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.3);
+  }
+  body main:not(.comingsoon) > header:before,
+  body main:not(.comingsoon) > header ul,
+  body main:not(.comingsoon) > header nav.menu {
+    position: fixed;
+  }
+  body main:not(.comingsoon) > header h1 {
+    left: calc(50% - 45px) !important;
+    width: 70px !important;
+    top: 7px !important;
+    /*background: #fff; border: 5px solid #fff; border-radius: 5px; */
+    position: fixed;
+    padding: 0px !important;
+  }
+  body main:not(.comingsoon) > header nav.menu {
+    left: 11px;
+  }
+  body main:not(.comingsoon) > header .sac {
+    display: none;
+  }
+  body main:not(.comingsoon) > header ul {
+    right: 13px;
+  }
+  body main:not(.comingsoon) > header ul li a {
+    margin: 0 0 0 10px;
+  }
+  body main:not(.comingsoon) footer h1 {
+    width: 100px;
+    margin: 3.5em auto 1.5em;
+  }
+  body main:not(.comingsoon) .carrossel dl dt {
+    width: 210px;
+    height: 210px;
+    border-radius: 210px;
+    top: calc(50% - 105px);
+    padding: 1.3em;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    -moz-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div h2 {
+    font-size: 1.525em;
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div p {
+    font-size: 1.0625em;
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div br {
+    display: none;
+  }
+  body main:not(.comingsoon):not(.home) .carrossel {
+    margin-top: 0;
+  }
+  body main:not(.comingsoon):not(.home) .carrossel dl dt {
+    bottom: calc(50% - 105px);
+  }
+  body main:not(.comingsoon).arevitech section.pilares .circleTitle {
+    position: relative;
+    left: calc(50% - 154.5px);
+  }
+  body main:not(.comingsoon).arevitech section.pilares aside {
+    margin-left: 0;
+    margin-top: 1em;
+  }
+  body main:not(.comingsoon).arevitech section.objetivo {
+    margin-bottom: -6.8em;
+  }
+  body main:not(.comingsoon).arevitech section.objetivo aside {
+    width: 100%;
+    position: relative;
+    left: 0;
+    top: -60px;
+  }
+  body main:not(.comingsoon).arevitech section.objetivo aside:after {
+    opacity: .85;
+  }
+  body main:not(.comingsoon).nossosprodutos nav.navg {
+    padding: 0 2em 0.9em;
+  }
+  body main:not(.comingsoon).nossosprodutos .productList {
+    padding: 1.7em 1em;
+    text-align: center;
+  }
+  body main:not(.comingsoon).nossosprodutos .characteristics {
+    padding: 0.4em 0;
+    margin: 0 2em;
+    display: block;
+    width: auto;
+  }
+  body main:not(.comingsoon).nossosprodutos .tblDescription {
+    margin: 2em;
+    width: calc(100% - 4em);
+  }
+  body main:not(.comingsoon).nossosprodutos a.round {
+    margin: 0 auto;
+  }
+  body main:not(.comingsoon).internal article {
+    padding: 2.7em 2em;
+  }
+  body main:not(.comingsoon).internal article header {
+    width: auto;
+  }
+  body main:not(.comingsoon).internal article .title {
+    margin: -1.2em 0 0 0.7em;
+  }
+}
+@media screen and (max-width: 425px) {
+  body main:not(.comingsoon) {
+    /* A REVITECH */
+    /* NOSSOS PRODUTOS */
+  }
+  body main:not(.comingsoon) > header h1 {
+    left: 60px !important;
+    width: 55px !important;
+    top: 13px !important;
+  }
+  body main:not(.comingsoon) ul.navg li a:before,
+  body main:not(.comingsoon) ul.navg li:last-child a:after {
+    width: 10px;
+  }
+  body main:not(.comingsoon) .carrossel dl dt {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    top: calc(50% - 80px);
+    padding: .9em;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    -moz-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div {
+    text-align: center;
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div h2 {
+    font-size: 1.225em;
+  }
+  body main:not(.comingsoon) .carrossel dl dt > div p {
+    font-size: 0.9625em;
+  }
+  body main:not(.comingsoon):not(.home) .carrossel dl dt {
+    width: 160px;
+    height: 160px;
+    border-radius: 160px;
+    bottom: calc(50% - 80px);
+    padding: .9em;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    -moz-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+    box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+  }
+  body main:not(.comingsoon):not(.home) .carrossel dl dt > div h2 {
+    font-size: 1.225em;
+  }
+  body main:not(.comingsoon):not(.home) .carrossel dl dt > div p {
+    font-size: 0.9625em;
+  }
+  body main:not(.comingsoon).arevitech section.pilares aside {
+    padding: 2.3em 1.5em;
+  }
+  body main:not(.comingsoon).nossosprodutos nav.navg {
+    padding: 0 1em 0.9em;
+  }
+  body main:not(.comingsoon).nossosprodutos nav.navg ul li:last-child a:after {
+    display: inline-block;
+  }
+  body main:not(.comingsoon).nossosprodutos aside.round {
+    margin: -10.5% 0 0 35.5%;
+  }
+  body main:not(.comingsoon).nossosprodutos .tblDescription ul li > *:before {
+    height: 32.4px;
+  }
+  body main:not(.comingsoon).internal article {
+    padding: 2.7em 1em;
+  }
+  body main:not(.comingsoon).internal article header {
+    width: auto;
+  }
+  body main:not(.comingsoon).internal article .title {
+    margin: 2.8em 0 0;
+  }
+  body main:not(.comingsoon).internal article > p {
+    width: auto;
+  }
+}

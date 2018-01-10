@@ -53,7 +53,7 @@
             <span><img src="images/projects/creche.jpg" url-src="images/projects/crecheG.jpg" title="Creche" border="0" alt="" /></span>
           </figure>
           <h3>Creche</h3>
-          <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por toda a sua vida útil.</p>
+          <p>A Revitech Pisos Vinílicos busca sempre o melhor e não descansa até alcançar a excelência.</p>
         </article>
 
         <article class="cont-02">
@@ -105,7 +105,7 @@
 
 
       <ul class="navg">
-        <li><a href="simulador3d.php" title="Simulador 3D"><span>Simulador 3D</span></a></li>
+        <li><a href="nossosprodutos.php" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>
         <li><a href="ondeencontrar.php" title="Onde encontrar"><span>Onde encontrar</span></a></li>
       </ul>
       <?php

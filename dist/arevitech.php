@@ -16,14 +16,14 @@
       <section class="carrossel">
         <div class="carr_container">
           <dl>  
-            <dt><div><h2>O que é ser Revitech</h2></div></dt>
+            <dt><div><h2>O que é ser Revitech?</h2></div></dt>
             <dd><img src="images/banners/arevitech.jpg" title="" /></dd>
           </dl> 
         </div>
       </section>
 
       <div class="phraseTag _brown">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>Ser Revitech é estar em constante revolução e não se acomodar. É querer sempre mais!</p>
       </div>
 
       <section class="time">
@@ -52,7 +52,7 @@
               </figcaption>
             </figure>
           </div>
-          <nav class="ctrl">
+          <nav class="ctrl none">
             <a href="javascript:void(0);" title="Previous"><span>Previous</span></a>
             <a href="javascript:void(0);" title="Next"><span>Next</span></a>
           </nav>
@@ -60,7 +60,7 @@
       </section>
       
       <div class="phraseTag _darkgray">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>A Revitech não tem medo de traçar um caminho em que a qualidade vem sempre em 1º lugar.</p>
       </div>
 
       <section class="pilares">
@@ -71,14 +71,14 @@
           </figure>
         </h3>
         <aside>
-          <p><strong>Excelência</strong> em todos os nosso produtos e serviços</p>
+          <p><strong>Excelência</strong> em todos os nossos produtos e serviços</p>
           <p><strong>Honestidade</strong> sem ela, não há relação que perdure</p>
           <p><strong>Determinação</strong> em sempre buscar as melhores soluções</p>
         </aside>
       </section>
 
       <div class="phraseTag _darkbrown">
-        <p>O Medintech Plus, com a tecnologia exclusiva Armstrong TS, fica com aspecto de novo por.</p>
+        <p>Afinal, a Revolução está no DNA da Revitech e convidamos você para fazer parte desta história!</p>
       </div>
 
       <section class="objetivo">

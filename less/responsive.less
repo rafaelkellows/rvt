@@ -1,8 +1,248 @@
 /*******************************
           RESPONSIVE
 *******************************/
+@media screen and (max-width: 1023px) { 
+	body{
+		main{
+			max-width: 100%; overflow: hidden;
+			&:not(.comingsoon){
+				.phraseTag{
+					&:after{ display:none; }
+				}
+				div.carrGaleria{ max-width: 100%; }
+				section.projects{
+          aside{ width: auto; height: auto; }
+        	.carrGaleria{
+            width: 100%; margin-left: 0; 
+        		ul{ width: 100%; }
+        	}
+    		}
+        > header{
+          nav.menu{
+            top: 17px; left: 5px; z-index: 99 !important;
+            &.active{
+              > *{ z-index: 9; }
+              &:before{
+                position: fixed; z-index: 1; background-color: #fff; opacity: .95; cursor: default;
+              }
+              nav{ opacity: 1; position: relative; margin: -18px 0 0 0px; left: 51px; }
+            }
+            &:before{
+              content: ''; width: 100%; height: 100%; position: absolute; left:0; top: 0; z-index: 9; cursor: pointer;
+            }
+            .msgInfo{ display: none; }
+          }
+          ul{
+            right: 19px;
+          }
+          .sac{
+            /*left: 0; text-align: center; width: 100%;*/
+          }
+        }
+    		footer{
+          text-align: center;
+          > section{
+            width: 100%; margin: 0 0 0.9em;
+          }
+          nav{ margin: 0.6em 1.4em; }
+        }
 
-@media screen and (min-width: 569px) and (max-width: 1024px) {
+    		/* HOME */
+    		&.home{
+    			section{
+    				&.benefits{
+              height: auto; text-align: center;
+    					h3{ position: relative; top: initial; left: initial; margin: 2em auto; }
+                        article{ 
+                            position: relative; left: initial !important; top: initial !important; width: auto !important; margin: 2em 1em; 
+                            &.cont-04{
+                                p{ position: relative; left: initial; bottom: initial; margin:0 auto 1em; }   
+                            }
+                            &.cont-06{
+                                h3{ position: relative; left: initial; top: initial; margin:0 auto 1em; }   
+                            }
+                        }
+    				}
+    			}
+    		}
+
+        &.internal{
+          article{
+            header{
+              em{
+                br{ display: none; }
+              }
+            }
+          }
+        }
+
+			}
+		}
+	}
+}
+@media screen and (max-width: 768px) { 
+  body{
+    main{
+      &:not(.comingsoon){
+        > header{
+          z-index: 999; height: 68px;
+          &:before{ 
+            background:#fff;
+            -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+            -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+            box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.3);
+          }
+          &:before, ul, nav.menu{ position: fixed; }
+          h1{ left: calc(~'50% - 45px') !important; width: 70px !important; top: 7px !important; /*background: #fff; border: 5px solid #fff; border-radius: 5px; */position: fixed; padding: 0px !important; }
+          nav.menu{ left:11px; }
+          .sac{ display: none; }
+          ul{
+            right: 13px;
+            li{
+              a{ margin: 0 0 0 10px; }
+            }
+          }
+        }
+        footer{
+          h1{ width: 100px; margin: 3.5em auto 1.5em; }
+        }
+        .carrossel dl dt{
+          width: 210px; height: 210px; border-radius: 210px; top: calc(~'50% - 105px'); padding: 1.3em;
+          -webkit-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          -moz-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          > div{
+            h2{ font-size: 1.525em; }
+            p{ font-size: 1.0625em; }
+            br{ display: none; }
+          }
+        }
+        &:not(.home){
+          .carrossel{ 
+            margin-top: 0;
+            dl dt{
+              bottom: calc(~'50% - 105px');
+            }
+          }
+        }
+        
+        /* A REVITECH */
+        &.arevitech section{
+          &.pilares{
+            .circleTitle{ 
+              position: relative; left: calc(~'50% - 154.5px');
+            }
+            aside{
+              margin-left: 0; margin-top: 1em;
+            }
+          }
+          &.objetivo{
+            margin-bottom:-6.8em;
+            aside{
+              width: 100%; position: relative; left: 0; top: -60px;
+              &:after{
+                opacity:.85;
+              }
+            }
+          }
+        }
+        /* NOSSOS PRODUTOS */
+        &.nossosprodutos{
+          nav.navg{ padding: 0 2em 0.9em; }
+          .productList{ padding: 1.7em 1em; text-align: center; }
+          .characteristics{ padding: 0.4em 0; margin: 0 2em; display: block; width: auto; }
+          .tblDescription{ margin: 2em; width: calc(~'100% - 4em'); }
+          a.round{ margin: 0 auto; }
+        }
+
+        &.internal{
+          article{
+            padding: 2.7em 2em;
+            header{ width: auto; }
+            .title{ margin: -1.2em 0 0 0.7em; }
+
+          }
+        }
 
 
+      }
+    }
+  }
+}
+@media screen and (max-width: 425px) { 
+  body{
+    main{
+      &:not(.comingsoon){
+        > header{
+          h1{
+            left: 60px !important; width: 55px !important; top: 13px !important;
+          }
+        }
+        ul.navg li a:before, ul.navg li:last-child a:after{
+          width:10px;
+        }
+        .carrossel dl dt{
+          width: 160px; height: 160px; border-radius: 160px; top: calc(~'50% - 80px'); padding: .9em;
+          -webkit-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          -moz-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
+          > div{
+            text-align: center;
+            h2{ font-size: 1.225em; }
+            p{ font-size: 0.9625em; }
+          }
+        }
+
+        &:not(.home){
+          .carrossel{ 
+            dl dt{
+              width: 160px; height: 160px; border-radius: 160px; bottom: calc(~'50% - 80px'); padding: .9em;
+              -webkit-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+              -moz-box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+              box-shadow: 0px 0px 0px 20px rgba(226, 223, 214, 0.5);
+              > div{
+                h2{ font-size: 1.225em; }
+                p{ font-size: 0.9625em; }
+              }
+            }
+          }
+        }
+
+        /* A REVITECH */
+        &.arevitech section.pilares{
+          aside{
+            padding: 2.3em 1.5em;
+          }
+        }
+        /* NOSSOS PRODUTOS */
+        &.nossosprodutos{
+          nav.navg{
+            padding: 0 1em 0.9em;
+            ul li{
+              &:last-child{
+                a{
+                  &:after{
+                    display:inline-block;
+                  }
+                }
+              }
+            }
+          }
+          aside.round{ margin: -10.5% 0 0 35.5%; }
+          .tblDescription ul li > *:before{ height: 32.4px; }
+        }
+
+        &.internal{
+          article{
+            padding: 2.7em 1em;
+            header{ width: auto; }
+            .title{ margin: 2.8em 0 0; }
+            > p{
+              width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
 }

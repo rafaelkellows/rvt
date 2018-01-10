@@ -30,6 +30,7 @@
           <li><a href="mantas-solid-pur.php">Solid Pur</a></li>
           <li><a href="mantas-possibilities.php">Possibilities</a></li>
           <li><a href="mantas-pastell-l2.php">PASTELL L2</a></li>
+          <li><a href="mantas-majestic.php">Majestic</a></li>
         </ul>
       </nav>
 
@@ -40,9 +41,9 @@
       <nav class="navg">
         <h2>Placas</h2>
         <ul>
-          <li><a href="javascript:void(0);">Imperial Armstrong</a></li>
-          <li><a href="javascript:void(0);">Ecoidea</a></li>
-          <li><a href="javascript:void(0);">Heavy</a></li>
+          <li><a href="placas-midtile.php">Midtile</a></li>
+          <li><a href="placas-reguas-ecoidea.php">Ecoidea</a></li>
+          <li><a href="placas-reguas-heavy.php">Heavy</a></li>
         </ul>
       </nav>
 
@@ -53,14 +54,15 @@
       <nav class="navg">
         <h2>Réguas</h2>
         <ul>
-          <li><a href="javascript:void(0);">Ecoidea</a></li>
-          <li><a href="javascript:void(0);">Heavy</a></li>
-          <li><a href="javascript:void(0);">Premium</a></li>
+          <li><a href="reguas-premium.php">Premium</a></li>
+          <li><a href="reguas-ecoidea.php">Ecoidea</a></li>
+          <li><a href="reguas-heavy.php">Heavy</a></li>
+          <li><a href="reguas-residence.php">Residence</a></li>
         </ul>
       </nav>
 
 
-      <figure>
+      <!--figure>
         <img src="images/banners/acessorios.jpg" title="" />
       </figure>
 
@@ -73,11 +75,11 @@
           <li><a href="javascript:void(0);">Possibilities</a></li>
           <li><a href="javascript:void(0);">PASTELL L2</a></li>
         </ul>
-      </nav>
+      </nav-->
 
       <ul class="navg">
         <li><a href="arevitech.php" title="A Revitech"><span>A Revitech</span></a></li>
-        <li><a href="simulador3d.php" title="Simulador 3D"><span>Simulador 3D</span></a></li>
+        <li><a href="nossosprojetos.php" title="Nossos Projetos"><span>Nossos Projetos</span></a></li>
       </ul>
       <?php
         include_once "inc/contents/footer.php";

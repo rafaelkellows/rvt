@@ -29,7 +29,8 @@
           <li><a href="mantas-medintone-pur.php">Medintone Pur</a></li>
           <li><a href="mantas-solid-pur.php">Solid Pur</a></li>
           <li><a href="mantas-possibilities.php">Possibilities</a></li>
-          <li><a href="mantas-pastell-l2.php">PASTELL L2</a></li>
+          <li><a href="mantas-pastell-l2.php">Pastell L2</a></li>
+          <li><a href="mantas-majestic.php">Majestic</a></li>
         </ul>
       </nav>
 
@@ -38,7 +39,7 @@
           <h1>Medintech Plus</h1>
           <em>O Medintech Plus, com a tecnologia <br>exclusiva Armstrong TS, fica com aspecto <br>de novo por toda a sua vida útil.</em>
         </header>
-        <p>Representa o que há de mais moderno em piso vinílico homogêneo em manta. Com a tecnologia TS* - fórmula de mistura exclusiva, com Pur de última geração, cargas minerais selecionadas, PVC e alta qualidade das matérias primas -,  o Medintech Plus tem a exclusiva restauração de superfície, o que permite que a manta não precise de nenhum tratamento de cera para manter sua aparência. O Medintech, só com polimento, restaura a sua superfície, mantendo a mesma aparência por toda a sua vida útil.</p>
+        <p>Duradouro, sustentável e com baixo custo de manutenção. Estas são as principais qualidades da linha Medintech Plus, da Revitech. Possui manta homogênea, Tecnologia  Diamond 10™: Formulação única com diamante industrial. Sua superfície conta com porosidade mínima, que facilita a limpeza de sujeiras e manchas, com economia de até 30% na manutenção e custo. Além disso, superfície é restaurada com polimento a seco e não requer uso de cera lifetime.</p>
         <p class="title"><span>Tecnologia Exclusiva Armstrong</span></p>
         <aside class="round"><div><h2>Segmentos</h2><p>hotelaria, saúde, educação, office, entretenimento</p></div></aside>
       </article>
@@ -46,7 +47,7 @@
       <section class="projects">
         <aside>
           <h3>Nossos Projetos</h3>
-          <p>Representa o que há de mais moderno em piso vinílico homogêneo em manta. Com a tecnologia TS* - fórmula de mistura exclusiva, com Pur de última geração, cargas minerais selecionadas, PVC e alta qualidade.</p>
+          <p>A alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.</p>
         </aside>
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">

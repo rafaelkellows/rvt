@@ -24,8 +24,7 @@
 
       <nav class="navg">
         <ul>
-          <li><a class="active" href="javascript:void(0);">Representantes</a></li>
-          <li><a href="javascript:void(0);">Revendas</a></li>
+          <li><a class="active" href="javascript:void(0);" title="Nossas Revendas">Nossas Revendas</a></li>
         </ul>
       </nav>
 
@@ -89,7 +88,7 @@
 
       <ul class="navg">
         <li><a href="nossosprodutos.php" title="Nossos Projetos"><span>Nossos Projetos</span></a></li>
-        <li><a href="nossosprojetos.php" title="Fichas Técnicas"><span>Fichas Técnicas</span></a></li>
+        <li><a href="./" title="Home"><span>Home</span></a></li>
       </ul>
       <?php
         include_once "inc/contents/footer.php";
