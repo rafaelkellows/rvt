@@ -65,6 +65,13 @@
     				}
     			}
     		}
+        /* NOSSO PROJETOS */
+        &.nossosprojetos section.projects{
+          padding: 4.4em 2.2em 0; text-align:center;
+          article{
+            margin: 0 1.1em 2.2em 1.1em !important;
+          }
+        }
 
         &.internal{
           article{
@@ -80,6 +87,25 @@
 		}
 	}
 }
+@media screen and (max-width: 910px) { 
+body{
+    main{
+      &:not(.comingsoon){
+        &.ondeencontrar #map{
+          margin-bottom: 0;
+          aside{
+            width: auto; display: block; margin:1em;
+            h3{ text-align: center; }
+            div{
+              address{ text-align: center; width: auto }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
 @media screen and (max-width: 768px) { 
   body{
     main{
@@ -113,8 +139,8 @@
           box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
           > div{
             h2{ font-size: 1.525em; }
-            p{ font-size: 1.0625em; }
-            br{ display: none; }
+            p{ font-size: 1.0625em; } 
+            p br{ display: none; }
           }
         }
         &:not(.home){
@@ -154,7 +180,6 @@
           .tblDescription{ margin: 2em; width: calc(~'100% - 4em'); }
           a.round{ margin: 0 auto; }
         }
-
         &.internal{
           article{
             padding: 2.7em 2em;
@@ -231,7 +256,13 @@
           aside.round{ margin: -10.5% 0 0 35.5%; }
           .tblDescription ul li > *:before{ height: 32.4px; }
         }
-
+        /* NOSSO PROJETOS */
+        &.nossosprojetos section.projects{
+          padding: 4.4em 1em 0;
+          article{
+            margin: 0 0 2.2em !important;
+          }
+        }
         &.internal{
           article{
             padding: 2.7em 1em;

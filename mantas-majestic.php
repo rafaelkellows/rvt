@@ -37,11 +37,11 @@
       <article>
         <header>
           <h1>Majestic</h1>
-          <em>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</em>
+          <em>Sustentabilidade, resistência, proteção e brilho especial para ambientes que exigem pisos vinílicos de qualidade.</em>
         </header>
         <p>O Majestic é um piso vinílico homogêneo em manta não direcional. É uma excelente opção para pisos e escadas de madeira. Tem acabamento incrível e deixa o ambiente requintado. Confira suas principais características e dimensões no quadro abaixo.<br><br></p>
-        <p class="title"><span>Excepteur sint occaecat</span></p>
-        <aside class="round"><div><h2>Segmentos</h2><p>eiusmod, tempor, incididunt, labore</p></div></aside>
+        <p class="title"><span>Charme e sofisticação</span></p>
+        <aside class="round"><div><h2>Segmentos</h2><p>saúde, lojas, office</p></div></aside>
       </article>
 
       <!--section class="projects">

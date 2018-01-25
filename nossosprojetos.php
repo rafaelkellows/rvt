@@ -100,7 +100,9 @@
           </figure>
           <h3>Havaianas</h3>
         </article>
-
+          <div class="msgInfo down to-right">
+            <p>role para baixo para ver todo o conteúdo</p>
+          </div>
       </section>
 
 

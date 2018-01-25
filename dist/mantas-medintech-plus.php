@@ -37,7 +37,7 @@
       <article>
         <header>
           <h1>Medintech Plus</h1>
-          <em>O Medintech Plus, com a tecnologia <br>exclusiva Armstrong TS, fica com aspecto <br>de novo por toda a sua vida útil.</em>
+          <em>O Medintech Plus, com a tecnologia <br>exclusiva Armstrong Diamond 10, fica com aspecto de novo por toda a sua vida útil.</em>
         </header>
         <p>Duradouro, sustentável e com baixo custo de manutenção. Estas são as principais qualidades da linha Medintech Plus, da Revitech. Possui manta homogênea, Tecnologia  Diamond 10™: Formulação única com diamante industrial. Sua superfície conta com porosidade mínima, que facilita a limpeza de sujeiras e manchas, com economia de até 30% na manutenção e custo. Além disso, superfície é restaurada com polimento a seco e não requer uso de cera lifetime.</p>
         <p class="title"><span>Tecnologia Exclusiva Armstrong</span></p>

@@ -117,7 +117,7 @@
               <strong><span>Dimensões</span></strong>
               <p><span>EN 426</span></p>
               <p>
-                <span>180x920mm<br>186x940mm</span>
+                <span>60x60cm</span>
               </p>
           </li>
           <li>

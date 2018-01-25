@@ -45,20 +45,25 @@ body{
     content:''; width: 0; height: 100%; .d-midle; .transit(height, @secs: 0.7s);
   }    
   section{
-    .d-midle; border:2px dashed @brown-3; margin: 2em; opacity: 0;
+    .d-midle; border:2px dashed @brown-3; margin: 2em; height: calc(~'100% - 4em'); width: calc(~'100% - 4em'); opacity: 0;
     > a{ 
       width: 30px; height: 30px; border-radius: 30px; background: @brown-3; 
       position: absolute; right: -15px; top: -15px; z-index: 999;
       &:before{
         content:'x'; color: #fff; font-size: 1.5em; line-height: 1.15em;
       }
-      span{
-        display: none;
-      }
+      span{ display: none; }
     }
     p{
       font-size: 1.6875em; text-transform: uppercase; color: @brown-2; line-height: 1.68em; font-weight: 500; padding: 1em;
       strong{ color: @brown-3; }
+    }
+    figure{
+      height: 100%; width: 100%; overflow: scroll;
+      img{ height: 100%; width: auto; }
+      &.hor{
+        img{ width: 100%; height: auto; }
+      }
     }
     &.active{ opacity: 1; }
   }
@@ -68,7 +73,7 @@ body{
     }
     section{ 
       border:none; 
-      figcaption{ text-transform: uppercase; font-size: 2em; color: #584f4c; font-weight: 500; padding: 0.3em; margin-top: -1.6em; }
+      figcaption{ text-transform: uppercase; font-size: 1.3em; color: #584f4c; font-weight: 500; padding: 0.3em; position: fixed; bottom: 0; background: #fff; width: 100%; left: 0; }
     }
   }
   .ctrl:extend(main:not(.comingsoon) div.carrGaleria .ctrl all){ display: none; }
@@ -338,7 +343,7 @@ main{
     }
     &:not(.home){
       > header{
-        h1{ background: #fff; width: 130px; padding: 20px; left: calc(~'50% - 85px'); top: 31px; }
+        h1{ background: #fff; width: 130px; padding: 20px; left: calc(~'50% - 85px'); top: 0; }
         h1, nav.menu{ z-index: 9; }
       }
       .carrossel{
@@ -832,7 +837,7 @@ main{
         dd{
           font-size: 1em; text-transform: uppercase; font-weight: bold; border-top: 1px solid #000; border-bottom: 1px solid #000; padding: .5em 0.1em; line-height: 1.7em; margin-top: 0.8em;
           ul, li{list-style: disc;}
-          li{ margin-left: 1em; }
+          li{ margin: 0 2em 0 1em; }
         }
       }
       .tblDescription{
@@ -941,7 +946,7 @@ main{
           path{ cursor: pointer; }
         }
         aside{ 
-          .d-top; margin-top: 18px; width: 340px;
+          .d-top; margin-top: 18px; width: 33.3%;
           * { color: #8f8a89; font-weight: 500; text-transform: uppercase;  }
           h3{ font-size: 1.8125em; height: 64px; }
           div{
@@ -1037,6 +1042,9 @@ main{
           }
           &:after{
             right: 1.2em; top: 2.2em; left: initial;;
+          }
+          .msgInfo{
+            left: 27%;
           }
         }
       }

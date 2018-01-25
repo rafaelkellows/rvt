@@ -37,9 +37,9 @@
       <article>
         <header>
           <h1>Pastell L2</h1>
-          <em>O pastell L2, por aliar beleza  e tecnologia, é o melhor piso para as áreas de controle  de condutividade elétrica.</em>
+          <em>O Pastell L2, por aliar beleza  e tecnologia, é o melhor piso para as áreas de controle  de condutividade elétrica.</em>
         </header>
-        <p>O Pastell l2, piso vinílico homogêneo em manta condutivo, tem uma excelente resistência a abrasão e reagentes químicos. Com suas fibras de carbono e base carbonada, o Pastell l2 absorve toda a carga eletrostática do ambiente, dos equipamentos e dos próprio médicos, conduzindo-a até o fio terra do ambiente, evitando, assim, descargas elétricas. <br>Por esta razão, é exclusivo para as áreas – seja na indústria ou na saúde - de controle da condutividade elétrica.</p>
+        <p>O Pastell L2, piso vinílico homogêneo em manta condutivo, tem uma excelente resistência a abrasão e reagentes químicos. Com suas fibras de carbono e base carbonada, o Pastell L2 absorve toda a carga eletrostática do ambiente, dos equipamentos e dos próprio médicos, conduzindo-a até o fio terra do ambiente, evitando, assim, descargas elétricas. <br>Por esta razão, é exclusivo para as áreas – seja na indústria ou na saúde - de controle da condutividade elétrica.</p>
         <p class="title"><span>Tecnologia e Beleza</span></p>
         <aside class="round"><div><h2>Segmentos</h2><p>saúde, indústria de eletro-eletrônico</p></div></aside>
       </article>

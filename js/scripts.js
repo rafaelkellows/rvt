@@ -33,7 +33,7 @@ $(function(){
 	        loading : function(){
 	        	$(window).load(function(){
 					revitech.gallery();
- 					//revitech.msgInfo();
+ 					revitech.msgInfo();
  					$('#popUp').fadeOut();
 	        	});
 	        },
@@ -88,17 +88,23 @@ $(function(){
 	        	// Abrir a galeria
 	        	jQuery('.carrGaleria a, .carrGallery figure span, .carrGallery figure a').click(function(){
 	        		_wW = $(window).width(), _wH = $(window).height();
+	        		_orientation = (_wW > _wH) ? 'hor' : 'ver' ;
 	        		_imgSRC = $(this).find('img');
         			//_imgSRC = _imgSRC.attr('src');
         			//Se clicar nos botões de próximo e anterior
 					if( $(this).parent().hasClass('ctrl') ) return;
 
+					$(window).resize(function() {
+						jQuery('#popUp figure').removeAttr('class').addClass(_orientation);
+					});
+
 	        		if( _imgSRC.length ){	
 	        			// url-src: caminho para buscar outra imagem | geralmente em alta
+	        			jQuery('#popUp figure').removeAttr('class');
 	        			if( _imgSRC.attr('url-src') ){
-	        				jQuery('#popUp figure').html(_imgSRC.clone().attr('src',_imgSRC.attr('url-src')));
+	        				jQuery('#popUp figure').addClass(_orientation).html(_imgSRC.clone().attr('src',_imgSRC.attr('url-src')));
 		        		}else{
-	        				jQuery('#popUp figure').html(_imgSRC.clone());
+	        				jQuery('#popUp figure').addClass(_orientation).html(_imgSRC.clone());
 		        		}
 		        		// title: Exibir o título da imagem se houver o atributo title
 	        			if( _imgSRC.attr('title') ){
