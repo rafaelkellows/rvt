@@ -514,7 +514,7 @@ body {
 main {
   max-width: 1024px;
   margin: 0 auto;
-  /*background: url('../images/psd/home-info.jpg') 0 0 no-repeat;*/
+  /*background: url('../images/esclareca.jpg') 0 0 no-repeat;*/
   /********* ---------comingsoon---------- *********/
 }
 main:not(.comingsoon) > header {
@@ -1402,7 +1402,9 @@ main:not(.comingsoon).home section.benefits article figure,
 main:not(.comingsoon).nossosprojetos section.projects article figure,
 main:not(.comingsoon).nossosprojetos section.projects article figure:hover,
 main:not(.comingsoon).nossosprojetos section.projects article.vrt figure,
-main:not(.comingsoon).nossosprojetos section.projects article.vrt figure:hover {
+main:not(.comingsoon).nossosprojetos section.projects article.vrt figure:hover,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure:hover {
   overflow: hidden;
   width: 244px;
   height: 244px;
@@ -1411,7 +1413,8 @@ main:not(.comingsoon).nossosprojetos section.projects article.vrt figure:hover {
 }
 main:not(.comingsoon).home section.benefits article figure span,
 main:not(.comingsoon).nossosprojetos section.projects article figure span,
-main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span {
+main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure span {
   margin: 13px;
   box-sizing: border-box;
   width: 218px;
@@ -1421,7 +1424,8 @@ main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span {
 }
 main:not(.comingsoon).home section.benefits article figure span img,
 main:not(.comingsoon).nossosprojetos section.projects article figure span img,
-main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span img {
+main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span img,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure span img {
   width: 100%;
   -webkit-transition: all 5.5s;
   -o-transition: all 5.5s;
@@ -1432,7 +1436,8 @@ main:not(.comingsoon).nossosprojetos section.projects article.vrt figure span im
 }
 main:not(.comingsoon).home section.benefits article figure:hover img,
 main:not(.comingsoon).nossosprojetos section.projects article figure:hover img,
-main:not(.comingsoon).nossosprojetos section.projects article.vrt figure:hover img {
+main:not(.comingsoon).nossosprojetos section.projects article.vrt figure:hover img,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure:hover img {
   width: 200%;
   left: -50%;
   top: -80%;
@@ -1606,7 +1611,8 @@ main:not(.comingsoon).home section.benefits article.cont-06 {
   left: 129px;
   width: 500px;
 }
-main:not(.comingsoon).home section.benefits article.cont-06 h3 {
+main:not(.comingsoon).home section.benefits article.cont-06 h3,
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3 {
   font-family: 'Archer Light';
   font-size: 27px;
   color: #a7997c;
@@ -1620,7 +1626,9 @@ main:not(.comingsoon).home section.benefits article.cont-06 h3 {
   transform: rotate(-5deg);
 }
 main:not(.comingsoon).home section.benefits article.cont-06 h3:after,
-main:not(.comingsoon).home section.benefits article.cont-06 h3:before {
+main:not(.comingsoon).home section.benefits article.cont-06 h3:before,
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3:after,
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3:before {
   content: '................................';
   display: block;
   font-size: .89em;
@@ -1629,7 +1637,8 @@ main:not(.comingsoon).home section.benefits article.cont-06 h3:before {
   margin-top: -14px;
   color: #796f6c;
 }
-main:not(.comingsoon).home section.benefits article.cont-06 h3:after {
+main:not(.comingsoon).home section.benefits article.cont-06 h3:after,
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3:after {
   margin-top: 0;
 }
 main:not(.comingsoon).home section.benefits article.cont-06 figure {
@@ -1714,19 +1723,22 @@ main:not(.comingsoon).arevitech section.pilares aside {
   -o-transition: margin 0.5s;
   transition: margin 0.5s;
 }
-main:not(.comingsoon).arevitech section.pilares aside p {
+main:not(.comingsoon).arevitech section.pilares aside p,
+main:not(.comingsoon).esclarecaduvidas section aside p {
   font-size: 1.625em;
   color: #796f6c;
   font-weight: 300;
   padding-top: 0.9em;
 }
-main:not(.comingsoon).arevitech section.pilares aside p strong {
+main:not(.comingsoon).arevitech section.pilares aside p strong,
+main:not(.comingsoon).esclarecaduvidas section aside p strong {
   display: block;
   color: #413a37;
   text-transform: uppercase;
   font-weight: normal;
 }
-main:not(.comingsoon).arevitech section.pilares aside p:after {
+main:not(.comingsoon).arevitech section.pilares aside p:after,
+main:not(.comingsoon).esclarecaduvidas section aside p:after {
   content: '.......................................................................................';
   font-size: 1.35em;
   display: block;
@@ -1734,7 +1746,8 @@ main:not(.comingsoon).arevitech section.pilares aside p:after {
   height: 30px;
   margin-top: -11px;
 }
-main:not(.comingsoon).arevitech section.pilares aside p:last-child:after {
+main:not(.comingsoon).arevitech section.pilares aside p:last-child:after,
+main:not(.comingsoon).esclarecaduvidas section aside p:last-child:after {
   display: none;
 }
 main:not(.comingsoon).arevitech section.objetivo {
@@ -1876,7 +1889,9 @@ main:not(.comingsoon).nossosprodutos .productList figure figcaption strong {
 main:not(.comingsoon).nossosprodutos .productList.woodenBox figure {
   width: 282px;
 }
-main:not(.comingsoon).nossosprodutos .characteristics {
+main:not(.comingsoon).nossosprodutos .characteristics,
+main:not(.comingsoon).esclarecaduvidas section aside dl,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) {
   display: inline-block;
   vertical-align: top;
   color: #796f6c;
@@ -1886,11 +1901,15 @@ main:not(.comingsoon).nossosprodutos .characteristics {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-main:not(.comingsoon).nossosprodutos .characteristics dt {
+main:not(.comingsoon).nossosprodutos .characteristics dt,
+main:not(.comingsoon).esclarecaduvidas section aside dl dt,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) dt {
   font-size: 1.125em;
   text-transform: uppercase;
 }
-main:not(.comingsoon).nossosprodutos .characteristics dd {
+main:not(.comingsoon).nossosprodutos .characteristics dd,
+main:not(.comingsoon).esclarecaduvidas section aside dl dd,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) dd {
   font-size: 1em;
   text-transform: uppercase;
   font-weight: bold;
@@ -1901,10 +1920,16 @@ main:not(.comingsoon).nossosprodutos .characteristics dd {
   margin-top: 0.8em;
 }
 main:not(.comingsoon).nossosprodutos .characteristics dd ul,
-main:not(.comingsoon).nossosprodutos .characteristics dd li {
+main:not(.comingsoon).nossosprodutos .characteristics dd li,
+main:not(.comingsoon).esclarecaduvidas section aside dl dd ul,
+main:not(.comingsoon).esclarecaduvidas section aside dl dd li,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) dd ul,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) dd li {
   list-style: disc;
 }
-main:not(.comingsoon).nossosprodutos .characteristics dd li {
+main:not(.comingsoon).nossosprodutos .characteristics dd li,
+main:not(.comingsoon).esclarecaduvidas section aside dl dd li,
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) dd li {
   margin: 0 2em 0 1em;
 }
 main:not(.comingsoon).nossosprodutos .tblDescription {
@@ -2141,14 +2166,19 @@ main:not(.comingsoon).ondeencontrar #map aside div {
 }
 main:not(.comingsoon).ondeencontrar #map aside div address {
   font-size: .91em;
-  line-height: 1.4em;
+  line-height: 1.5em;
   padding-bottom: 2em;
-  width: 98%;
+  width: 95%;
 }
-main:not(.comingsoon).ondeencontrar #map aside div address a {
+main:not(.comingsoon).ondeencontrar #map aside div address strong {
+  font-weight: 700;
+  font-size: 1.2em;
+}
+main:not(.comingsoon).ondeencontrar #map aside div address a,
+main:not(.comingsoon).ondeencontrar #map aside div address em {
   text-transform: lowercase;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
 }
 main:not(.comingsoon).nossosprojetos section.projects {
   padding: 4.4em 4.2em 0;
@@ -2160,11 +2190,13 @@ main:not(.comingsoon).nossosprojetos section.projects article {
   width: 270px !important;
   margin-right: 2.2em;
 }
-main:not(.comingsoon).nossosprojetos section.projects article figure {
+main:not(.comingsoon).nossosprojetos section.projects article figure,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure {
   width: 270px !important;
   height: 270px !important;
 }
-main:not(.comingsoon).nossosprojetos section.projects article figure span {
+main:not(.comingsoon).nossosprojetos section.projects article figure span,
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure span {
   width: 244px;
   height: 244px;
   cursor: pointer;
@@ -2271,6 +2303,220 @@ main:not(.comingsoon).nossosprojetos section.projects:after {
 }
 main:not(.comingsoon).nossosprojetos section.projects .msgInfo {
   left: 27%;
+}
+main:not(.comingsoon).esclarecaduvidas section article,
+main:not(.comingsoon).esclarecaduvidas section aside {
+  display: inline-block;
+  vertical-align: top;
+}
+main:not(.comingsoon).esclarecaduvidas section article {
+  width: 39%;
+  padding: 3em 3em 1.3em 5.2em;
+  box-sizing: border-box;
+}
+main:not(.comingsoon).esclarecaduvidas section article h3 {
+  font-size: 2.3em;
+  color: #8f8a89;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  -webkit-transition: color 0.5s;
+  -o-transition: color 0.5s;
+  transition: color 0.5s;
+}
+main:not(.comingsoon).esclarecaduvidas section article p {
+  font-size: 1.5em;
+  font-family: 'Archer';
+  font-weight: 300;
+  padding: 0.8em 0;
+  line-height: 1.22em;
+}
+main:not(.comingsoon).esclarecaduvidas section article p.title {
+  margin: 0.2em 0.8em 1.3em 1.9em;
+  padding: 0.8em 0 0.8em 1em;
+}
+main:not(.comingsoon).esclarecaduvidas section article p.title em {
+  color: #8f8a89;
+  text-transform: uppercase;
+  font-family: 'Archer';
+  font-weight: normal;
+}
+main:not(.comingsoon).esclarecaduvidas section aside {
+  width: 59%;
+  padding: 2.1em 3.5em 0 0;
+  box-sizing: border-box;
+}
+main:not(.comingsoon).esclarecaduvidas section aside p {
+  line-height: 1.1em;
+  letter-spacing: -0.01em;
+}
+main:not(.comingsoon).esclarecaduvidas section aside p strong {
+  padding-bottom: 0.5em;
+}
+main:not(.comingsoon).esclarecaduvidas section aside p:after {
+  margin-top: 2px;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl {
+  margin-top: 0;
+  padding: 0 !important;
+  text-align: left;
+  padding-right: 3.4em !important;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl dt {
+  font-family: 'Archer';
+  font-weight: normal;
+  font-size: 1.75em !important;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl dd {
+  font-size: 1.1em !important;
+  line-height: 1.4em !important;
+  border-bottom: none !important;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl dd li {
+  margin: 0 0 0 1em !important;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl dd em {
+  text-transform: lowercase;
+  font-family: 'Archer';
+  font-weight: normal;
+  font-size: 1.2em;
+}
+main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) {
+  width: 47% !important;
+  padding-right: 0 !important;
+  margin-right: -51px;
+}
+main:not(.comingsoon).esclarecaduvidas section.wide article,
+main:not(.comingsoon).esclarecaduvidas section.wide aside {
+  width: 100%;
+}
+main:not(.comingsoon).esclarecaduvidas section.wide aside {
+  text-align: center;
+  padding: 0 0 2em 0;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao {
+  padding: 2.75em 0;
+  text-align: center;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao aside {
+  width: 358px;
+  box-sizing: border-box;
+  color: #e2dfd6;
+  font-size: 1.25em;
+  padding: 1.45em 2.1em 1.45em 1.8em;
+  background: #8f8a89;
+  text-align: left;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao aside h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-bottom: 0.8em;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao aside p {
+  font-family: 'Archer Book';
+  line-height: 1.15em;
+  color: #e2dfd6;
+  font-size: 1em;
+  padding-top: 0;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao article {
+  margin: 0 0 0 -4px !important;
+  padding: 0;
+  width: 460px !important;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure {
+  width: 460px !important;
+  height: 460px !important;
+}
+main:not(.comingsoon).esclarecaduvidas section.paginacao article figure span {
+  margin: 23px;
+  width: 414px;
+  height: 414px;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages {
+  width: 96%;
+  margin: 0.3em 0;
+  font-size: 100%;
+  -webkit-transition: font-size 0.5s;
+  -o-transition: font-size 0.5s;
+  transition: font-size 0.5s;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages header,
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages footer {
+  background: #796f6d;
+  padding: 0;
+  margin: 0;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages header:before,
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages footer:before {
+  display: none;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages header *,
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages footer * {
+  color: #e2dfd6;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages ul li {
+  padding: 0.4em 2em;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages ul li p {
+  width: 32.8%;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0;
+  font-family: 'AauxPro OT';
+  font-size: 1.1em;
+  font-weight: 500;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages > ul li:nth-child(even) {
+  background: #f3f1f1;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages > ul li {
+  padding: 0.25em 2.1em;
+  font-size: .95em;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages > ul li p:first-child {
+  text-transform: uppercase;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages footer {
+  background: #8f8a89;
+}
+main:not(.comingsoon).esclarecaduvidas section .tblAdvantages footer ul li {
+  padding: 0.2em 2em;
+}
+main:not(.comingsoon).esclarecaduvidas section.pergunte {
+  text-align: center;
+  padding: 4.2em 0 0.5em 2.8em;
+}
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  left: 0;
+  top: 0;
+}
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3:before,
+main:not(.comingsoon).esclarecaduvidas section.pergunte h3:after {
+  content: '..........................................................';
+}
+main:not(.comingsoon).esclarecaduvidas section.pergunte p {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 1.5em;
+  font-family: 'Archer';
+  font-weight: 300;
+  padding: 0.8em 0 0.8em 1.5em;
+  line-height: 1.22em;
+  text-align: left;
+  width: 56%;
+  margin-top: -1.6em;
+}
+main:not(.comingsoon).esclarecaduvidas section.pergunte p a {
+  display: inline-block;
+  vertical-align: top;
+  color: #8f8a89;
+  text-transform: uppercase;
+  font-family: 'Archer';
+  font-weight: normal;
 }
 main:not(.comingsoon).internal article {
   padding: 2.7em 4.3em;
@@ -2561,7 +2807,8 @@ main.comingsoon.internal header h1 {
     bottom: initial;
     margin: 0 auto 1em;
   }
-  body main:not(.comingsoon).home section.benefits article.cont-06 h3 {
+  body main:not(.comingsoon).home section.benefits article.cont-06 h3,
+  body main:not(.comingsoon).esclarecaduvidas section.pergunte h3 {
     position: relative;
     left: initial;
     top: initial;
@@ -2599,6 +2846,7 @@ main.comingsoon.internal header h1 {
   body main:not(.comingsoon) {
     /* A REVITECH */
     /* NOSSOS PRODUTOS */
+    /* ESCLAREÇA SUAS DÚVIDAS */
   }
   body main:not(.comingsoon) > header {
     z-index: 999;
@@ -2691,7 +2939,9 @@ main.comingsoon.internal header h1 {
     padding: 1.7em 1em;
     text-align: center;
   }
-  body main:not(.comingsoon).nossosprodutos .characteristics {
+  body main:not(.comingsoon).nossosprodutos .characteristics,
+  body main:not(.comingsoon).esclarecaduvidas section aside dl,
+  body main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) {
     padding: 0.4em 0;
     margin: 0 2em;
     display: block;
@@ -2703,6 +2953,50 @@ main.comingsoon.internal header h1 {
   }
   body main:not(.comingsoon).nossosprodutos a.round {
     margin: 0 auto;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section article,
+  body main:not(.comingsoon).esclarecaduvidas section aside {
+    width: 100%;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section article {
+    padding: 2.1em 1.5em 0;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section article p.title {
+    margin: 0.4em 0.2em ;
+    font-size: 1.3em;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section aside {
+    padding: 0 1.5em 1.5em;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section aside dl,
+  body main:not(.comingsoon).esclarecaduvidas section aside dl:nth-child(2) {
+    width: auto !important;
+    padding: .5em 0 !important;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.pergunte {
+    padding: 4.2em 0 0.5em;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.pergunte h3 {
+    margin: -1em auto 2em;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.pergunte p {
+    width: auto;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.paginacao article {
+    width: 320px !important;
+    margin: 0 !important;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.paginacao article figure {
+    width: 320px !important;
+    height: 320px !important;
+  }
+  body main:not(.comingsoon).esclarecaduvidas section.paginacao article figure span {
+    width: 274px;
+    height: 274px;
+  }
+  body main:not(.comingsoon).esclarecaduvidas .tblAdvantages {
+    width: 100%;
+    font-size: 80%;
   }
   body main:not(.comingsoon).internal article {
     padding: 2.7em 2em;
@@ -2719,6 +3013,7 @@ main.comingsoon.internal header h1 {
     /* A REVITECH */
     /* NOSSOS PRODUTOS */
     /* NOSSO PROJETOS */
+    /* ESCLAREÇA SUAS DÚVIDAS */
   }
   body main:not(.comingsoon) > header h1 {
     left: 60px !important;
@@ -2785,6 +3080,16 @@ main.comingsoon.internal header h1 {
   body main:not(.comingsoon).nossosprojetos section.projects article {
     margin: 0 0 2.2em !important;
   }
+  body main:not(.comingsoon).esclarecaduvidas section.paginacao aside {
+    width: 100%;
+    padding: 1.45em;
+  }
+  body main:not(.comingsoon).esclarecaduvidas .tblAdvantages {
+    font-size: 62%;
+  }
+  body main:not(.comingsoon).esclarecaduvidas .tblAdvantages ul li {
+    padding: 0.4em 1em;
+  }
   body main:not(.comingsoon).internal article {
     padding: 2.7em 1em;
   }
@@ -2796,5 +3101,16 @@ main.comingsoon.internal header h1 {
   }
   body main:not(.comingsoon).internal article > p {
     width: auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  body main:not(.comingsoon) {
+    /* ESCLAREÇA SUAS DÚVIDAS */
+  }
+  body main:not(.comingsoon).esclarecaduvidas .tblAdvantages {
+    font-size: 45%;
+  }
+  body main:not(.comingsoon).esclarecaduvidas .tblAdvantages ul li {
+    padding: 0.4em;
   }
 }

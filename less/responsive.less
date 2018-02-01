@@ -180,6 +180,35 @@ body{
           .tblDescription{ margin: 2em; width: calc(~'100% - 4em'); }
           a.round{ margin: 0 auto; }
         }
+        /* ESCLAREÇA SUAS DÚVIDAS */
+        &.esclarecaduvidas{
+          section{
+            article, aside{ width: 100%; }
+            article{ 
+              padding: 2.1em 1.5em 0; 
+              p.title{ margin: 0.4em 0.2em ; font-size: 1.3em;  }
+            }
+            aside{ 
+              padding: 0 1.5em 1.5em; 
+              dl, dl:nth-child(2){ width: auto !important; padding: .5em 0 !important; }
+            }
+            &.pergunte{
+              padding: 4.2em 0 0.5em;
+              h3{ margin: -1em auto 2em; }
+              p{ width: auto; }
+            }
+            &.paginacao{
+              article{ 
+                width: 320px !important; margin: 0 !important;
+                figure{ 
+                  width: 320px !important; height: 320px !important;
+                  span{ width: 274px; height: 274px; }
+                }
+              }
+            }
+          }
+          .tblAdvantages{ width: 100%; font-size: 80%; }
+        }
         &.internal{
           article{
             padding: 2.7em 2em;
@@ -188,8 +217,6 @@ body{
 
           }
         }
-
-
       }
     }
   }
@@ -263,6 +290,22 @@ body{
             margin: 0 0 2.2em !important;
           }
         }
+        /* ESCLAREÇA SUAS DÚVIDAS */
+        &.esclarecaduvidas{
+          section{
+            &.paginacao{
+              aside{ width: 100%; padding: 1.45em; }
+            }
+          }
+
+          .tblAdvantages{ 
+            font-size: 62%; 
+            ul{
+              li{ padding: 0.4em 1em; }
+            }
+          }
+        }
+
         &.internal{
           article{
             padding: 2.7em 1em;
@@ -270,6 +313,23 @@ body{
             .title{ margin: 2.8em 0 0; }
             > p{
               width: auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 320px) { 
+  body{
+    main{
+      &:not(.comingsoon){
+        /* ESCLAREÇA SUAS DÚVIDAS */
+        &.esclarecaduvidas{
+          .tblAdvantages{ 
+            font-size: 45%; 
+            ul{
+              li{ padding: 0.4em; }
             }
           }
         }

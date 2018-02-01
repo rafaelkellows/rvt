@@ -106,11 +106,11 @@
               <img class="over" src="images/products/home-reguas-over.jpg" alt="Réguas" />
               <img class="under" src="images/products/home-reguas.jpg" alt="Réguas" />
             </figure>
-            <h4><a href="javascript:void(0);">Réguas</a></h4>
+            <h4><a href="reguas-premium.php">Réguas</a></h4>
           </dt>
-          <dd><p><a href="javascript:void(0);">Flexíveis, resistentes a choques e utilizam Sistema Loose Lay ou Ecolay.</a></p></dd>
+          <dd><p><a href="reguas-premium.php">Flexíveis, resistentes a choques e utilizam Sistema Loose Lay ou Ecolay.</a></p></dd>
         </dl>
-        <dl>
+        <!--dl>
           <dt>
             <figure>
               <img class="over" src="images/products/home-acessorios-over.jpg" alt="Acessórios" />
@@ -119,7 +119,7 @@
             <h4>Acessórios</h4>
           </dt>
           <dd><p>Sua obra ainda mais completa, com os melhores produtos do mercado.</p></dd>
-        </dl>
+        </dl-->
       </section>
 
       <div class="phraseTag _darkgray">

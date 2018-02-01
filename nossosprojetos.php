@@ -108,7 +108,7 @@
 
       <ul class="navg">
         <li><a href="nossosprodutos.php" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>
-        <li><a href="ondeencontrar.php" title="Onde encontrar"><span>Onde encontrar</span></a></li>
+        <li><a href="esclarecaduvidas.php" title="Esclareça suas dúvidas"><span>Esclareça suas dúvidas</span></a></li>
       </ul>
       <?php
         include_once "inc/contents/footer.php";

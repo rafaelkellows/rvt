@@ -31,63 +31,14 @@
       <section id="map">
         <aside>
           <h3 id="region-name">Selecione a cidade no mapa</h3>
-          <div>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-            <address>
-              Alameda dos Maracatins, 1217 <sub>&nbsp;</sub> CJ 205<br>
-              CEP 04089-014 <sub>&nbsp;</sub> São Paulo <sub>&nbsp;</sub> SP<br>
-              TEL.: <a href="tel.:+551151881320">(11) 5188-1320</a><br>
-              e-mail.: <a href="maito:loja001@revitechpisos.com.br">loja001@revitechpisos.com.br</a>
-            </address>
-          </div>
+          <div><!----></div>
         </aside>
         <script src="js/map/raphael-min.js"></script>
         <script src="js/map/map.js"></script>
       </section>
 
       <ul class="navg">
-        <li><a href="nossosprodutos.php" title="Nossos Projetos"><span>Nossos Projetos</span></a></li>
+        <li><a href="esclarecaduvidas.php" title="Esclareça suas dúvidas"><span>Esclareça suas dúvidas</span></a></li>
         <li><a href="./" title="Home"><span>Home</span></a></li>
       </ul>
       <?php

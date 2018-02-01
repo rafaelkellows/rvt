@@ -43,6 +43,7 @@
           </nav>
           <!--a <?php if($navg=="simulador3d"){ echo ' class="active"'; } ?> href="simulador3d.php"><span>Simulador 3D</span></a-->
           <a <?php if($navg=="nossosprojetos"){ echo ' class="active"'; } ?> href="nossosprojetos.php"><span>Nossos Projetos</span></a>
+          <a <?php if($navg=="esclarecaduvidas"){ echo ' class="active"'; } ?> href="esclarecaduvidas.php"><span>Esclareça suas dúvidas</span></a>
           <a <?php if($navg=="ondeencontrar"){ echo ' class="active"'; } ?> href="ondeencontrar.php"><span>Onde Encontrar</span></a> 
           <!--a <?php if($navg=="fichastecnicas"){ echo ' class="active"'; } ?> href="javascript:void(0);"><span>Fichas Técnicas</span></a--> 
           <div class="msgInfo down">

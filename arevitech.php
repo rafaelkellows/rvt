@@ -22,7 +22,7 @@
         </div>
       </section>
 
-      <div class="phraseTag _brown">
+      <!--div class="phraseTag _brown">
         <p>Ser Revitech é estar em constante revolução e não se acomodar. É querer sempre mais!</p>
       </div>
 
@@ -57,7 +57,7 @@
             <a href="javascript:void(0);" title="Next"><span>Next</span></a>
           </nav>
         </div>
-      </section>
+      </section-->
       
       <div class="phraseTag _darkgray">
         <p>A Revitech não tem medo de traçar um caminho em que a qualidade vem sempre em 1º lugar.</p>
@@ -89,7 +89,6 @@
           <h3>Nosso Objetivo</h3>
           <p>Acreditamos em melhoria contínua e queremos crescer sempre no segmento de construção, oferecendo os melhores pisos vinílicos aos nossos clientes e o suporte necessário para que ele tenha sucesso em sua obra e seja reconhecido pelo seu trabalho.</p>
         </aside>
-        <div id="pacman"></div>
       </section>
 
       <ul class="navg">

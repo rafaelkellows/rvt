@@ -243,7 +243,7 @@ body{
 *******************************/
 html, body{ height: 100%; }
 main{ 
-  max-width: 1024px; margin: 0 auto; /*background: url('../images/psd/home-info.jpg') 0 0 no-repeat;*/
+  max-width: 1024px; margin: 0 auto; /*background: url('../images/esclareca.jpg') 0 0 no-repeat;*/
 
   &:not(.comingsoon){
     > header{
@@ -952,8 +952,9 @@ main{
           div{
             height: 390px; overflow: hidden;
             address{ 
-              font-size: .91em; line-height: 1.4em;  padding-bottom: 2em; width: 98%; 
-              a{ text-transform: lowercase; .d-midle; }
+              font-size: .91em; line-height: 1.5em;  padding-bottom: 2em; width: 95%; 
+              strong{ font-weight: 700; font-size: 1.2em; }
+              a, em{ text-transform: lowercase; .d-top; }
             }
           }
         }
@@ -1045,6 +1046,102 @@ main{
           }
           .msgInfo{
             left: 27%;
+          }
+        }
+      }
+    }
+    &.esclarecaduvidas{
+      section{
+        article, aside{ .d-top; }
+        article{
+          width: 39%; padding: 3em 3em 1.3em 5.2em; box-sizing: border-box;
+          h3{ font-size: 2.3em; color:#8f8a89; text-transform: uppercase; font-weight: 500; letter-spacing: 0.05em; .transit(color,0.5s); }
+          p{ 
+            font-size: 1.5em; font-family: 'Archer'; font-weight: 300; padding: 0.8em 0; line-height: 1.22em;
+            &.title{
+              margin: 0.2em 0.8em 1.3em 1.9em; padding: 0.8em 0 0.8em 1em;
+              em{ color: #8f8a89; text-transform: uppercase; font-family: 'Archer'; font-weight: normal; }
+            } 
+          }
+        }
+        aside{
+          width: 59%; padding: 2.1em 3.5em 0 0; box-sizing: border-box;
+          p:extend(main:not(.comingsoon).arevitech section.pilares aside p all){
+            line-height: 1.1em; letter-spacing: -0.01em;
+            strong{ padding-bottom: 0.5em; }
+          }
+          p:after{
+            margin-top: 2px;
+          }
+          dl:extend(main:not(.comingsoon).nossosprodutos .characteristics all){
+            margin-top: 0; padding: 0 !important; text-align: left; padding-right: 3.4em !important;
+            dt{ font-family: 'Archer'; font-weight: normal; font-size: 1.75em !important; }
+            dd{ 
+              font-size: 1.1em !important; line-height: 1.4em !important; border-bottom: none !important;
+              li{ margin: 0 0 0 1em !important; }
+              em{ text-transform: lowercase; font-family: 'Archer'; font-weight: normal; font-size: 1.2em; }
+            }
+            &:nth-child(2){
+              width: 47% !important; padding-right: 0 !important; margin-right: -51px;
+            }
+          }
+        }
+        &.wide{
+          article, aside{ width: 100%; }
+          aside{ text-align: center; padding: 0 0 2em 0; }
+        }
+        &.paginacao{ 
+          padding: 2.75em 0; text-align: center;
+          aside{
+            width: 358px; box-sizing: border-box; color: #e2dfd6; font-size: 1.25em; padding: 1.45em 2.1em 1.45em 1.8em; background: #8f8a89; text-align: left;
+            h3{ text-transform: uppercase; font-weight: 900; padding-bottom: 0.8em; }
+            p{ font-family: 'Archer Book'; line-height: 1.15em; color: #e2dfd6; font-size: 1em; padding-top: 0; }
+          }
+          article{
+            margin: 0 0 0 -4px !important; padding: 0; width: 460px !important; 
+            figure:extend(main:not(.comingsoon).nossosprojetos section.projects article figure all){
+              width: 460px !important; height: 460px !important;
+              span{ margin: 23px; width: 414px; height: 414px;; }
+            }
+          }
+        }
+        .tblAdvantages{
+          width: 96%; margin: 0.3em 0; font-size: 100%; .transit(font-size,0.5s);
+          header, footer{ 
+            background: #796f6d; padding: 0; margin: 0; 
+            &:before{ display:none; }
+            *{ color: #e2dfd6;  }
+          }
+          ul{
+            li{
+              padding: 0.4em 2em;
+              p { width: 32.8%; .d-midle; padding: 0; font-family: 'AauxPro OT'; font-size: 1.1em; font-weight: 500; }
+            }
+          }
+          > ul{
+            li:nth-child(even) { background: #f3f1f1; }
+            li{ 
+              padding: 0.25em 2.1em; font-size: .95em;
+              p:first-child{ text-transform:uppercase; }
+            }
+          }
+          footer{
+            background: #8f8a89;
+            ul li{ padding: 0.2em 2em; }
+          }
+        }
+        &.pergunte{
+          text-align: center; padding: 4.2em 0 0.5em 2.8em;
+          h3:extend(main:not(.comingsoon).home section.benefits article.cont-06 h3 all){
+            position: relative; .d-top; left: 0; top: 0;
+            
+          }
+          h3:before, h3:after{
+            content: '..........................................................';
+          }
+          p{
+            .d-top; font-size: 1.5em; font-family: 'Archer'; font-weight: 300; padding: 0.8em 0 0.8em 1.5em; line-height: 1.22em; text-align: left; width: 56%; margin-top: -1.6em;
+            a{ .d-top; color: #8f8a89; text-transform: uppercase; font-family: 'Archer'; font-weight: normal; }
           }
         }
       }

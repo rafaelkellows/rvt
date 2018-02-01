@@ -2,6 +2,7 @@ $(function(){
 	(function() {
 		var revitech = {
 	        init: function() {
+	        	//this.toTop();
             	this.carrossel();
             	this.nicescroll();
 	            this.loading();
@@ -16,10 +17,10 @@ $(function(){
 	        loadJson : function () {
 	        	//if(!$.cookie("lang")) return;
 				$.ajax({
-					url : '../js/....js',
+					url : 'js/map/stores.js',
 					dataType : 'json',
 					success : function(json) { 
-						console.log('Foi ' + json[0].home.highlight);
+						console.log('Foi ' + json[0]);
 						revitech.loadJsonContent();
 					},
 					error : function(r) { 
