@@ -45,10 +45,10 @@ body{
     content:''; width: 0; height: 100%; .d-midle; .transit(height, @secs: 0.7s);
   }    
   section{
-    .d-midle; border:2px dashed @brown-3; margin: 2em; height: calc(~'100% - 4em'); width: calc(~'100% - 4em'); opacity: 0;
+    .d-midle; border:2px dashed @brown-3; margin: 0; height: 100%; width: 100%; opacity: 0;
     > a{ 
       width: 30px; height: 30px; border-radius: 30px; background: @brown-3; 
-      position: absolute; right: -15px; top: -15px; z-index: 999;
+      position: absolute; right: 15px; top: 15px; z-index: 999;
       &:before{
         content:'x'; color: #fff; font-size: 1.5em; line-height: 1.15em;
       }
@@ -59,10 +59,10 @@ body{
       strong{ color: @brown-3; }
     }
     figure{
-      height: 100%; width: 100%; overflow: scroll;
-      img{ height: 100%; width: auto; }
+      height: 100%; width: 100%; /*overflow: scroll;*/
+      img{ /*height: 100%;*/ width: auto; .transit(all, @secs: 0.5s); }
       &.hor{
-        img{ width: 100%; height: auto; }
+        img{ /*width: 100%;*/ height: auto; }
       }
     }
     &.active{ opacity: 1; }

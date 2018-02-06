@@ -86,26 +86,26 @@ $(function(){
 				}
 	        },
 	        gallery : function(){
+	        	var img, _iW, _iH, _naturalW, _naturalH;
 	        	// Abrir a galeria
 	        	jQuery('.carrGaleria a, .carrGallery figure span, .carrGallery figure a').click(function(){
-	        		_wW = $(window).width(), _wH = $(window).height();
-	        		_orientation = (_wW > _wH) ? 'hor' : 'ver' ;
+	        		
 	        		_imgSRC = $(this).find('img');
-        			//_imgSRC = _imgSRC.attr('src');
         			//Se clicar nos botões de próximo e anterior
 					if( $(this).parent().hasClass('ctrl') ) return;
 
+					//Re-set Left and Top on Window Resize 
 					$(window).resize(function() {
-						jQuery('#popUp figure').removeAttr('class').addClass(_orientation);
+						alignImg();
 					});
 
 	        		if( _imgSRC.length ){	
 	        			// url-src: caminho para buscar outra imagem | geralmente em alta
 	        			jQuery('#popUp figure').removeAttr('class');
 	        			if( _imgSRC.attr('url-src') ){
-	        				jQuery('#popUp figure').addClass(_orientation).html(_imgSRC.clone().attr('src',_imgSRC.attr('url-src')));
+	        				jQuery('#popUp figure').html(_imgSRC.clone().attr('src',_imgSRC.attr('url-src')));
 		        		}else{
-	        				jQuery('#popUp figure').addClass(_orientation).html(_imgSRC.clone());
+	        				jQuery('#popUp figure').html(_imgSRC.clone());
 		        		}
 		        		// title: Exibir o título da imagem se houver o atributo title
 	        			if( _imgSRC.attr('title') ){
@@ -118,8 +118,8 @@ $(function(){
 		        		$(this).find('a').click(function(){
 			        		jQuery('#popUp').fadeOut(function(){
 			        			$('#popUp .cssload-thecube').show();
+			        			img = null;
 			        		});
-
 			        		$('#popUp > section').removeClass('active');
 			        	});
 
@@ -131,6 +131,10 @@ $(function(){
 							}).each(function() {
 							  if(this.complete){
 							  	clearInterval(_s);
+							  	img = $(this);
+							  	_naturalW = img.width();
+							  	_naturalH = img.height();
+							  	alignImg();
 							  	$('#popUp .cssload-thecube').fadeOut(
 							  		function(){
 							  			$('#popUp > section').addClass('active');
@@ -141,6 +145,32 @@ $(function(){
 						},1000);
 		        	});
 	        	})
+
+	        	//Mantêm a Imagem alinhada
+	        	var alignImg = function(){
+	        		if(!img) return;
+
+        			var _wW = $(window).width(), _wH = $(window).height();
+    					_iW = _naturalW, _iH = _naturalH;
+
+	        		//console.log(_iW + '  ' + _iH + '  ' + _wW + '  ' + _wH);
+
+	        		if( (_naturalW >= _wW) && (_naturalH <= _wH) ){
+						img.css('width', eval( (_wW-20)) ).css('height', 'auto');
+						_iW = img.width();
+	        		}
+	        		/*if( (_naturalW >= _wW) && (_naturalH >= _wH) ){
+						img.css('height', eval( (_wH-20)) ).css('width', 'auto');
+	        		}
+	        		
+	        		if( (_naturalH >= _wH) ){
+						img.css('height', eval( (_wH-20)) ).css('width', 'auto');
+						_iH = img.height();
+	        		}*/
+
+					img.css('marginLeft', eval( (_wW/2) - (img.width()/2) ) ).css('marginTop', eval( (_wH/2) - (img.height()/2) ) );
+					
+	        	}
 
 	        	//Rola a Galeria Horizontalmente
 	        	$('.carrGaleria .cntr').each(function(){

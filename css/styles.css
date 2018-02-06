@@ -126,9 +126,9 @@ body strong {
   display: inline-block;
   vertical-align: middle;
   border: 2px dashed #413a37;
-  margin: 2em;
-  height: calc(100% - 4em);
-  width: calc(100% - 4em);
+  margin: 0;
+  height: 100%;
+  width: 100%;
   opacity: 0;
 }
 #popUp section > a {
@@ -137,8 +137,8 @@ body strong {
   border-radius: 30px;
   background: #413a37;
   position: absolute;
-  right: -15px;
-  top: -15px;
+  right: 15px;
+  top: 15px;
   z-index: 999;
 }
 #popUp section > a:before {
@@ -164,14 +164,17 @@ body strong {
 #popUp section figure {
   height: 100%;
   width: 100%;
-  overflow: scroll;
+  /*overflow: scroll;*/
 }
 #popUp section figure img {
-  height: 100%;
+  /*height: 100%;*/
   width: auto;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 #popUp section figure.hor img {
-  width: 100%;
+  /*width: 100%;*/
   height: auto;
 }
 #popUp section.active {

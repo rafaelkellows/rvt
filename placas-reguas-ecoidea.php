@@ -66,7 +66,7 @@
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/131141-granito-rosa.jpg" title="Granito Rosa" /></a>
           <figcaption>
             <em>131141</em>
-            <strong>Copper Nuance</strong>
+            <strong>Granito Rosa</strong>
           </figcaption>
         </figure>
         <figure>
@@ -80,14 +80,14 @@
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/131147-granito-cinza-escuro.jpg" title="131147 - Granito Cinza Escuro" /></a>
           <figcaption>
             <em>131147</em>
-            <strong>hazelnut</strong>
+            <strong>Granito Cinza Escuro</strong>
           </figcaption>
         </figure>
         <figure>
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/131148-granito-tanzanita.jpg" title="131148 - Granito Tanzanita" /></a>
           <figcaption>
             <em>131148</em>
-            <strong>sandrift white</strong>
+            <strong>Granito Tanzanita</strong>
           </figcaption>
         </figure>
       </section>
@@ -97,21 +97,21 @@
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/135901-concret-light.jpg" title="135901 - Concret Light" /></a>
           <figcaption>
             <em>135901</em>
-            <strong>Copper Nuance</strong>
+            <strong>Concret Light</strong>
           </figcaption>
         </figure>
         <figure>
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/135902-concret-medium.jpg" title="135902 - Concret Medium" /></a>
           <figcaption>
             <em>135902</em>
-            <strong>geranium</strong>
+            <strong>Concret Medium</strong>
           </figcaption>
         </figure>
         <figure>
           <a href="javascript:void(0);"><img src="images/products/placas/ecoidea/thumbs/135903-concret-dark.jpg" title="135903 - Concret Dark" /></a>
           <figcaption>
             <em>135903</em>
-            <strong>hazelnut</strong>
+            <strong>Concret Dark</strong>
           </figcaption>
         </figure>
       </section>

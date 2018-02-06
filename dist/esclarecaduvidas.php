@@ -104,7 +104,7 @@
       </section>
 
       <div class="phraseTag _brown">
-        <p>Porque o piso vinílico é melhor que o piso frio? Entenda o porquê lendo a coluna abaixo!</p>
+        <p>Por que o piso vinílico é melhor que o piso frio? Entenda lendo a coluna abaixo!</p>
       </div>
 
       <section class="wide">
@@ -183,7 +183,7 @@
 
       <section class="pergunte">
         <h3>Pergunte para nós</h3>
-        <p><a href="mailto:atendimento@revitechpisos.com.br">Clique aqui</a> e envie um e-mail com sua dúvida, pergunta ou sugestão. Conte com o nosso time para ajudá-lo na sua escolha e apoiá-lo tecnicamente.</p>
+        <p><a href="mailto:comercial@revitechpisos.com.br">Clique aqui</a> e envie um e-mail com sua dúvida, pergunta ou sugestão. Conte com o nosso time para ajudá-lo na sua escolha e apoiá-lo tecnicamente.</p>
       </section>
 
       <ul class="navg">

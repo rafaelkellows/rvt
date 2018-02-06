@@ -39,7 +39,7 @@
           <h1>Possibilities</h1>
           <em>O Possibilities com sua base Inlaid Sheet garante excelente resultado, não<br>fotografando impurezas do contra-piso.</em>
         </header>
-        <p>o piso vinílico homogêneo em manta Possibilities vem com a base Inlaid Sheet, uma espécie de tecido na base que protege o piso de qualquer fotografia de resíduos que possam passar despercebidos na hora da instalação. Este tecido incorpora tais resíduos e ameniza as imperfeições existentes no contrapiso. O que garante um excelente resultado pós instalação, proporcionando elegância e beleza aos seus projetos.</p>
+        <p>O piso vinílico homogêneo em manta Possibilities vem com a base Inlaid Sheet, uma espécie de tecido na base que protege o piso de qualquer fotografia de resíduos que possam passar despercebidos na hora da instalação. Este tecido incorpora tais resíduos e ameniza as imperfeições existentes no contrapiso. O que garante um excelente resultado pós instalação, proporcionando elegância e beleza aos seus projetos.</p>
         <p class="title"><span>Resultado perfeito na instalação</span></p>
         <aside class="round"><div><h2>Segmentos</h2><p>hotelaria, saúde, educação, office, entretenimento</p></div></aside>
       </article>
@@ -242,7 +242,7 @@
             <li>FACILIDADE DE INSTALAÇÃO</li>
             <li>ALTA RESISTÊNCIA CONTRA RESÍDUOS REMANESCENTES NO CONTRA-PISO</li>
             <li>EXCELENTE RESULTADO PÓS-INSTALAÇÃO</li>
-            <li>ALTA-RESISTÊNCIA CONTRA ABRASÃO</li>
+            <li>ALTA RESISTÊNCIA CONTRA ABRASÃO</li>
           </ul>
         </dd>
       </dl>

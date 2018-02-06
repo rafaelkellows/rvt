@@ -38,6 +38,6 @@
     <script type="text/javascript" src='js/jquery.nicescroll.plus.js'></script>
 
     <!-- build:js js/scripts.js -->
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js?v=20180205"></script>
     <!-- endbuild -->
   </head>

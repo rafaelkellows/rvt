@@ -25,7 +25,7 @@
   [
     "Rio de Janeiro",
     ["C000136","Fatto A Mano Comercial Ltda","(24) 2222-1555","chaodebarro@chaodebarro.com.br","http://www.chaodebarro.com.br/","Estr. União e Indústria, 12273 - Loja 05 - Itaipava, Petrópolis - RJ, 25740-110","Segunda a Sábado das 09h às 18h"  ],
-      ["C000108","Sabatie Decoraçoes E Rep Ltda","(21) 2596-7273","atendimento@sabatie.com.br","","Sen Senador Simonsen 1155, Rio de Janeiro - RJ, 20720-290","X"  ],
+      ["C000108","Sabatie Decoraçoes E Rep Ltda","(21) 2596-7273","comercial@sabatie.com.br","","Sen Senador Simonsen 1155, Rio de Janeiro - RJ, 20720-290","X"  ],
       ["C002337","Tanto Quanto Revestimentos e Acab. Ltda","(21) 3976-9909","contato@tantorevestimentos.com.br","http://tantorevestimentos.com.br/","Rua Gen. Venâncio Flores, 255, lojas B e C - Leblon, Rio de Janeiro - RJ, 22441-090","Segunda a Sexta das 9​h​ ​as 19​h​​ ​​S​ábados das​ 10​h​ ​às​​​​​ 14​h​​"  ]
   ],
   [
@@ -36,7 +36,7 @@
   ],
   [
     "Minas Gerais",
-      ["C000225","Terra Revestimentos Ltda","(31) 3286-4650","atendimento@tile.com.br","http://www.tile.com.br/","R. Outono, 81 - Carmo, Belo Horizonte - MG, 30310-020","X"  ]
+      ["C000225","Terra Revestimentos Ltda","(31) 3286-4650","comercial@tile.com.br","http://www.tile.com.br/","R. Outono, 81 - Carmo, Belo Horizonte - MG, 30310-020","X"  ]
     ],
     [
       "Brasília",

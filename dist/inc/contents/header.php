@@ -27,7 +27,7 @@
           <div class="msgInfo up to-right">
             <p>mídias sociais</p>
           </div>
-          <li><a href="mailto:atendimento@revitechpisos.com.br" title="E-mail"><i class="fa fa-envelope" aria-hidden="true"></i><span>E-mail</span></a></li>
+          <li><a href="mailto:comercial@revitechpisos.com.br" title="E-mail"><i class="fa fa-envelope" aria-hidden="true"></i><span>E-mail</span></a></li>
           <li><a href="https://www.facebook.com/RevitechPisos/" target="_blank" title="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i><span>facebook</span></a></li>
           <li><a href="https://www.instagram.com/revitechpisos/" target="_blank" title="instagram"><i class="fa fa-instagram" aria-hidden="true"></i><span>instagram</span></a></li>
         </ul>
