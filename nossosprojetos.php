@@ -26,80 +26,80 @@
 
         <article class="cont-01">
           <figure>
-            <span><img  src="images/benefits/home-benefit-01.jpg" url-src="images/projects/casacorG.jpg" title="Casa Cor" border="0" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/centro_cirurgico_2.jpg" url-src="images/projects/2018/G/centro_cirurgico_2.jpg" title="Centro Cirúrgico" border="0" alt="" /></span>
           </figure>
-          <h3>Casa Cor</h3>
+          <h3>Centro Cirúrgico</h3>
           <p>Atendem às normas técnicas brasileiras e européias</p>
         </article>
 
         <article class="cont-04 vrt">
           <p><span>Podem ser instalados sobre outras superfícies</span></p>
           <figure>
-            <span><img src="images/projects/saraiva.jpg" url-src="images/projects/saraivaG.jpg" border="0" title="Saraiva" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/clinica_edmundo_1.jpg" border="0" title="Clínica Edmundo" alt="" /></span>
           </figure>
-          <h3>Saraiva</h3>
+          <h3>Clínica Edmundo</h3>
         </article>
 
         <article class="cont-07 vrt">
           <figure>
-            <span><img src="images/projects/google.jpg" url-src="images/projects/googleG.jpg" border="0" title="Google" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/coloridos.jpg" border="0" title="Coloridos" alt="" /></span>
           </figure>
-          <h3>Google</h3>
+          <h3>Coloridos</h3>
           <p><span>Possibilidade de <br>&nbsp;&nbsp;paginações diversas</span></p>
         </article>
 
         <article class="cont-01 vrt">
           <figure>
-            <span><img src="images/projects/creche.jpg" url-src="images/projects/crecheG.jpg" title="Creche" border="0" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/favorite.jpg" title="Favorite" border="0" alt="" /></span>
           </figure>
-          <h3>Creche</h3>
+          <h3>Favorite</h3>
           <p>A Revitech Pisos Vinílicos busca sempre o melhor e não descansa até alcançar a excelência.</p>
         </article>
 
         <article class="cont-02">
           <figure>
-            <span><img src="images/projects/havaianas.jpg" title="Havaianas" border="0" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/majestic_2.jpg" title="Majestic" border="0" alt="" /></span>
           </figure>
-          <h3>Havaianas</h3>
+          <h3>Majestic</h3>
           <p>Conforto <font>Térmico</font></p>
           <p>Conforto <font>Acústico</font></p>
         </article>
 
         <article class="cont-01">
           <figure>
-            <span><img  src="images/benefits/home-benefit-01.jpg" url-src="images/projects/casacorG.jpg" title="Casa Cor" border="0" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/projeto_20180216-1856.jpg" url-src="images/projects/casacorG.jpg" title="" border="0" alt="" /></span>
           </figure>
-          <h3>Casa Cor</h3>
+          <h3>&nbsp;</h3>
         </article>
 
         <article class="cont-04 vrt">
           <figure>
-            <span><img src="images/projects/saraiva.jpg" border="0" title="Saraiva" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/projeto_20180216-1857.jpg" border="0" title="" alt="" /></span>
           </figure>
-          <h3>Saraiva</h3>
+          <h3>&nbsp;</h3>
         </article>
 
         <article class="cont-03">
           <figure>
-            <span><img src="images/projects/creche.jpg" border="0" title="Creche" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/sao_luiz.jpg" border="0" title="São Luiz" alt="" /></span>
           </figure>
-          <h3>Creche</h3>
+          <h3>São Luiz</h3>
           <p class="round"><span>Fáceis de Instalar</span></p>
         </article>
 
         <article class="cont-07 vrt">
           <figure>
-            <span><img src="images/projects/google.jpg" border="0" title="Google" alt="" /></span>
+            <span><img src="images/projects/2018/thumb/sao_luiz_possibilities.jpg" border="0" title="São Luiz - Possibilities" alt="" /></span>
           </figure>
-          <h3>Google</h3>
+          <h3>São Luiz - Possibilities</h3>
         </article>
 
-        <article class="cont-02">
+        <!--article class="cont-02">
           <figure>
             <span><img src="images/projects/havaianas.jpg" border="0" title="Havaianas" alt="" /></span>
           </figure>
           <h3>Havaianas</h3>
-        </article>
+        </article-->
           <div class="msgInfo down to-right">
             <p>role para baixo para ver todo o conteúdo</p>
           </div>

@@ -64,98 +64,98 @@
       <section class="productList carrGallery woodenBox">
         <h2>Linha Amadeirada</h2>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12030-ipe-amarelo.jpg" title="12030 - Ipê Amarelo" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12030-ipe-amarelo.jpg" url-src="images/products/reguas/heavy/G/12030-ipe-amarelo.jpg" title="12030 - Ipê Amarelo" /></a>
           <figcaption>
             <em>12030</em>
             <strong>Ipê Amarelo</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12013-cumaru.jpg" title="12013 - Cumaru" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12013-cumaru.jpg" url-src="images/products/reguas/heavy/G/12013-cumaru.jpg" title="12013 - Cumaru" /></a>
           <figcaption>
             <em>12013</em>
             <strong>Cumaru</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12310-antique-white.jpg" title="12310 - Antique White" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12310-antique-white.jpg" url-src="images/products/reguas/heavy/G/12310-antique-white.jpg" title="12310 - Antique White" /></a>
           <figcaption>
             <em>12310</em>
             <strong>Antique White</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12206-tabacc-rustic.jpg" title="12206 - Tabacc Rustic" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12206-tabacc-rustic.jpg" url-src="images/products/reguas/heavy/G/12206-tabacc-rustic.jpg" title="12206 - Tabacc Rustic" /></a>
           <figcaption>
             <em>12206</em>
             <strong>Tabacc Rustic</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12941-ipe-ebanizado.jpg" title="12941 - Ipê Ebanizado" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12941-ipe-ebanizado.jpg" url-src="images/products/reguas/heavy/G/12941-ipe-ebanizado.jpg" title="12941 - Ipê Ebanizado" /></a>
           <figcaption>
             <em>12941</em>
             <strong>Ipê Ebanizado</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12205-sahara-wood.jpg" title="12205 - Sahara Wood" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12205-sahara-wood.jpg" url-src="images/products/reguas/heavy/G/12205-sahara-wood.jpg" title="12205 - Sahara Wood" /></a>
           <figcaption>
             <em>12205</em>
             <strong>Sahara Wood</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12202-mahogany.jpg" title="12202 - Mahogany" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12202-mahogany.jpg" url-src="images/products/reguas/heavy/G/12202-mahogany.jpg" title="12202 - Mahogany" /></a>
           <figcaption>
             <em>12202</em>
             <strong>Mahogany</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12161-walnut-chocolate.jpg" title="12161 - Walnut Chocolate" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12161-walnut-chocolate.jpg" title="12161 - Walnut Chocolate" /></a>
           <figcaption>
             <em>12161</em>
             <strong>Walnut Chocolate</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12160-walnut-natural.jpg" title="12160 - Walnut Natural" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12160-walnut-natural.jpg" url-src="images/products/reguas/heavy/G/12160-walnut-natural.jpg" title="12160 - Walnut Natural" /></a>
           <figcaption>
             <em>12160</em>
             <strong>Walnut Natural</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12416-coracao-negro.jpg" title="12416 - Coração Negro" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12416-coracao-negro.jpg" url-src="images/products/reguas/heavy/G/12416-coracao-negro.jpg" title="12416 - Coração Negro" /></a>
           <figcaption>
             <em>12416</em>
             <strong>Coração Negro</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12207-cinnamon.jpg" title="12207 - Cinnamon" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12207-cinnamon.jpg" url-src="images/products/reguas/heavy/G/12207-cinnamon.jpg" title="12207 - Cinnamon" /></a>
           <figcaption>
             <em>12207</em>
             <strong>Cinnamon</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12974-walnut-light.jpg" title="12974 - Walnut Light" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12974-walnut-light.jpg" title="12974 - Walnut Light" /></a>
           <figcaption>
             <em>12974</em>
             <strong>Walnut Light</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12973-iron-wood.jpg" title="12973 - Iron Wood" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12973-iron-wood.jpg" title="12973 - Iron Wood" /></a>
           <figcaption>
             <em>12973</em>
             <strong>Iron Wood</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/placas/heavy/thumbs/12971-walnut-medium.jpg" title="12971 - Walnut Medium" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/heavy/thumbs/12971-walnut-medium.jpg" url-src="images/products/reguas/heavy/G/12971-walnut-medium.jpg" title="12971 - Walnut Medium" /></a>
           <figcaption>
             <em>12971</em>
             <strong>Walnut Medium</strong>
@@ -261,7 +261,12 @@
         </div>
         <span>Ficha<br>Técnica</span>
       </a>
-
+      <a class="round" style="margin:-8.8em 0 0 8em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
+      </a>
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>
         <li><a href="javascript:void(0);" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>

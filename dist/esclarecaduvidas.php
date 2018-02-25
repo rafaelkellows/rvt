@@ -103,7 +103,7 @@
         </article>
       </section>
 
-      <div class="phraseTag _brown">
+      <!--div class="phraseTag _brown">
         <p>Por que o piso vinílico é melhor que o piso frio? Entenda lendo a coluna abaixo!</p>
       </div>
 
@@ -184,11 +184,11 @@
       <section class="pergunte">
         <h3>Pergunte para nós</h3>
         <p><a href="mailto:comercial@revitechpisos.com.br">Clique aqui</a> e envie um e-mail com sua dúvida, pergunta ou sugestão. Conte com o nosso time para ajudá-lo na sua escolha e apoiá-lo tecnicamente.</p>
-      </section>
+      </section-->
 
       <ul class="navg">
         <li><a href="nossosprojetos.php" title="Nossos Projetos"><span>Nossos Projetos</span></a></li>
-        <li><a href="ondeencontrar.php" title="Onde encontrar"><span>Onde encontrar</span></a></li>
+        <li><a href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank" title="Faça Download do nosso Manual de Limpeza"><span>Manual de Limpeza</span></a></li>
       </ul>
       <?php
         include_once "inc/contents/footer.php";

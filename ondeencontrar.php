@@ -30,6 +30,36 @@
 
       <section id="map">
         <aside>
+          <select name="uf" id="uf">
+            <option value="">Selecione</option>
+            <option value="AC">AC</option>
+            <option value="AL">AL</option>
+            <option value="AM">AM</option>
+            <option value="AP">AP</option>
+            <option value="BA">BA</option>
+            <option value="CE">CE</option>
+            <option value="DF">DF</option>
+            <option value="ES">ES</option>
+            <option value="GO">GO</option>
+            <option value="MA">MA</option>
+            <option value="MG">MG</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="PA">PA</option>
+            <option value="PB">PB</option>
+            <option value="PE">PE</option>
+            <option value="PI">PI</option>
+            <option value="PR">PR</option>
+            <option value="RJ">RJ</option>
+            <option value="RN">RN</option>
+            <option value="RS">RS</option>
+            <option value="RO">RO</option>
+            <option value="RR">RR</option>
+            <option value="SC">SC</option>
+            <option value="SE">SE</option>
+            <option value="SP">SP</option>
+            <option value="TO">TO</option>
+          </select>
           <h3 id="region-name">Selecione a cidade no mapa</h3>
           <div><!----></div>
         </aside>
@@ -38,8 +68,8 @@
       </section>
 
       <ul class="navg">
-        <li><a href="esclarecaduvidas.php" title="Esclareça suas dúvidas"><span>Esclareça suas dúvidas</span></a></li>
-        <li><a href="./" title="Home"><span>Home</span></a></li>
+        <li><a href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank" title="Faça Download do nosso Manual de Limpeza"><span>Manual de Limpeza</span></a></li>
+        <li><a href="recrutamento.php" title="Trabalhe Conosco"><span>Trabalhe Conosco</span></a></li>
       </ul>
       <?php
         include_once "inc/contents/footer.php";

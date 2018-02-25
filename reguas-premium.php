@@ -17,7 +17,7 @@
         <div class="carr_container">
           <dl>  
             <dt><div><h2>Nossos Produtos</h2></div></dt>
-            <dd><img src="images/banners/reguas.jpg" title="" /></dd>
+            <dd><img src="images/banners/reguas-premium.jpg" title="" /></dd>
           </dl> 
         </div>
       </section>
@@ -64,63 +64,63 @@
       <section class="productList carrGallery woodenBox">
         <h2>Linha Amadeirada</h2>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15601-carvalho-natural.jpg" title="15601 - Carvalho Natural" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15601-carvalho-natural.jpg" url-src="images/products/reguas/premium/G/15601-carvalho-natural.jpg" title="15601 - Carvalho Natural" /></a>
           <figcaption>
             <em>15601</em>
             <strong>Carvalho Natural</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15030-ipe-amarelo.jpg" title="15030 - Ipê Amarelo" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15030-ipe-amarelo.jpg" url-src="images/products/reguas/premium/G/15030-ipe-amarelo.jpg" title="15030 - Ipê Amarelo" /></a>
           <figcaption>
             <em>15030</em>
             <strong>Ipê Amarelo</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15208-mahogany-rustic.jpg" title="15208 - Mahogany Rustic" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15208-mahogany-rustic.jpg" url-src="images/products/reguas/premium/G/15208-mahogany-rustic.jpg" title="15208 - Mahogany Rustic" /></a>
           <figcaption>
             <em>15208</em>
             <strong>Mahogany Rustic</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15207-cinnamon.jpg" title="15207 - Cinnamon" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15207-cinnamon.jpg" url-src="images/products/reguas/premium/thumbs/15207-cinnamon.jpg" title="15207 - Cinnamon" /></a>
           <figcaption>
             <em>15207</em>
             <strong>Cinnamon</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15206-tabacc-rustic.jpg" title="15206 - Tabacc Rustic" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15206-tabacc-rustic.jpg" url-src="images/products/reguas/premium/G/15206-tabacc-rustic.jpg" title="15206 - Tabacc Rustic" /></a>
           <figcaption>
             <em>15206</em>
             <strong>Tabacc Rustic</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15205-sahara-wood.jpg" title="15205 - Sahara Wood" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15205-sahara-wood.jpg" url-src="images/products/reguas/premium/G/15205-sahara-wood.jpg" title="15205 - Sahara Wood" /></a>
           <figcaption>
             <em>15205</em>
             <strong>Sahara Wood</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15912-oak-medium.jpg" title="15912 - Oak Medium" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15912-oak-medium.jpg" url-src="images/products/reguas/premium/G/15912-oak-medium.jpg" title="15912 - Oak Medium" /></a>
           <figcaption>
             <em>15912</em>
             <strong>Oak Medium</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15310-antique-white.jpg" title="15310 - Antique White" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15310-antique-white.jpg" url-src="images/products/reguas/premium/G/15310-antique-white.jpg" title="15310 - Antique White" /></a>
           <figcaption>
             <em>15310</em>
             <strong>Antique White</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15711-carvalho-americano-patinado.jpg" title="15711 - Carvalho Americano Patinado" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15711-carvalho-americano-patinado.jpg" url-src="images/products/reguas/premium/G/15711-carvalho-americano-patinado.jpg" title="15711 - Carvalho Americano Patinado" /></a>
           <figcaption>
             <em>15711</em>
             <strong>Carvalho Americano Patinado</strong>
@@ -231,7 +231,14 @@
         </div>
         <span>Ficha<br>Técnica</span>
       </a>
-
+      
+      <a class="round" style="margin:-8.8em 0 0 8em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
+      </a>
+      
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>
         <li><a href="javascript:void(0);" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>

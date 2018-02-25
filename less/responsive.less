@@ -52,14 +52,14 @@
     			section{
     				&.benefits{
               height: auto; text-align: center;
-    					h3{ position: relative; top: initial; left: initial; margin: 2em auto; }
+    					h3{ position: relative; top: auto; left: auto; margin: 2em auto; }
                         article{ 
-                            position: relative; left: initial !important; top: initial !important; width: auto !important; margin: 2em 1em; 
+                            position: relative; left: auto !important; top: auto !important; width: auto !important; margin: 2em 1em; 
                             &.cont-04{
-                                p{ position: relative; left: initial; bottom: initial; margin:0 auto 1em; }   
+                                p{ position: relative; left: auto; bottom: auto; margin:0 auto 1em; }   
                             }
                             &.cont-06{
-                                h3{ position: relative; left: initial; top: initial; margin:0 auto 1em; }   
+                                h3{ position: relative; left: auto; top: auto; margin:0 auto 1em; }   
                             }
                         }
     				}
@@ -178,7 +178,17 @@ body{
           .productList{ padding: 1.7em 1em; text-align: center; }
           .characteristics{ padding: 0.4em 0; margin: 0 2em; display: block; width: auto; }
           .tblDescription{ margin: 2em; width: calc(~'100% - 4em'); }
-          a.round{ margin: 0 auto; }
+          a.round{ margin:0 0.55em !important; .d-midle; }
+        }
+        /* ONDE ENCONTRAR */
+        &.ondeencontrar{
+          #map{
+            svg{ display: none; }
+            aside{
+              select{ display: block; }
+              h3{ display: none; }
+            }
+          }
         }
         /* ESCLAREÇA SUAS DÚVIDAS */
         &.esclarecaduvidas{

@@ -98,7 +98,7 @@ body{
   }
 }
 .msgInfo{
-  position: absolute; opacity: 0; top:0; width: max-content; height: 0; overflow: hidden; z-index: 10; padding: 0; background: #000; font-size: 0.825em !important; line-height: 1em !important; cursor: crosshair; .transit(all,.7s);
+  position: absolute; opacity: 0; top:0; width: max-content; height: 0; /*overflow: hidden;*/ z-index: 10; padding: 0; background: #000; font-size: 0.825em !important; line-height: 1em !important; cursor: crosshair; .transit(all,.7s);
   *{ color: #fff !important; font-weight: bold !important; font-size: 1em !important; font-family: 'AauxPro OT' !important; line-height: 1.5em !important; }
   &.inverse{
     background: #fff; 
@@ -129,7 +129,7 @@ body{
       right:0.7em;
     }
   }
-  &.active{ opacity: 1; height: initial; overflow: initial; padding: 0.25em 0.7em;  }
+  &.active{ opacity: 1; height: auto; padding: 0.25em 0.7em;  }
 }
 .cssload-thecube {
   width: 73px; height: 73px; position: absolute; left: calc(~'50% - 36.5px'); top: calc(~'50% - 36.5px'); transform: rotateZ(45deg);   -o-transform: rotateZ(45deg);   -ms-transform: rotateZ(45deg);   -webkit-transform: rotateZ(45deg);   -moz-transform: rotateZ(45deg);
@@ -238,6 +238,16 @@ body{
     -moz-transform: perspective(136px) rotateY(180deg); opacity: 0;
   }
 }
+input[type=text], textarea, input[type=file], input[type=submit], input[type=reset]{
+  border:1px solid #000; padding:.3em; width: 80%;
+}
+input[type=submit], input[type=reset]{
+  background-color: #e2dfd6; width: 30%; color: #413a37; .transit(background,.5s); margin: .25em .5em;
+  &:hover{
+    background-color: #413a37; width: 30%; color: #e2dfd6; cursor: pointer;
+  }
+}
+textarea{ resize: none; height: 100px; }
 /*******************************
             MAIN
 *******************************/
@@ -350,7 +360,7 @@ main{
         margin-top: -332px;
         dl{
           dt{
-            width: 210px; height: 210px; border-radius: 210px; top: initial; bottom: 49px; left: 88px; padding: 0.9em; 
+            width: 210px; height: 210px; border-radius: 210px; top: auto; bottom: 49px; left: 88px; padding: 0.9em; 
             -webkit-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
             -moz-box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
             box-shadow: 0px 0px 0px 20px rgba(226,223,214,0.5);
@@ -403,7 +413,7 @@ main{
         .msgInfo{ 
           top: 46px; left: 29px;
           &.to-right{
-            left: initial; right: 29px;
+            left: auto; right: 29px;
           } 
         }
         &:last-child{
@@ -540,7 +550,7 @@ main{
         } 
       }
       &.round{
-        width: 140px; height: 140px; border-radius: 140px; background: @l-brown; text-align: center;
+        width: 140px; height: 140px; border-radius: 140px; background: @l-brown; text-align: center; margin: 0; .transit(all,.5s);
         &:before{
           content:''; width: 0; height: 100%; .d-midle;
         }
@@ -899,7 +909,7 @@ main{
           figure{ 
             width: 100px; .d-top; margin: 0 0.48em 0.65em 0;
             figcaption{
-              padding: 0; line-height: initial; padding: 0.35em; background: #f3f1f0;
+              padding: 0; line-height: auto; padding: 0.35em; background: #f3f1f0;
               em, strong{ font-size: 0.625em; text-transform: uppercase; font-weight: 900; display: block; text-align:right; }
             }
           }
@@ -942,12 +952,15 @@ main{
       #map{
         margin-bottom: -4em;
         svg{ 
-          top: -120px !important; overflow: initial !important; .d-top; 
+          top: -120px !important; overflow: auto !important; .d-top; height: 680px;
           path{ cursor: pointer; }
         }
         aside{ 
           .d-top; margin-top: 18px; width: 33.3%;
           * { color: #8f8a89; font-weight: 500; text-transform: uppercase;  }
+          select{
+            border: 1px solid #a7997c; padding: .5em; font-size: 1.125em; width: 100%; margin-bottom: 2em; display: none;
+          }
           h3{ font-size: 1.8125em; height: 64px; }
           div{
             height: 390px; overflow: hidden;
@@ -965,7 +978,7 @@ main{
         &.projects{
           padding: 4.4em 4.2em 0;
           article:extend(main:not(.comingsoon).home section.benefits article){
-            position: relative !important; top: initial; left: initial; width: 270px !important; margin-right: 2.2em; 
+            position: relative !important; top: auto; left: auto; width: 270px !important; margin-right: 2.2em; 
             figure:extend(main:not(.comingsoon).home section.benefits article figure){ 
               width: 270px !important; height: 270px !important; 
               span:extend(main:not(.comingsoon).home section.benefits article figure span){ 
@@ -983,17 +996,17 @@ main{
               }
               &.vrt{
                 margin: -8em 2.2em 2.6em 0;
-                p{ background: none; color: #000; font-size: 1.5em !important; font-family: 'Archer'; font-weight: 300; text-transform: initial; margin: 0; padding: 0; width: 100%; line-height: 1.2em; }
+                p{ background: none; color: #000; font-size: 1.5em !important; font-family: 'Archer'; font-weight: 300; text-transform: auto; margin: 0; padding: 0; width: 100%; line-height: 1.2em; }
               }
             }
             &.cont-04{
               p:extend(main:not(.comingsoon).home section.benefits article.cont-04 p all){
-                position: relative; left: initial; bottom: initial; margin: 0 auto 2.6em; 
+                position: relative; left: auto; bottom: auto; margin: 0 auto 2.6em; 
               }
             }
             &.cont-07:extend(main:not(.comingsoon).home section.benefits article.cont-07){
               p:extend(main:not(.comingsoon).home section.benefits article.cont-07 p all){
-                position: relative; left: initial; bottom: initial; margin: 0; 
+                position: relative; left: auto; bottom: auto; margin: 0; 
               }
             }
             &.vrt{
@@ -1016,7 +1029,7 @@ main{
             }
             &.cont-02{
               p:extend(main:not(.comingsoon).home section.benefits article.cont-02 p all){
-                position: relative; left: initial; bottom: initial; margin: 0 auto 0.3em; 
+                position: relative; left: auto; bottom: auto; margin: 0 auto 0.3em; 
               }
             }
 
@@ -1042,7 +1055,7 @@ main{
             border-left: 13px solid transparent; border-right: 13px solid transparent; border-top: 16px solid #8f8a89;
           }
           &:after{
-            right: 1.2em; top: 2.2em; left: initial;;
+            right: 1.2em; top: 2.2em; left: auto;;
           }
           .msgInfo{
             left: 27%;
@@ -1083,6 +1096,12 @@ main{
             }
             &:nth-child(2){
               width: 47% !important; padding-right: 0 !important; margin-right: -51px;
+            }
+          }
+          form{
+            padding-bottom:3em;
+            label{
+              display: block; font-weight: 500; color: #584f4c; padding: .8em 0 .3em; 
             }
           }
         }

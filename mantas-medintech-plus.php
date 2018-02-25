@@ -17,7 +17,7 @@
         <div class="carr_container">
           <dl>  
             <dt><div><h2>Nossos Produtos</h2></div></dt>
-            <dd><img src="images/banners/mantas.jpg" title="" /></dd>
+            <dd><img src="images/banners/placas-v2.jpg" title="" /></dd>
           </dl> 
         </div>
       </section>
@@ -54,6 +54,7 @@
             <ul>
               <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus01.jpg" alt="" /></a></li>
               <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus02.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/placas-v2.jpg" alt="" /></a></li>
               <li><a href="javascript:void(0);"><img src="images/banners/mantas.jpg" alt="" /></a></li>
             </ul>
           </div>
@@ -414,7 +415,12 @@
         </div>
         <span>Ficha<br>Técnica</span>
       </a>
-
+      <a class="round" style="margin:-8.8em 0 0 8em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
+      </a>
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>
         <li><a href="javascript:void(0);" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>

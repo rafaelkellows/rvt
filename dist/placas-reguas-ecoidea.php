@@ -17,7 +17,7 @@
         <div class="carr_container">
           <dl>  
             <dt><div><h2>Nossos Produtos</h2></div></dt>
-            <dd><img src="images/banners/placas-reguas-ecoidea.jpg" title="" /></dd>
+            <dd><img src="images/banners/placas-reguas-ecoidea-v2.jpg" title="" /></dd>
           </dl> 
         </div>
       </section>
@@ -143,7 +143,12 @@
               <p><span>5,0mm</span></p>
           </li>
           <li>
-              <strong><span>Dimensões</span></strong>
+              <strong><span>Dimensões (Linha Decor)</span></strong>
+              <p><span>EN 426</span></p>
+              <p><span>50 x 50 cm</span></p>
+          </li>
+          <li>
+              <strong><span>Dimensões (Linha Concret)</span></strong>
               <p><span>EN 426</span></p>
               <p><span>60 x 60 cm</span></p>
           </li>
@@ -205,11 +210,18 @@
         </ul>
       </aside>
 
-      <a class="round" style="margin:-4em 0 0 25em" href="download/placas-reguas-ecoidea.pdf" target="_blank">
+      <a class="round" style="margin:-2em 0 0 25em" href="download/placas-reguas-ecoidea.pdf" target="_blank">
         <div class="msgInfo down to-right">
           <p>faça o download aqui</p>
         </div>
         <span>Ficha<br>Técnica</span>
+      </a>
+
+      <a class="round" style="margin:-8.8em 0 0 15em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
       </a>
 
       <ul class="navg">

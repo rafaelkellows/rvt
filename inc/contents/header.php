@@ -2,7 +2,7 @@
         <section>
           <a href="javascript:void(0);"><span>fechar</span></a>
           <figure>
-            <a href="http://www.revitechpisos.com.br/emkt/newsletter/promocao/tabelaPromocaoNov2017.pdf?vrs=1323" target="_blank"><img src="images/popup/promocao-REVolucioneContinua.png" title="" /></a>
+            <!--a href="http://www.revitechpisos.com.br/emkt/newsletter/promocao/tabelaPromocaoNov2017.pdf?vrs=1323" target="_blank"><img src="images/popup/promocao-REVolucioneContinua.png" title="" /></a-->
           </figure>
         </section>
         <div class="cssload-thecube">
@@ -21,7 +21,7 @@
 
         <h1><a href="./" title="Revitech Pisos Vinílicos"><img src="images/logoFullAlta.png" border="0" alt="Revitech Pisos Vinílicos" /></a></h1>
         
-        <p class="sac">Central de Atendimento <a href="tel.:+551151881320" title="Central de Atendimento">(11) 5188-1320</a><br><a href="ondeencontrar.php" title="Encontre o Endereço">encontre o endereço</a> mais próximo a você</p>
+        <p class="sac">Central de Atendimento <a href="tel:+551151881320" title="Central de Atendimento">(11) 5188-1320</a><br><a href="ondeencontrar.php" title="Encontre o Endereço">encontre o endereço</a> mais próximo a você.</p>
         
         <ul>
           <div class="msgInfo up to-right">
@@ -45,6 +45,7 @@
           <a <?php if($navg=="nossosprojetos"){ echo ' class="active"'; } ?> href="nossosprojetos.php"><span>Nossos Projetos</span></a>
           <a <?php if($navg=="esclarecaduvidas"){ echo ' class="active"'; } ?> href="esclarecaduvidas.php"><span>Esclareça suas dúvidas</span></a>
           <a <?php if($navg=="ondeencontrar"){ echo ' class="active"'; } ?> href="ondeencontrar.php"><span>Onde Encontrar</span></a> 
+          <a <?php if($navg=="recrutamento"){ echo ' class="active"'; } ?> href="recrutamento.php"><span>Trabalhe Conosco</span></a> 
           <!--a <?php if($navg=="fichastecnicas"){ echo ' class="active"'; } ?> href="javascript:void(0);"><span>Fichas Técnicas</span></a--> 
           <div class="msgInfo down">
             <p>use este menu para acessar todo o site</p>

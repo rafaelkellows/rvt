@@ -5,7 +5,7 @@
             <p>Alameda dos Maracatins, 1217 <font>&bull;</font> CJ 205</p>
             <p>CEP 04089-014 <font>&bull;</font> São Paulo <font>&bull;</font> SP</p>
           </address>
-          <a href="tel.:+551151881320">Tel (11) 5188-1320</p>
+          <a href="tel:+551151881320">Tel (11) 5188-1320</p>
           <a href="http://www.revitechpisos.com.br" target="_blank">www.revitechpisos.com.br</a>
           <p>e-mail: <a href="mailto:comercial@revitechpisos.com.br" target="_blank">comercial@revitechpisos.com.br</a></p>
           <p><i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i> @revitechpisos</p>
@@ -24,7 +24,9 @@
             <p>use este menu para acessar todo o site</p>
           </div>
           <a href="esclarecaduvidas.php" title="Esclareça suas dúvidas">Esclareça suas dúvidas</a>
+          <a href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank" title="Faça Download do nosso Manual de Limpeza">Manual de Limpeza</a>
           <a href="ondeencontrar.php" title="Onde Encontrar">Onde Encontrar</a>
+          <a href="recrutamento.php" title="Trabalhe Conosco">Trabalhe Conosco</a>
           <!--a href="javascript:void(0);" title="Login">Login</a>
           <a href="javascript:void(0);" title="Carrinho">Carrinho</a>
           <a href="javascript:void(0);" title="Ajuda">Ajuda</a>

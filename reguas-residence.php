@@ -38,7 +38,7 @@
         </header>
         <p>A linha Residence é a nova coleção da Natural Vision Wood, criada para uso exclusivo residencial. Estes pisos simulam o acabamento em madeira, criando um visual moderno e sustentável. Além de moderna e funcional, a coleção tem fácil instalação e baixa manutenção de limpeza.</p>
         <p class="title"><span>Fácil instalação e limpeza</span></p>
-        <aside class="round"><div><h2>Segmentos</h2><p>lojas, escritórios, academias, clínicas e escolas</p></div></aside>
+        <aside class="round"><div><h2>Segmentos</h2><p>residencial</p></div></aside>
       </article>
 
       <section class="projects">
@@ -64,76 +64,40 @@
       <section class="productList carrGallery woodenBox">
         <h2>Linha Amadeirada</h2>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15601-carvalho-natural.jpg" title="15601 - Carvalho Natural" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/residence/thumb/12001-Cappuccino.jpg"  url-src="images/products/reguas/residence/G/12001-Cappuccino.jpg" title="12001 - Cappuccino" /></a>
           <figcaption>
-            <em>15601</em>
-            <strong>Carvalho Natural</strong>
+            <em>12001</em>
+            <strong>Cappuccino</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15030-ipe-amarelo.jpg" title="15030 - Ipê Amarelo" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/residence/thumb/12002-Cafe-com-Leite.jpg" url-src="images/products/reguas/residence/G/12002-Cafe-com-Leite.jpg" title="12002 - Café com Leite" /></a>
           <figcaption>
-            <em>15030</em>
-            <strong>Ipê Amarelo</strong>
+            <em>12002</em>
+            <strong>Café com Leite</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15208-mahogany-rustic.jpg" title="15208 - Mahogany Rustic" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/residence/thumb/12003-Machiato.jpg" url-src="images/products/reguas/residence/G/12003-Machiato.jpg" title="12003 - Machiato" /></a>
           <figcaption>
-            <em>15208</em>
-            <strong>Mahogany Rustic</strong>
+            <em>12003</em>
+            <strong>Machiato</strong>
           </figcaption>
         </figure>
         <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15207-cinnamon.jpg" title="15207 - Cinnamon" /></a>
+          <a href="javascript:void(0);"><img src="images/products/reguas/residence/thumb/12004-Vanilla.jpg" url-src="images/products/reguas/residence/G/12004-Vanilla.jpg" title="12004 - Vanilla" /></a>
           <figcaption>
-            <em>15207</em>
-            <strong>Cinnamon</strong>
+            <em>12004</em>
+            <strong>Vanilla</strong>
           </figcaption>
         </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15206-tabacc-rustic.jpg" title="15206 - Tabacc Rustic" /></a>
-          <figcaption>
-            <em>15206</em>
-            <strong>Tabacc Rustic</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15205-sahara-wood.jpg" title="15205 - Sahara Wood" /></a>
-          <figcaption>
-            <em>15205</em>
-            <strong>Sahara Wood</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15912-oak-medium.jpg" title="15912 - Oak Medium" /></a>
-          <figcaption>
-            <em>15912</em>
-            <strong>Oak Medium</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15310-antique-white.jpg" title="15310 - Antique White" /></a>
-          <figcaption>
-            <em>15310</em>
-            <strong>Antique White</strong>
-          </figcaption>
-        </figure>
-        <figure>
-          <a href="javascript:void(0);"><img src="images/products/reguas/premium/thumbs/15711-carvalho-americano-patinado.jpg" title="15711 - Carvalho Americano Patinado" /></a>
-          <figcaption>
-            <em>15711</em>
-            <strong>Carvalho Americano Patinado</strong>
-          </figcaption>
-        </figure>
-
       </section>
 
       <dl class="characteristics">
         <dt>Características</dt>
         <dd>
           <ul>
-            <li>DESENVOLVIDO PaRA AMBIENTES DE TRÁFEGO MODERADO E RESIDENCIAIS</li>
+            <li>DESENVOLVIDO PaRA AMBIENTES DE TRÁFEGO MODERADO E RESIDENCIAL</li>
             <li>CONFORTO ACÚSTICO</li>
             <li>CONFORTO TÉRMICO</li>
             <li>NÃO FAZ BARULHO AO CAMINHAR</li>
@@ -231,7 +195,12 @@
         </div>
         <span>Ficha<br>Técnica</span>
       </a>
-
+      <a class="round" style="margin:-8.8em 0 0 8em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
+      </a>
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>
         <li><a href="javascript:void(0);" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>

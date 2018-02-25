@@ -36,7 +36,7 @@
 
     <script type="text/javascript" src='js/jquery.nicescroll.min.js'></script>
     <script type="text/javascript" src='js/jquery.nicescroll.plus.js'></script>
-
+    <script type="text/javascript" src="js/jquery.mask.min.js"></script>
     <!-- build:js js/scripts.js -->
     <script type="text/javascript" src="js/scripts.js?v=20180205"></script>
     <!-- endbuild -->

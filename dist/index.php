@@ -96,9 +96,9 @@
               <img class="over" src="images/products/home-placas-over.jpg" alt="Placas" />
               <img class="under" src="images/products/home-placas.jpg" alt="Placas" />
             </figure>
-            <h4><a href="placas-imperial-armstrong.php">Placas</a></h4>
+            <h4><a href="placas-midtile.php">Placas</a></h4>
           </dt>
-          <dd><p><a href="placas-imperial-armstrong.php">Podem ser coladas ou fixadas. São econômicas e de fácil manutenção.</a></p></dd>
+          <dd><p><a href="placas-midtile.php">Podem ser coladas ou fixadas. São econômicas e de fácil manutenção.</a></p></dd>
         </dl>
         <dl>
           <dt>

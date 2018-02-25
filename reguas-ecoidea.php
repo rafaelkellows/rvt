@@ -36,7 +36,7 @@
           <h1>Natural Vision Wood EcoIdea</h1>
           <em>Inspirado em superfícies rústicas, o ecoidea é um piso autoportante com 70% de pvc reciclado pós-consumo.</em>
         </header>
-        <p>Criado com o conceito de sustentabilidade para a criação de ambientes naturais, Ecoidea é um piso autoportante sofisticado e de alta tecnologia, desenvolvido com 70% de PVC reciclado pós-consumo. Possui sistema inovador de fixação Ecolay, que dispensa o uso de cola na instalação. É um produto bacteriostático que tem uma camada de fibra de vidro em sua composição, garantindo excelente estabilidade dimensional.</p>
+        <p>Desenvolvido com o conceito de sustentabilidade para a criação de ambientes naturais, Ecoidea é um piso autoportante que possui sistema inovador de fixação Ecolay, dispensando o uso de cola na instalação. É bacteriostático, tem uma camada de fibra de vidro em sua composição, garantindo excelente estabilidade dimensional.</p>
         <p class="title"><span>sustentabilidade em forma de piso</span></p>
         <aside class="round"><div><h2>Segmentos</h2><p>hotelaria, saúde, educação, entretenimento, office, esportivo</p></div></aside>
       </article>
@@ -165,11 +165,7 @@
           <li>
               <strong><span>Dimensões</span></strong>
               <p><span>EN 426</span></p>
-              <p>
-                <span>177,8mmx1200mm<br>
-                180mmx1219mm<br>
-                184mmx1219,2mm</span>
-              </p>
+              <p><span>60x60cm</span></p>
           </li>
           <li>
               <strong><span>Peso Médio</span></strong>
@@ -217,7 +213,7 @@
               <p><span><2kV</span></p>
           </li>
           <li>
-              <strong><span>Resistência quimica </span></strong>
+              <strong><span>Resistência química </span></strong>
               <p><span>ISO 26987<br>ASTMF 925</span></p>
               <p><span>Class 5</span></p>
           </li>
@@ -229,13 +225,20 @@
         </ul>
       </aside>
 
-      <a class="round" style="margin: -7.7em 0 0 680px" href="download/placas-reguas-ecoidea.pdf" target="_blank">
+      <a class="round" style="margin:3.3em 0 0 33em" href="download/placas-reguas-ecoidea.pdf" target="_blank">
         <div class="msgInfo down to-right">
           <p>faça o download aqui</p>
         </div>
         <span>Ficha<br>Técnica</span>
       </a>
-
+      
+      <a class="round" style="margin:-8.8em 0 0 23em" href="download/REVITECH_MANUAL_DE_LIMPEZA.pdf" target="_blank">
+        <div class="msgInfo down to-right">
+          <p>faça o download aqui</p>
+        </div>
+        <span>Manual de<br>Limpeza</span>
+      </a>
+      
       <ul class="navg">
         <li><a href="javascript:void(0);" title="Home"><span>Home</span></a></li>
         <li><a href="javascript:void(0);" title="Nossos Produtos"><span>Nossos Produtos</span></a></li>
