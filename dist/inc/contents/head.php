@@ -1,8 +1,9 @@
-  <title>Revitech Pisos Vinílicos - <?php echo $page; ?></title>
   <head>
+    <title>Revitech Pisos Vinílicos - <?php echo $page; ?> - <?php echo $description; ?></title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="keywords" content="<?php echo $keywords; ?>, Revitech, Pisos Vinílicos, Eficiência, Design, Tecnologia, Elegância, Mantas, Placas, Réguas, Conforto, Térmico, Acústico, Instala Fácil, Paginações, Diversas, Cores, Tipos, Tamanhos, Recicláveis, Pisos Vinílicos, Premium, Ecoidea, Heavy, Residence, Natural, Wood, Produtos, 10 anos, Garantia, Normas Técnincas Brasileiras, Normas Técnincas Européias, Pisos, Vinílicos">
+    <meta name="description" content="<?php echo $description; ?>, Revitech, Pisos Vinílicos, Eficiência, Design, Tecnologia, Elegância, Mantas, Placas, Réguas, Conforto, Térmico, Acústico, Instala Fácil, Paginações, Diversas, Cores, Tipos, Tamanhos, Recicláveis, Pisos Vinílicos, Premium, Ecoidea, Heavy, Residence, Natural, Wood, Produtos, 10 anos, Garantia, Normas Técnincas Brasileiras, Normas Técnincas Européias, Pisos, Vinílicos, Podem ser instalados sobre outras superfícies, A maior variedade de cores e padrões para diversos ambientes, Livre de FTALATOS e formaldeído, Possibilidade de paginações diversas, Fáceis de Instalar, A Revitech Pisos quer ser a empresa mais visionária do segmento de revestimentos, Mais inovação, mais excelência e digna de referência. Isso é ser Revitech Pisos Vinílicos, A alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial, O básico é pouco para a Revitech. Buscamos o melhor e não descansamos até alcançá-lo, A Revitech quer revolucionar o segmento de pisos com excelência, eficiência, tecnologia e técnica">
     <meta name="author" content="Rafael Kellows - rafaelkellows@hotmail.com">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="css/font-awesome/font-awesome.min.css">
@@ -31,13 +32,73 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-    <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 
-    <script type="text/javascript" src='js/jquery.nicescroll.min.js'></script>
-    <script type="text/javascript" src='js/jquery.nicescroll.plus.js'></script>
-    <script type="text/javascript" src="js/jquery.mask.min.js"></script>
+    <script src='js/jquery.nicescroll.min.js'></script>
+    <script src='js/jquery.nicescroll.plus.js'></script>
+    <script src="js/jquery.mask.min.js"></script>
     <!-- build:js js/scripts.js -->
-    <script type="text/javascript" src="js/scripts.js?v=20180205"></script>
+    <script src="js/scripts.js?v=20180205"></script>
     <!-- endbuild -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116560286-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-116560286-1');
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Organization",
+        "url": "http://www.revitechpisos.com.br",
+        "logo": "http://www.example.com/images/logoFullAlta.png",
+        "contactPoint": [ { 
+            "@type": "ContactPoint",
+            "telephone": "+55115188-1320",
+            "contactType": "Customer service" }
+        ],
+        "sameAs": [
+            "https://www.facebook.com/RevitechPisos/",
+            "https://www.instagram.com/revitechpisos/"
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "item": {
+                    "@id": "http://www.revitechpisos.com.br/mantas-medintech-plus.php",
+                    "name": "Mantas",
+                    "image": "http://www.revitechpisos.com.br/images/banners/placas-v2.jpg"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "item": {
+                    "@id": "http://www.revitechpisos.com.br/placas-midtile.php",
+                    "name": "Placas",
+                    "image": "http://www.revitechpisos.com.br/images/banners/placas-v3.jpg"
+                }
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "item": {
+                    "@id": "http://www.revitechpisos.com.br/reguas-premium.php",
+                    "name": "Réguas",
+                    "image": "http://www.revitechpisos.com.br/images/banners/reguas-premium.jpg"
+                }
+            }
+        ]
+    }
+    </script>
   </head>

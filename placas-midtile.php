@@ -2,9 +2,34 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Placas - Midtile";
+  $keywords = "Placas, Midtile, Copper Nuance, geranium, hazelnut, sandrift white, saffron gold, deep blush, classic white, sterling, teahouse blue, golden dust, aqua frost, classic black, blue gray, fortress white, willow green, emeraldpewter, taupe, shelter white, lavender haze, azure sky, mocha, cool white, cottage tan, blue cloud";
+  $description = "A Revitech oferece pisos vinílicos em placas 100% sustentáveis, longa duração e baixo custo de instalação e manutenção. A linha Midtile traz o piso vinílico em placas, para alto tráfego, de aparência clássica e custo competitivo. Sustentabilidade é a tendência mundial do momento e, portanto, é uma das soluções que não agride o meio ambiente. Isso porque possui redução máxima do uso de matérias-primas virgens, o que torna o processo 100% sustentável, por meio de materiais recicláveis. Um piso homogênio ThruPattern, de longa durabilidade e baixo custo de instalação e manutenção, incluindo a fácil troca de placas – o que não é possível com outros vinílicos. Segmentos: escolas, escritórios, hospitais, clínicas, hotéis e lojas. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Placas Midtile",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas.jpg"
+     ],
+    "description": "A Revitech oferece pisos vinílicos em placas 100% sustentáveis, longa duração e baixo custo de instalação e manutenção. A linha Midtile traz o piso vinílico em placas, para alto tráfego, de aparência clássica e custo competitivo. Sustentabilidade é a tendência mundial do momento e, portanto, é uma das soluções que não agride o meio ambiente. Isso porque possui redução máxima do uso de matérias-primas virgens, o que torna o processo 100% sustentável, por meio de materiais recicláveis. Um piso homogênio ThruPattern, de longa durabilidade e baixo custo de instalação e manutenção, incluindo a fácil troca de placas – o que não é possível com outros vinílicos.",
+    "mpn": "923",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Copper Nuance",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Copper Nuance"
+    }
+  }
+  </script>
   <body>
+
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
       <?php
@@ -48,9 +73,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/placas.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/placas.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

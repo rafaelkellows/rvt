@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <?php
   $page = "A Revitech";
+  $keywords = "Pilares, Excelência, Honestidade, Determinação, Objetivo";
+  $description = "O que é ser Revitech? A Revitech não tem medo de traçar um caminho em que a qualidade vem sempre em 1º lugar. Pilares. Excelência: em todos os nossos produtos e serviços. Honestidade: sem ela, não há relação que perdure. Determinação: em sempre buscar as melhores soluções. Afinal, a Revolução está no DNA da Revitech e convidamos você para fazer parte desta história! Nosso Objetivo: acreditamos em melhoria contínua e queremos crescer sempre no segmento de construção, oferecendo os melhores pisos vinílicos aos nossos clientes e o suporte necessário para que ele tenha sucesso em sua obra e seja reconhecido pelo seu trabalho.";
   include_once "inc/contents/head.php";
 ?>
   <body>
@@ -16,8 +18,8 @@
       <section class="carrossel">
         <div class="carr_container">
           <dl>  
-            <dt><div><h2>O que é ser Revitech?</h2></div></dt>
-            <dd><img src="images/banners/arevitech.jpg" title="" /></dd>
+            <dt><div><em>O que é ser Revitech?</em></div></dt>
+            <dd><img src="images/banners/arevitech.jpg" title="" alt="" /></dd>
           </dl> 
         </div>
       </section>
@@ -64,12 +66,12 @@
       </div>
 
       <section class="pilares">
-        <h3 class="circleTitle">
-          <p>Pilares</p>
+        <div class="circleTitle">
+          <h3>Pilares</h3>
           <figure>
-            <img src="images/logoFullAlta.png" border="0" alt="Revitech Pisos Vinílicos" />
+            <img src="images/logoFullAlta.png" alt="Revitech Pisos Vinílicos" title="Revitech Pisos Vinílicos" />
           </figure>
-        </h3>
+        </div>
         <aside>
           <p><strong>Excelência</strong> em todos os nossos produtos e serviços</p>
           <p><strong>Honestidade</strong> sem ela, não há relação que perdure</p>
@@ -83,7 +85,7 @@
 
       <section class="objetivo">
         <figure>
-          <img src="images/banners/objetivo.jpg" border="0" alt="Nosso Objetivo" />
+          <img src="images/banners/objetivo.jpg" alt="Nosso Objetivo" title="Nosso Objetivo" />
         </figure>
         <aside>
           <h3>Nosso Objetivo</h3>

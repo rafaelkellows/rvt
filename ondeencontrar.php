@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <?php
   $page = "Onde Encontrar";
+  $keywords = "Onde, Encontrar";
+  $description = "Veja onde encontrar Nossas Revendas";
   include_once "inc/contents/head.php";
 ?>
   <body>

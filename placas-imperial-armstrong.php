@@ -48,9 +48,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/placas.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-imperial-armstrong02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/placas.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

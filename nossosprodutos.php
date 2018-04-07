@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-  $page = "Nossos Produtos";
+  $page = "A Revitech";
+  $keywords = "Produtos, Mantas, Medintech, Plus, Medintone, Pur, Solid, Pur, Possibilities, PASTELL, L2, Majestic, Placas, Midtile, Ecoidea, Heavy, Réguas, Premium, Ecoidea, Heavy, Residence.";
+  $description = "Nossos Produtos. Mantas: Medintech Plus, Medintone Pur, Solid Pur, Possibilities, PASTELL L2 e Majestic. Placas: Midtile, Ecoidea e Heavy. Réguas: Premium, Ecoidea, Heavy e Residence.";
   include_once "inc/contents/head.php";
 ?>
   <body>
@@ -16,8 +18,8 @@
       <section class="carrossel">
         <div class="carr_container">
           <dl>  
-            <dt><div><h2>Nossos Produtos</h2></div></dt>
-            <dd><img src="images/banners/mantas.jpg" title="" /></dd>
+            <dt><div><em>Nossos Produtos</em></div></dt>
+            <dd><img src="images/banners/mantas.jpg" title="" alt="" /></dd>
           </dl> 
         </div>
       </section>
@@ -35,7 +37,7 @@
       </nav>
 
       <figure>
-        <img src="images/banners/placas.jpg" title="" />
+        <img src="images/banners/placas.jpg" title="" alt="" />
       </figure>
 
       <nav class="navg">
@@ -48,7 +50,7 @@
       </nav>
 
       <figure>
-        <img src="images/banners/reguas.jpg" title="" />
+        <img src="images/banners/reguas.jpg" title="" alt="" />
       </figure>
 
       <nav class="navg">
@@ -63,7 +65,7 @@
 
 
       <!--figure>
-        <img src="images/banners/acessorios.jpg" title="" />
+        <img src="images/banners/acessorios.jpg" title="" alt="" />
       </figure>
 
       <nav class="navg">

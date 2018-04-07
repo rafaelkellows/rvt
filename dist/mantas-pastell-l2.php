@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Pastell L2";
+  $keywords = "Mantas, Pastell, L2, ivory white, grey beige, antique beige, glacier white, broken white, cloudy grey, broken silver, broken grey, stone grey, light blue, whale blue, water blue, peach yellow, salmon orange, summer green, joshua green";
+  $description = "O Pastell L2, por aliar beleza e tecnologia, é o melhor piso para as áreas de controle de condutividade elétrica. O Pastell L2, piso vinílico homogêneo em manta condutivo, tem uma excelente resistência a abrasão e reagentes químicos. Com suas fibras de carbono e base carbonada, o Pastell L2 absorve toda a carga eletrostática do ambiente, dos equipamentos e dos próprios médicos, conduzindo-a até o fio terra do ambiente, evitando, assim, descargas elétricas. Por esta razão, é exclusivo para as áreas – seja na indústria ou na saúde que necessitam de controle de condutividade elétrica. Segmentos: saúde, indústria de eletro-eletrônico. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Pastell L2",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas-pastell-l2.jpg"
+     ],
+    "description": "O Pastell L2, por aliar beleza e tecnologia, é o melhor piso para as áreas de controle de condutividade elétrica. O Pastell L2, piso vinílico homogêneo em manta condutivo, tem uma excelente resistência a abrasão e reagentes químicos. Com suas fibras de carbono e base carbonada, o Pastell L2 absorve toda a carga eletrostática do ambiente, dos equipamentos e dos próprios médicos, conduzindo-a até o fio terra do ambiente, evitando, assim, descargas elétricas. Por esta razão, é exclusivo para as áreas – seja na indústria ou na saúde que necessitam de controle de condutividade elétrica.",
+    "mpn": "041",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Ivory White",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Ivory White"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -52,9 +76,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/pastell-l201.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/project03.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas-pastell-l2.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/pastell-l201.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/project03.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas-pastell-l2.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

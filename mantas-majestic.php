@@ -2,8 +2,33 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Majestic";
+  $keywords = "Mantas, Majestic, Branco Amêndoa, Colored Earth, Lua Azul, Cinza Carvão, Chocolate";
+  $description = "Sustentabilidade, resistência, proteção e brilho especial para ambientes que exigem pisos vinílicos de qualidade. O Majestic é um piso vinílico homogêneo em manta não direcional. Tem acabamento incrível e deixa o ambiente requintado. Segmentos: saúde, lojas, office. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Majestic",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas.jpg"
+     ],
+    "description": "Sustentabilidade, resistência, proteção e brilho especial para ambientes que exigem pisos vinílicos de qualidade. O Majestic é um piso vinílico homogêneo em manta não direcional. Tem acabamento incrível e deixa o ambiente requintado.",
+    "mpn": "11065",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Branco Amêndoa",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Branco Amêndoa"
+    }
+  }
+  </script>
+
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -52,9 +77,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

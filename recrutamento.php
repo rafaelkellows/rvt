@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <?php
   $page = "Esclareça suas dúvidas";
+  $keywords = "Faça, parte, Equipe";
+  $description = "Faça parte da Equipe. Trabalhe Conosco. Preencha o formulário ao lado com seus dados, anexe o currículo  e clique em ENVIAR.";
   include_once "inc/contents/head.php";
 ?>
   <body>

@@ -2,8 +2,33 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Medintone Pur";
+  $keywords = "Mantas, Medintech, Pur, Grey Light, Natural Grey Light, Rock Dust light, Grey Deep, Natural Grey, Almost Black, Natural Grey Dark, Rock Brown, Purple Brown Light, Purple Brown Mid, Purple Brown, Pale Beige, Light Chocolate, Powder Chocolate, Chocolate Brown, Amber Light, Amber Mid, Milk Chocolate, Brown Umbra, Pumpkin Orange, Khaki Orange, Gold Dust Mid, Gold Dust Light, Doft Green Light, Soft Green Mid, Water Blue Light, Water Blue Mid, Sky Blue, Indigo Light, Indigo Mid, Indigo, Ocean Blue, Lime Green, Turquoise Green, Mazarine Blue, Pink, Vivid Red";
+  $description = "O Medintone Pur é multifuncional e extremamente prático. Tem a função de absorver o impacto. O piso vinílico homogêneo em manta medintone tem a tecnologia Pur, que traz um poliuretano reforçado para facilitar a limpeza de baixo custo. Os padrões não direcionais e as cores suaves da linha dão a possibilidade de se criar um amplo leque de composições e desenhos. Segmentos: hotelaria, saúde, educação, office, entretenimento. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Medintech Pur",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas-medintone-pur.jpg"
+     ],
+    "description": "O Medintone Pur é multifuncional e extremamente prático. Tem a função de absorver o impacto. O piso vinílico homogêneo em manta medintone tem a tecnologia Pur, que traz um poliuretano reforçado para facilitar a limpeza de baixo custo. Os padrões não direcionais e as cores suaves da linha dão a possibilidade de se criar um amplo leque de composições e desenhos.",
+    "mpn": "410",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Pale Grey",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Pale Grey"
+    }
+  }
+  </script>
+
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -52,9 +77,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/project01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintone-pur01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas-medintone-pur.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/project01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintone-pur01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas-medintone-pur.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

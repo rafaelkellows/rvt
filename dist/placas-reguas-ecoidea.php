@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Placas - Ecoidea";
+  $keywords = "Placas, Ecoidea, Linha Decor, Granito Rosa, Granito Cinza Claro, Granito Cinza Escuro, Granito Tanzanita, Linha Concreto, Concret Light, Concret Medium, Concret Dark";
+  $description = "Inspirado em superfícies rústicas, o ecoidea é um piso autoportante com 70% de pvc reciclado pós-consumo. Criado com o conceito de sustentabilidade para a criação de ambientes naturais, Ecoidea é um piso autoportante sofisticado e de alta tecnologia, desenvolvido com 70% de PVC reciclado pós-consumo. Possui sistema inovador de fixação Ecolay, que dispensa o uso de cola na instalação. É um produto bacteriostático que tem uma camada de fibra de vidro em sua composição, garantindo excelente estabilidade dimensional. Segmentos: hotelaria, saúde, educação, entretenimento, office, esportivo. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Placas Ecoidea",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/placas-reguas-ecoidea-v2.jpg"
+     ],
+    "description": "Inspirado em superfícies rústicas, o ecoidea é um piso autoportante com 70% de pvc reciclado pós-consumo. Criado com o conceito de sustentabilidade para a criação de ambientes naturais, Ecoidea é um piso autoportante sofisticado e de alta tecnologia, desenvolvido com 70% de PVC reciclado pós-consumo. Possui sistema inovador de fixação Ecolay, que dispensa o uso de cola na instalação. É um produto bacteriostático que tem uma camada de fibra de vidro em sua composição, garantindo excelente estabilidade dimensional.",
+    "mpn": "131141",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Granito Rosa",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Granito Rosa"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -48,9 +72,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea03.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-ecoidea03.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

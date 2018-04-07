@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Réguas - Natural Vision Wood Heavy";
+  $keywords = "Réguas, Natural, Vision, Wood, Heavy, Linha Amadeirada, Ipê Amarelo, Cumaru, Antique White , Tabacc Rustic, Ipê Ebanizado, Sahara Wood , Mahogany, Walnut Chocolate, Walnut Natural , Coração Negro, Cinnamon, Walnut Light , Iron Wood, Walnut Medium";
+  $description = "Com padrão realístico, o Heavy traz a elegância e a beleza da madeiras aos projetos sofisticados e modernos. O piso vinílico heterogêneo em régua e placa Heavy tem conforto acústico e térmico, não faz barulho ao caminhar e é de fácil instalação. Para locais sofisticados e modernos. Sua capa de uso de 0,55mm garante durabilidade em ambientes de alto tráfego. Segmentos: hotelaria, saúde, educação, entretenimento, office, esportivo. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Réguas - Natural Vision Wood Heavy",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/placas-reguas-heavy.jpg"
+     ],
+    "description": "Com padrão realístico, o Heavy traz a elegância e a beleza da madeiras aos projetos sofisticados e modernos. O piso vinílico heterogêneo em régua e placa Heavy tem conforto acústico e térmico, não faz barulho ao caminhar e é de fácil instalação. Para locais sofisticados e modernos. Sua capa de uso de 0,55mm garante durabilidade em ambientes de alto tráfego.",
+    "mpn": "12030",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Ipê Amarelo",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Ipê Amarelo"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -49,9 +73,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy03.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/placas-reguas-heavy03.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

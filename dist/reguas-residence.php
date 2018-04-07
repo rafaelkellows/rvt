@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Réguas - Natural Vision Wood Residence";
+  $keywords = "Réguas, Natural, Vision, Wood, Residence, Linha Amadeirada, Cappuccino, Café com Leite, Machiato, Vanilla";
+  $description = "Resistente, moderna e disponível em diversos padrões de madeiras naturais, que oferecem redução em até 50% dos ruídos de impacto. A linha Residence é a nova coleção da Natural Vision Wood, criada para uso exclusivo residencial. Estes pisos simulam o acabamento em madeira, criando um visual moderno e sustentável. Além de moderna e funcional, a coleção tem fácil instalação e baixa manutenção de limpeza. Segmentos: residencial. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Réguas - Natural Vision Wood Residence",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/reguas.jpg"
+     ],
+    "description": "Resistente, moderna e disponível em diversos padrões de madeiras naturais, que oferecem redução em até 50% dos ruídos de impacto. A linha Residence é a nova coleção da Natural Vision Wood, criada para uso exclusivo residencial. Estes pisos simulam o acabamento em madeira, criando um visual moderno e sustentável. Além de moderna e funcional, a coleção tem fácil instalação e baixa manutenção de limpeza.",
+    "mpn": "12001",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Cappuccino",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Cappuccino"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -49,9 +73,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium03.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium03.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

@@ -141,8 +141,8 @@
   $mail->SMTPAuth  = true;
   $mail->Charset   = 'utf8_decode()';
   $mail->Port  = '587';
-  $mail->Username  = 'tecnologia@revitechpisos.com.br';
-  $mail->Password  = 'RevTec@2018';
+  $mail->Username  = 'developer@revitechpisos.com.br';
+  $mail->Password  = 'Kellows@Rafael4527';
   
   //Define o remetente
   $mail->SetFrom('no-reply@revitechpisos.com.br', 'Revitech - '.$emailComplement); //No-Reply
@@ -154,7 +154,7 @@
   //Campos abaixo são opcionais 
   //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
   $mail->AddBCC('rafaelkellows86@gmail.com', 'Rafael Gmail'); // Copia
-  //$mail->AddBCC('liv@humanamagna.com.br', 'Liv Soban');
+  $mail->AddBCC('livsoban@gmail.com', 'Liv Soban');
   //$mail->AddBCC('trabalheconosco@humanamagna.com.br', 'Adriana Calefi');
   //$mail->AddBCC('adriana.calefi@humanamagna.com.br', 'Adriana Calefi');
   //$mail->AddAttachment('images/phpmailer.gif');      // Adicionar um anexo
@@ -163,11 +163,11 @@
 
   $mail->IsHTML(true); 
   $mail->Body  = utf8_decode($mensagemConcatenada);
-   
+  
   if(!$mail->Send()){
     if($formName=='trabalhe'){
-      //echo 'Erro ao enviar Email:' . $mail->ErrorInfo;
-      header("location:recrutamento.php?msg=errorSend");
+      echo 'Erro ao enviar Email:' . $mail->ErrorInfo;
+      //header("location:recrutamento.php?msg=errorSend");
     }else{
       header("location:./");
     }

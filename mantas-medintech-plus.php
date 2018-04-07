@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Medintech Plus";
+  $keywords = "Mantas, Medintech, Plus, Ixia, Freesia Pearl, Silver Grey, Almond, Carthamus Champagne, Desert Gold, Pearl, Cinnamon, Oatmeal, Golden Glow, Light Beige, Lemon, Cream, Orange, Banana, Orange Zest, Coral, Monarch Red, Rouge, Sandalwood, Pumice Stone, Purple Ore, Smoke, Rock, Cloud, Light Green, Mist Green, Moss, Peak Green, Forest, Dahila Sky, Water Blue, Blue Skies, Ultra Blue, Turquoise, Wisteria";
+  $description = "O Medintech Plus, com a tecnologia exclusiva Armstrong Diamond 10, fica com aspecto de novo por toda a sua vida útil. Duradouro, sustentável e com baixo custo de manutenção. Estas são as principais qualidades da linha Medintech Plus, da Revitech. Possui manta homogênea, Tecnologia Diamond 10™: Formulação única com diamante industrial. Sua superfície conta com porosidade mínima, que facilita a limpeza de sujeiras e manchas, com economia de até 30% na manutenção e custo. Além disso, superfície é restaurada com polimento a seco e não requer uso de cera lifetime. Segmentos: hotelaria, saúde, educação, office, entretenimento. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Medintech Plus",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/placas-v2.jpg"
+     ],
+    "description": "O Medintech Plus, com a tecnologia exclusiva Armstrong Diamond 10, fica com aspecto de novo por toda a sua vida útil. Duradouro, sustentável e com baixo custo de manutenção. Estas são as principais qualidades da linha Medintech Plus, da Revitech. Possui manta homogênea, Tecnologia Diamond 10™: Formulação única com diamante industrial. Sua superfície conta com porosidade mínima, que facilita a limpeza de sujeiras e manchas, com economia de até 30% na manutenção e custo. Além disso, superfície é restaurada com polimento a seco e não requer uso de cera lifetime.",
+    "mpn": "001",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "IXIA",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "IXIA"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -16,8 +40,8 @@
       <section class="carrossel">
         <div class="carr_container">
           <dl>  
-            <dt><div><h2>Nossos Produtos</h2></div></dt>
-            <dd><img src="images/banners/placas-v2.jpg" title="" /></dd>
+            <dt><div><em>Nossos Produtos</em></div></dt>
+            <dd><img src="images/banners/placas-v2.jpg" title="" alt="" /></dd>
           </dl> 
         </div>
       </section>
@@ -52,10 +76,10 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/placas-v2.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/medintech-plus02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/placas-v2.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

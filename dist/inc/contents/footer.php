@@ -1,11 +1,11 @@
       <footer>
-        <h1><a href="./" title="Revitech Pisos Vinílicos"><img src="images/logoFullBaixa.png" border="0" alt="Revitech Pisos Vinílicos" /></a></h1>
+        <h1><a href="./" title="Revitech Pisos Vinílicos"><img src="images/logoFullBaixa.png" alt="Revitech Pisos Vinílicos" /></a></h1>
         <section>
           <address>
-            <p>Alameda dos Maracatins, 1217 <font>&bull;</font> CJ 205</p>
-            <p>CEP 04089-014 <font>&bull;</font> São Paulo <font>&bull;</font> SP</p>
+            <p>Alameda dos Maracatins, 1217 &bull; CJ 205</p>
+            <p>CEP 04089-014 &bull; São Paulo &bull; SP</p>
           </address>
-          <a href="tel:+551151881320">Tel (11) 5188-1320</p>
+          <a href="tel:+551151881320">Tel (11) 5188-1320</a>
           <a href="http://www.revitechpisos.com.br" target="_blank">www.revitechpisos.com.br</a>
           <p>e-mail: <a href="mailto:comercial@revitechpisos.com.br" target="_blank">comercial@revitechpisos.com.br</a></p>
           <p><i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-instagram" aria-hidden="true"></i> @revitechpisos</p>

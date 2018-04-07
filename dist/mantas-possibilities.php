@@ -2,8 +2,33 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Possibilities";
+  $keywords = "Mantas, Possibilities, Pearl Gray, Sandpiper, Tea Garden, Woodtone, Purple Brown, Sand Bar, Wet Sand, Brushed Sand, Blue Retreat, White Sand, Ash Gray, Colored Earth, Grayed Blue, Eastern Sage, Montelimar, Almond White, Blue Moon, CreaHint, River Bed, Chocolate, Painted Desert, Sage Greenery, Pebblewash, Charcoal Gray";
+  $description = "O Possibilities com sua base Inlaid Sheet garante excelente resultado, não fotografando impurezas do contra-piso. O piso vinílico homogêneo em manta Possibilities vem com a base Inlaid Sheet, uma espécie de tecido na base que protege o piso de qualquer fotografia de resíduos que possam passar despercebidos na hora da instalação. Este tecido incorpora tais resíduos e ameniza as imperfeições existentes no contrapiso. O que garante um excelente resultado pós instalação, proporcionando elegância e beleza aos seus projetos. Segmentos: hotelaria, saúde, educação, office, entretenimento. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Possibilities",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas-possibilities.jpg"
+     ],
+    "description": "O Possibilities com sua base Inlaid Sheet garante excelente resultado, não fotografando impurezas do contra-piso. O piso vinílico homogêneo em manta Possibilities vem com a base Inlaid Sheet, uma espécie de tecido na base que protege o piso de qualquer fotografia de resíduos que possam passar despercebidos na hora da instalação. Este tecido incorpora tais resíduos e ameniza as imperfeições existentes no contrapiso. O que garante um excelente resultado pós instalação, proporcionando elegância e beleza aos seus projetos.",
+    "mpn": "052",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Pearl Gray",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Pearl Gray"
+    }
+  }
+  </script>
+
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -52,9 +77,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/possibilities01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/possibilities02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas-possibilities.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/possibilities01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/possibilities02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas-possibilities.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

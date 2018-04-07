@@ -2,8 +2,32 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Réguas - Natural Vision Wood Premium";
+  $keywords = "Réguas, Natural, Vision, Wood, Premium, Linha Amadeirada, Carvalho Natural, Ipê Amarelo, Mahogany Rustic, Cinnamon, Tabacc Rustic, Oak Medium, Antique White, Carvalho Americano Patinado";
+  $description = "O Premium nasceu do piso Heavy para atender os ambientes de tráfego moderado. O piso vinílico heterogêneo em régua Premium foi desenvolvido a partir da Linha Heavy para trazer uma opção moderna e sofisticada aos ambientes de tráfego moderado, além de ser uma excelente opção para os projetos residenciais. A única diferença é a sua capa de uso de 0,3mm. E assim como a Heavy, a linha Premium também tem conforto acústico e térmico, não faz barulho ao caminhar e é de fácil instalação. Segmentos: residencial, hotelaria, office, entretenimento. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Réguas - Natural Vision Wood Premium",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/reguas-premium.jpg"
+     ],
+    "description": "O Premium nasceu do piso Heavy para atender os ambientes de tráfego moderado. O piso vinílico heterogêneo em régua Premium foi desenvolvido a partir da Linha Heavy para trazer uma opção moderna e sofisticada aos ambientes de tráfego moderado, além de ser uma excelente opção para os projetos residenciais. A única diferença é a sua capa de uso de 0,3mm. E assim como a Heavy, a linha Premium também tem conforto acústico e térmico, não faz barulho ao caminhar e é de fácil instalação.",
+    "mpn": "15601",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Carvalho Natural",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Carvalho Natural"
+    }
+  }
+  </script>
   <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
@@ -49,9 +73,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium03.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/placas/projects/reguas-premium03.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">

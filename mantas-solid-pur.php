@@ -2,9 +2,33 @@
 <html lang="pt-br">
 <?php
   $page = "Nossos Produtos - Mantas - Solid Pur";
+  $keywords = "Mantas, Solid, Pur, Milk, Antique White, Silver Quartz, Creamy Beige, Smoky Grey, Ash Beige, Black Pepper, Misty Brown, Ginger Yellow, Sunshine Orange, Red Brick, Mint Haze, Steel Green, Dusk Blue, Misty Blue, Milky Blue";
+  $description = "O Solid Pur é o melhor custo-benefício da categoria. E pode ser utilizado em vários tipos de projeto. O piso vinílico homogêneo em manta solid Pur é o melhor custo benefício da categoria. A tecnologia Pur Eco System presente no piso é responsável – devido a sua camada especial – por trazer resistência a qualquer tipo de produto químico, além de evitar riscos e manchas. Esta linha é referência em durabilidade e versatilidade e pode ser utilizada em vários segmentos. Segmentos: saúde, office, educação, entretenimento. Nossos Projetos: a alta qualidade de nosso trabalho reflete nos mais diversos segmentos que a Revitech está presente - na saúde, varejo, hotelaria, educacional, corporativo, esportivo, entretenimento e residencial. Conheça.";
   include_once "inc/contents/head.php";
 ?>
-  <body>
+  <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": "Mantas Solid Pur",
+    "image": [
+      "http://www.revitechpisos.com.br/images/banners/mantas-solid-pur.jpg"
+     ],
+    "description": "O Solid Pur é o melhor custo-benefício da categoria. E pode ser utilizado em vários tipos de projeto. O piso vinílico homogêneo em manta solid Pur é o melhor custo benefício da categoria. A tecnologia Pur Eco System presente no piso é responsável – devido a sua camada especial – por trazer resistência a qualquer tipo de produto químico, além de evitar riscos e manchas. Esta linha é referência em durabilidade e versatilidade e pode ser utilizada em vários segmentos.",
+    "mpn": "053",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "itemReviewed" : "Milk",
+      "ratingValue": "3.5",
+      "ratingCount": "1"
+    },
+    "brand": {
+      "@type": "Thing",
+      "name": "Milk"
+    }
+  }
+  </script>
+    <body>
     <div id="CS" style="position: fixed; top: 0; left:0; z-index: 999"> 000 </div>
     <main class="nossosprodutos internal">
       <?php
@@ -52,9 +76,9 @@
         <div class="carrGaleria">
           <div class="cntr" cg-ctrl="ul li">
             <ul>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/solid-pur01.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/solid-pur02.jpg" alt="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banners/mantas-solid-pur.jpg" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/solid-pur01.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/products/mantas/projects/solid-pur02.jpg" title="" alt="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banners/mantas-solid-pur.jpg" title="" alt="" /></a></li>
             </ul>
           </div>
           <nav class="ctrl">
